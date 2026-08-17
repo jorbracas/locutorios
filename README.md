@@ -70,10 +70,26 @@ Lo que hace el pipeline, además de convertir el formato:
 
 1. `git init && git add . && git commit -m "Versión inicial"`
 2. Subir a GitHub.
-3. Importar el repositorio en Vercel. Detecta Next.js sin configuración.
+3. Importar el repositorio en Vercel.
 4. Añadir `locutorioscercademi.com` en **Settings → Domains** y apuntar los DNS.
 5. Antes de que entre tráfico: dar de alta el dominio en Google Search Console y
    enviar `https://locutorioscercademi.com/sitemap.xml`.
+
+### El framework tiene que ser Next.js
+
+`vercel.json` fija `"framework": "nextjs"` a propósito, y no conviene quitarlo.
+
+Si el proyecto de Vercel queda con el preset en «Other», ocurre algo que despista
+mucho: el build **termina correctamente**, genera las 3.915 páginas y el log no
+muestra ni un error, pero después Vercel sirve solo la carpeta `public/` e ignora
+la salida de `next build`. El resultado es que las imágenes de
+`/ilustraciones/` responden 200 mientras que la portada, las fichas y hasta
+`/robots.txt` devuelven 404.
+
+Fijarlo en `vercel.json` evita depender de la detección automática y deja la
+configuración en el repositorio. Si aun así siguiera fallando, comprobar en
+**Settings → Build and Deployment** que *Output Directory* esté sin sobrescribir:
+un valor manual en ese campo tiene prioridad sobre el preset.
 
 ---
 
