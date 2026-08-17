@@ -265,8 +265,32 @@ Las respuestas se guardan en `data/textos-ciudad.json`:
 { "madrid/getafe": "El texto devuelto en markdown…" }
 ```
 
-El fichero es opcional y la página funciona sin él. Las 682 localidades restantes
-se sostienen con los datos agregados y las preguntas, que ya las diferencian.
+El fichero es opcional y la página funciona sin él. Las localidades sin texto se
+sostienen con los datos agregados y las preguntas, que ya las diferencian.
+
+**Ya hay 20 textos escritos**, los de las localidades más grandes, que cubren
+1.116 de las 3.050 fichas (37 % del directorio). Están en
+`pipeline/escribir_textos_ciudad.py` y se vuelcan con:
+
+```bash
+python3 pipeline/escribir_textos_ciudad.py ./data
+```
+
+El script conserva lo que ya hubiera en `textos-ciudad.json`, así que se puede
+ejecutar tantas veces como haga falta sin perder textos añadidos a mano.
+
+Cada uno parte del rasgo que distingue a esa localidad en los datos, y por eso
+no se parecen entre sí: Granada es la única capital cuyo hueco de actividad cae
+de 15:00 a 17:00 y no por la mañana; Murcia tiene el pico más tardío del país
+(19:00 a 22:00); Torrevieja es la única con punta de mañana; en Cartagena los
+puntos de envío triplican a los locutorios, al revés que en el resto; en Lorca
+los 14 establecimientos con datos abren en domingo, sin excepción; y Gijón tiene
+la jornada partida casi generalizada, 8 de 9.
+
+Todas las cifras citadas en los textos se han contrastado una a una contra
+`agregados-ciudad.json`. Si regeneras los datos y cambian los recuentos, hay que
+revisarlos: un texto que contradiga a la tabla que tiene al lado hace más daño
+que no tener texto.
 
 ### Sobre las keywords
 
