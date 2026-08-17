@@ -202,6 +202,88 @@ capturaba «bebidas frías», «frutos secos» y «la ausencia de quejas».
 El informe de cambios queda en `data/informe-riesgo.json`, con la URL de cada
 ficha tocada por si quieres revisarlas a mano.
 
+## Páginas de localidad
+
+Las 803 páginas de localidad son el punto débil estructural del directorio: un
+párrafo de plantilla con el nombre intercambiado es el patrón que mejor detectan
+los sistemas de contenido útil de Google. Aquí no hay reseñas de las que sacar
+variación natural, como sí ocurre en las fichas.
+
+La distribución obliga a segmentar: **el 55 % de las localidades tiene un único
+establecimiento** y solo el 4 % tiene 15 o más. Un mismo tratamiento para las 803
+no funciona.
+
+### Qué diferencia cada página
+
+`pipeline/agregar_ciudades.py` calcula, por localidad, datos que ninguna otra
+reproduce igual: reparto por tipo, franja de mayor y menor afluencia, cuántos
+abren domingo, cuántos tienen jornada partida, atributos de pago y accesibilidad
+por encima del 25 % de cobertura, códigos postales y localidades vecinas con más
+oferta en 35 km.
+
+De ahí salen tres bloques, todos con datos reales y ninguno redactado:
+
+- **Ficha resumen** (`ResumenCiudad.tsx`): las cifras de cabecera.
+- **Preguntas frecuentes** (`PreguntasCiudad.tsx`): hasta 8 preguntas construidas
+  desde los recuentos, con marcado `FAQPage`. Es lo que ataca el long-tail donde
+  el pack de Maps no compite: «locutorio abierto domingo en X», «que acepte
+  tarjeta en X», «a qué hora hay menos cola».
+- **Enlazado a localidades vecinas**: reparte autoridad en horizontal, sin pasar
+  por la provincia, que va con `noindex`.
+
+### Texto redactado, solo donde compensa
+
+```bash
+python3 pipeline/agregar_ciudades.py ./data
+python3 pipeline/generar_prompts_ciudad.py ./data --minimo 5
+```
+
+Genera un prompt por localidad con **5 o más establecimientos**: 121 localidades
+que cubren el 65 % de las fichas del directorio. Cada prompt lleva incrustados los
+datos reales de esa localidad y prohíbe explícitamente inventar horarios,
+comisiones u operadores.
+
+Las respuestas se guardan en `data/textos-ciudad.json`:
+
+```json
+{ "madrid/getafe": "El texto devuelto en markdown…" }
+```
+
+El fichero es opcional y la página funciona sin él. Las 682 localidades restantes
+se sostienen con los datos agregados y las preguntas, que ya las diferencian.
+
+### Sobre las keywords
+
+«Locutorios cerca de mí» es prácticamente inalcanzable en orgánico: la resuelve
+el pack de Maps y el orgánico apenas recibe clic. La consulta ganable es
+«locutorios en [ciudad]» y, sobre todo, el long-tail al que responden las
+preguntas frecuentes.
+
+## Seguridad de dependencias
+
+El proyecto va en **Next.js 15.5.21**, la versión de mantenimiento LTS de la
+línea 15.5, con **React 19.2.3**. No usar una versión anterior: toda la rama 15.x
+por debajo de 15.5.7 arrastra CVE-2025-66478, un RCE con CVSS 10.0 en el
+protocolo de React Server Components que afecta al App Router. Las versiones
+posteriores corrigen además CVE-2025-55183 y CVE-2025-55184.
+
+`package.json` incluye dos `overrides`:
+
+```json
+"overrides": { "sharp": "^0.35.0", "postcss": "^8.5.23" }
+```
+
+Ninguno de los dos afecta al funcionamiento del sitio. `sharp` entra como
+dependencia opcional de la optimización de imágenes de Next, que aquí no se usa
+(las ilustraciones van con `<img>` plano). `postcss` solo interviene en
+compilación y sus fallos requieren CSS controlado por un atacante, cosa
+imposible cuando todo el CSS es propio. Se fijan igualmente para que
+`npm audit` quede en cero y no haya ruido que enmascare un aviso real.
+
+Next.js publica ahora **parches de seguridad mensuales**. Conviene revisar
+`nextjs.org/blog` de vez en cuando y subir dentro de la línea 15.5, que no trae
+cambios incompatibles. Saltar a la 16.x sí es un cambio mayor y no urge.
+
 ## Pendiente
 
 - **Aviso legal y privacidad.** Los textos están redactados pero tienen campos

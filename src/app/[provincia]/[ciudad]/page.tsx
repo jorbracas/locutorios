@@ -1,17 +1,23 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import Ilustracion from '@/components/Ilustracion';
 import Mapa from '@/components/Mapa';
+import PreguntasCiudad, { construirPreguntas } from '@/components/PreguntasCiudad';
+import ResumenCiudad from '@/components/ResumenCiudad';
 import { Distintivo, JsonLd, Migas, TarjetaFicha } from '@/components/Ui';
 import {
   fichasDeCiudad,
+  obtenerAgregado,
   obtenerCiudad,
   obtenerProvincia,
   obtenerProvincias,
+  obtenerTextoCiudad,
   rutaCiudad,
   rutaProvincia,
 } from '@/lib/data';
+import { renderizarEditorial } from '@/lib/markdown';
 import { jsonLdListado, jsonLdMigas, urlAbsoluta } from '@/lib/seo';
 
 type Props = { params: Promise<{ provincia: string; ciudad: string }> };
@@ -31,15 +37,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const provincia = obtenerProvincia(slugProvincia);
   if (!ciudad || !provincia) return {};
 
-  const cuantos = ciudad.total;
+  const agregado = obtenerAgregado(slugProvincia, slugCiudad);
   const sufijo = ciudad.nombre === provincia.nombre ? '' : ` (${provincia.nombre})`;
+
+  /*
+    La descripcion se compone con datos reales de la localidad, no con una
+    plantilla fija. Dos localidades del mismo tamano dan descripciones
+    distintas porque cambian los servicios y los horarios.
+  */
+  const piezas: string[] = [];
+  if (agregado) {
+    piezas.push(
+      agregado.total === 1
+        ? 'Un establecimiento'
+        : `${agregado.total} locutorios y puntos de envío de dinero`,
+    );
+    if (agregado.actividad && agregado.actividad.abrenDomingo > 0) {
+      piezas.push(`${agregado.actividad.abrenDomingo} abren domingo`);
+    }
+  }
+  piezas.push('dirección, teléfono y cómo llegar');
 
   return {
     title: `Locutorios en ${ciudad.nombre}${sufijo}`,
-    description:
-      cuantos === 1
-        ? `Un locutorio en ${ciudad.nombre}: dirección, teléfono y cómo llegar.`
-        : `Los ${cuantos} locutorios y puntos de envío de dinero de ${ciudad.nombre}: dirección, teléfono y cómo llegar.`,
+    description: `${piezas.join('. ')}.`,
     alternates: { canonical: urlAbsoluta(rutaCiudad(slugProvincia, slugCiudad)) },
   };
 }
@@ -53,45 +74,69 @@ export default async function PaginaCiudad({ params }: Props) {
   const fichas = fichasDeCiudad(slugProvincia, slugCiudad);
   if (!fichas.length) notFound();
 
+  const agregado = obtenerAgregado(slugProvincia, slugCiudad);
+  const texto = obtenerTextoCiudad(slugProvincia, slugCiudad);
+  const preguntas = agregado ? construirPreguntas(ciudad.nombre, agregado) : [];
+
   const migas = [
     { nombre: 'Inicio', ruta: '/' },
     { nombre: provincia.nombre, ruta: rutaProvincia(provincia.slug) },
     { nombre: ciudad.nombre, ruta: rutaCiudad(provincia.slug, ciudad.slug) },
   ];
 
-  // Agrupa por tipo: quien busca enviar dinero no busca lo mismo que quien
+  // Se agrupa por tipo: quien busca enviar dinero no busca lo mismo que quien
   // busca un locutorio, aunque a menudo acaben en el mismo local.
   const locutorios = fichas.filter((ficha) => ficha.tipo === 'locutorio');
   const envios = fichas.filter((ficha) => ficha.tipo === 'envio');
   const otros = fichas.filter((ficha) => ficha.tipo === 'otros');
 
   const secciones = [
-    { clave: 'locutorio' as const, titulo: 'Locutorios', fichas: locutorios },
-    { clave: 'envio' as const, titulo: 'Puntos de envío de dinero', fichas: envios },
-    { clave: 'otros' as const, titulo: 'Otros establecimientos con servicios similares', fichas: otros },
+    { clave: 'locutorio' as const, titulo: `Locutorios en ${ciudad.nombre}`, fichas: locutorios },
+    { clave: 'envio' as const, titulo: `Envío de dinero en ${ciudad.nombre}`, fichas: envios },
+    {
+      clave: 'otros' as const,
+      titulo: 'Otros establecimientos con servicios similares',
+      fichas: otros,
+    },
   ].filter((seccion) => seccion.fichas.length > 0);
+
+  const jsonLdPreguntas = preguntas.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: preguntas.map((item) => ({
+          '@type': 'Question',
+          name: item.pregunta,
+          acceptedAnswer: { '@type': 'Answer', text: item.respuesta },
+        })),
+      }
+    : null;
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
       <JsonLd datos={jsonLdMigas(migas)} />
       <JsonLd datos={jsonLdListado(fichas, `Locutorios en ${ciudad.nombre}`)} />
+      {jsonLdPreguntas && <JsonLd datos={jsonLdPreguntas} />}
 
       <Migas migas={migas} />
 
-      <h1 className="mb-2 text-3xl sm:text-4xl">
-        Locutorios en {ciudad.nombre}
-      </h1>
+      <h1 className="mb-3 text-3xl sm:text-4xl">Locutorios en {ciudad.nombre}</h1>
 
-      <p className="mb-8 max-w-2xl text-humo">
+      <p className="mb-8 max-w-2xl text-lg text-humo">
         {fichas.length === 1
-          ? `Tenemos registrado un establecimiento en ${ciudad.nombre}`
-          : `Tenemos registrados ${fichas.length} establecimientos en ${ciudad.nombre}`}
+          ? `Un establecimiento con servicios de locutorio o envío de dinero en ${ciudad.nombre}`
+          : `${fichas.length} establecimientos en ${ciudad.nombre}`}
         {locutorios.length > 0 && envios.length > 0
-          ? `, entre locutorios y puntos de envío de dinero`
+          ? ', entre locutorios y puntos de envío de dinero'
           : ''}
-        . Cada ficha incluye la dirección exacta, el teléfono cuando está disponible y
-        un enlace para llegar.
+        . Dirección, teléfono y cómo llegar a cada uno.
       </p>
+
+      {agregado && <ResumenCiudad ciudad={ciudad.nombre} datos={agregado} />}
+
+      {texto && (
+        <div className="editorial mb-10 max-w-2xl">{renderizarEditorial(texto)}</div>
+      )}
 
       <div className="mb-10">
         <Mapa lat={ciudad.lat} lng={ciudad.lng} nombre={ciudad.nombre} margen={0.03} />
@@ -100,7 +145,7 @@ export default async function PaginaCiudad({ params }: Props) {
       <div className="space-y-10">
         {secciones.map((seccion) => (
           <section key={seccion.clave}>
-            <div className="mb-4 flex items-center gap-3">
+            <div className="mb-4 flex flex-wrap items-center gap-3">
               <h2 className="text-xl">{seccion.titulo}</h2>
               <Distintivo tipo={seccion.clave} />
               <span className="font-[family-name:var(--font-dato)] text-micro text-humo">
@@ -117,18 +162,47 @@ export default async function PaginaCiudad({ params }: Props) {
         ))}
       </div>
 
+      {otros.length > 0 && (
+        <p className="mt-8 rounded-lg border border-linea bg-papel-alto px-4 py-3 text-sm text-humo">
+          Los establecimientos de la última sección aparecen catalogados con otra actividad
+          principal, pero ofrecen servicios relacionados. Merece la pena llamar antes de
+          acercarse.
+        </p>
+      )}
+
+      <PreguntasCiudad preguntas={preguntas} />
+
       <Ilustracion
         tipo={envios.length > locutorios.length ? 'envio' : 'locutorio'}
         semilla={`${slugProvincia}-${slugCiudad}`}
         className="mt-12 max-w-2xl"
       />
 
-      {otros.length > 0 && (
-        <p className="mt-8 rounded-lg border border-linea bg-papel-alto px-4 py-3 text-sm text-humo">
-          Los establecimientos de la última sección aparecen catalogados con otra
-          actividad principal, pero ofrecen servicios relacionados. Merece la pena
-          llamar antes de acercarse.
-        </p>
+      {/*
+        Enlazado lateral entre localidades cercanas. Ademas de ser util cuando
+        la localidad tiene un solo establecimiento, reparte autoridad en
+        horizontal en vez de obligar a subir siempre a la provincia, que va
+        con noindex.
+      */}
+      {agregado && agregado.vecinas.length > 0 && (
+        <section className="mt-12 border-t border-linea pt-8">
+          <h2 className="mb-4 text-xl">Locutorios cerca de {ciudad.nombre}</h2>
+          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            {agregado.vecinas.map((vecina) => (
+              <li key={`${vecina.slugProvincia}-${vecina.slug}`}>
+                <Link
+                  href={rutaCiudad(vecina.slugProvincia, vecina.slug)}
+                  className="block rounded-lg border border-linea bg-papel-alto px-3 py-2.5 transition-colors hover:border-verde hover:bg-verde-claro"
+                >
+                  <span className="block truncate font-medium">{vecina.nombre}</span>
+                  <span className="block font-[family-name:var(--font-dato)] text-micro text-humo">
+                    {vecina.total} · a {vecina.distancia} km
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
     </div>
   );

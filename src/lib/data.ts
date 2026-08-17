@@ -62,6 +62,36 @@ export interface Ficha {
   cuerpo: string;
 }
 
+/** Datos agregados de una localidad, calculados por `pipeline/agregar_ciudades.py`. */
+export interface AgregadoCiudad {
+  total: number;
+  tipos: { locutorio: number; envio: number; otros: number };
+  conTelefono: number;
+  cerradosTemporalmente: number;
+  codigosPostales: string[];
+  atributos: {
+    grupo: string;
+    valor: string;
+    cantidad: number;
+    total: number;
+    todos: boolean;
+  }[];
+  actividad: {
+    muestra: number;
+    franjaPunta: string;
+    franjaTranquila: string;
+    abrenDomingo: number;
+    cierreMediodia: number;
+  } | null;
+  vecinas: {
+    nombre: string;
+    slug: string;
+    slugProvincia: string;
+    total: number;
+    distancia: number;
+  }[];
+}
+
 export interface Ciudad {
   slug: string;
   nombre: string;
@@ -183,6 +213,43 @@ export function fichasRelacionadas(ficha: Ficha, limite = 6): Ficha[] {
     .map((entrada) => entrada.ficha);
 
   return [...mismaCiudad, ...cercanas];
+}
+
+// --------------------------------------------------------------------------
+// Agregados y texto editorial de localidad
+// --------------------------------------------------------------------------
+
+let agregadosCache: Record<string, AgregadoCiudad> | null = null;
+let textosCache: Record<string, string> | null = null;
+
+export function obtenerAgregado(
+  slugProvincia: string,
+  slugCiudad: string,
+): AgregadoCiudad | null {
+  if (!agregadosCache) {
+    agregadosCache = leerJSON<Record<string, AgregadoCiudad>>('agregados-ciudad.json');
+  }
+  return agregadosCache[`${slugProvincia}/${slugCiudad}`] ?? null;
+}
+
+/**
+ * Texto editorial de la localidad, redactado aparte y opcional.
+ * Solo existe para las localidades donde compensa el esfuerzo; el resto se
+ * sostiene con los datos agregados, que ya las diferencian entre si.
+ */
+export function obtenerTextoCiudad(
+  slugProvincia: string,
+  slugCiudad: string,
+): string | null {
+  if (!textosCache) {
+    try {
+      textosCache = leerJSON<Record<string, string>>('textos-ciudad.json');
+    } catch {
+      textosCache = {};
+    }
+  }
+  const texto = textosCache[`${slugProvincia}/${slugCiudad}`];
+  return texto && texto.trim() ? texto : null;
 }
 
 // --------------------------------------------------------------------------
