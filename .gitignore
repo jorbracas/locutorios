@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+build/
+.env*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# El CSV maestro no se versiona: supera el limite de 100 MB de GitHub.
+*.csv
