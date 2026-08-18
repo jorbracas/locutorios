@@ -51,6 +51,9 @@ export interface Ficha {
   categorias: string[];
   atributos: GrupoAtributos[];
   actividad: Actividad | null;
+  /** Fichas sin nombre comercial fiable: no se indexan ni entran al sitemap. */
+  noIndexar?: boolean;
+  excluirSitemap?: boolean;
   cerradoTemporalmente: boolean;
   sinVerificar: boolean;
   tier: string;

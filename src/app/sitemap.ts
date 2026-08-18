@@ -28,7 +28,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   );
 
-  const fichas: MetadataRoute.Sitemap = todasLasFichas().map((ficha) => ({
+  // Las fichas sin nombre comercial fiable quedan fuera del sitemap: pedir
+  // que se indexe una URL que lleva `noindex` es una senal contradictoria.
+  const fichas: MetadataRoute.Sitemap = todasLasFichas()
+    .filter((ficha) => !ficha.excluirSitemap && !ficha.noIndexar)
+    .map((ficha) => ({
     url: urlAbsoluta(`/${ficha.slugProvincia}/${ficha.slugCiudad}/${ficha.slug}`),
     lastModified: ahora,
     changeFrequency: 'monthly' as const,

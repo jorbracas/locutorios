@@ -46,6 +46,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: ficha.metaTitulo },
     description: ficha.metaDescripcion,
     alternates: { canonical: urlAbsoluta(rutaFicha(ficha)) },
+    // Sin un nombre comercial fiable la ficha no se publica al indice. Se
+    // mantiene `follow` para no cortar el rastreo hacia el resto del sitio.
+    ...(ficha.noIndexar ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: ficha.metaTitulo,
       description: ficha.metaDescripcion,
