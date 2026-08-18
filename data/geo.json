@@ -1,7 +1,7 @@
 {
   "totalFichas": 3050,
   "totalProvincias": 52,
-  "totalCiudades": 803,
+  "totalCiudades": 787,
   "provincias": [
     {
       "slug": "a-coruna",
@@ -11,9 +11,9 @@
         {
           "slug": "a-coruna",
           "nombre": "A Coruña",
-          "total": 6,
-          "lat": 43.361743,
-          "lng": -8.414818
+          "total": 7,
+          "lat": 43.362215,
+          "lng": -8.415863
         },
         {
           "slug": "culleredo",
@@ -35,13 +35,6 @@
           "total": 1,
           "lat": 43.276789,
           "lng": -8.210424
-        },
-        {
-          "slug": "coruna-a",
-          "nombre": "Coruña ( A )",
-          "total": 1,
-          "lat": 43.365046,
-          "lng": -8.422133
         },
         {
           "slug": "ferrol",
@@ -93,8 +86,8 @@
           "lng": -8.548641
         }
       ],
-      "lat": 43.083322,
-      "lng": -8.565163
+      "lat": 43.057753,
+      "lng": -8.57826
     },
     {
       "slug": "albacete",
@@ -637,14 +630,14 @@
     {
       "slug": "araba-alava",
       "nombre": "Araba/Álava",
-      "total": 40,
+      "total": 41,
       "ciudades": [
         {
           "slug": "vitoria-gasteiz",
           "nombre": "Vitoria-Gasteiz",
-          "total": 36,
-          "lat": 42.859737,
-          "lng": -2.683502
+          "total": 38,
+          "lat": 42.859387,
+          "lng": -2.683073
         },
         {
           "slug": "alegria-dulantzi",
@@ -666,17 +659,10 @@
           "total": 1,
           "lat": 43.145674,
           "lng": -2.960484
-        },
-        {
-          "slug": "baji",
-          "nombre": "baji",
-          "total": 1,
-          "lat": 42.851287,
-          "lng": -2.674414
         }
       ],
-      "lat": 42.95005,
-      "lng": -2.766254
+      "lat": 42.974653,
+      "lng": -2.789106
     },
     {
       "slug": "asturias",
@@ -930,16 +916,16 @@
         {
           "slug": "barcelona",
           "nombre": "Barcelona",
-          "total": 84,
-          "lat": 41.409831,
-          "lng": 2.171565
+          "total": 85,
+          "lat": 41.411526,
+          "lng": 2.17269
         },
         {
           "slug": "l-hospitalet-de-llobregat",
           "nombre": "L'Hospitalet de Llobregat",
-          "total": 36,
-          "lat": 41.369957,
-          "lng": 2.112075
+          "total": 38,
+          "lat": 41.370082,
+          "lng": 2.1121
         },
         {
           "slug": "santa-coloma-de-gramenet",
@@ -1152,13 +1138,6 @@
           "lng": 2.320334
         },
         {
-          "slug": "hospitalet-de-llobregat-l",
-          "nombre": "Hospitalet De Llobregat ( L')",
-          "total": 2,
-          "lat": 41.372328,
-          "lng": 2.112554
-        },
-        {
           "slug": "martorell",
           "nombre": "Martorell",
           "total": 2,
@@ -1320,13 +1299,6 @@
           "lng": 2.097061
         },
         {
-          "slug": "montornes-del-valles",
-          "nombre": "Montornès del Vallès",
-          "total": 1,
-          "lat": 41.5539,
-          "lng": 2.267213
-        },
-        {
           "slug": "premia-de-mar",
           "nombre": "Premià de Mar",
           "total": 1,
@@ -1446,20 +1418,20 @@
           "lng": 2.386678
         }
       ],
-      "lat": 41.527857,
-      "lng": 2.125308
+      "lat": 41.529681,
+      "lng": 2.12353
     },
     {
       "slug": "bizkaia",
       "nombre": "Bizkaia",
-      "total": 127,
+      "total": 126,
       "ciudades": [
         {
           "slug": "bilbao",
           "nombre": "Bilbao",
-          "total": 66,
-          "lat": 43.259546,
-          "lng": -2.933216
+          "total": 67,
+          "lat": 43.259522,
+          "lng": -2.933269
         },
         {
           "slug": "san-vicente-de-barakaldo",
@@ -1574,13 +1546,6 @@
           "lng": -3.193901
         },
         {
-          "slug": "cochabamba",
-          "nombre": "Cochabamba",
-          "total": 1,
-          "lat": 43.257938,
-          "lng": -2.936801
-        },
-        {
           "slug": "elorrio",
           "nombre": "Elorrio",
           "total": 1,
@@ -1651,13 +1616,6 @@
           "lng": -3.048183
         },
         {
-          "slug": "vitoria-gasteiz",
-          "nombre": "Vitoria-Gasteiz",
-          "total": 1,
-          "lat": 42.854894,
-          "lng": -2.676276
-        },
-        {
           "slug": "zaldibar",
           "nombre": "Zaldibar",
           "total": 1,
@@ -1672,8 +1630,8 @@
           "lng": -2.912985
         }
       ],
-      "lat": 43.260113,
-      "lng": -2.821844
+      "lat": 43.274161,
+      "lng": -2.822901
     },
     {
       "slug": "burgos",
@@ -1688,18 +1646,18 @@
           "lng": -3.694064
         },
         {
+          "slug": "miranda-de-ebro",
+          "nombre": "Miranda de Ebro",
+          "total": 4,
+          "lat": 42.686844,
+          "lng": -2.94614
+        },
+        {
           "slug": "aranda-de-duero",
           "nombre": "Aranda de Duero",
           "total": 3,
           "lat": 41.667398,
           "lng": -3.688014
-        },
-        {
-          "slug": "miranda-de-ebro",
-          "nombre": "Miranda de Ebro",
-          "total": 3,
-          "lat": 42.686459,
-          "lng": -2.9474
         },
         {
           "slug": "villarcayo",
@@ -1714,17 +1672,10 @@
           "total": 1,
           "lat": 42.550604,
           "lng": -3.321277
-        },
-        {
-          "slug": "bajo",
-          "nombre": "bajó",
-          "total": 1,
-          "lat": 42.687999,
-          "lng": -2.94236
         }
       ],
-      "lat": 42.478583,
-      "lng": -3.360896
+      "lat": 42.436776,
+      "lng": -3.444351
     },
     {
       "slug": "caceres",
@@ -1736,7 +1687,7 @@
           "nombre": "Cáceres",
           "total": 5,
           "lat": 39.468587,
-          "lng": -6.377477
+          "lng": -6.377478
         },
         {
           "slug": "navalmoral-de-la-mata",
@@ -2531,7 +2482,7 @@
           "nombre": "Palafrugell",
           "total": 3,
           "lat": 41.916891,
-          "lng": 3.165504
+          "lng": 3.165505
         },
         {
           "slug": "castello-d-empuries",
@@ -2692,9 +2643,9 @@
         {
           "slug": "granada",
           "nombre": "Granada",
-          "total": 39,
-          "lat": 37.174589,
-          "lng": -3.604515
+          "total": 40,
+          "lat": 37.174231,
+          "lng": -3.60438
         },
         {
           "slug": "motril",
@@ -2788,13 +2739,6 @@
           "lng": -3.629056
         },
         {
-          "slug": "urb-los-vergeles",
-          "nombre": "Urb. los Vergeles",
-          "total": 1,
-          "lat": 37.160292,
-          "lng": -3.599132
-        },
-        {
           "slug": "ventas-de-zafarraya",
           "nombre": "Ventas de Zafarraya",
           "total": 1,
@@ -2802,8 +2746,8 @@
           "lng": -4.121082
         }
       ],
-      "lat": 37.138859,
-      "lng": -3.560165
+      "lat": 37.137406,
+      "lng": -3.557559
     },
     {
       "slug": "guadalajara",
@@ -3603,9 +3547,9 @@
         {
           "slug": "madrid",
           "nombre": "Madrid",
-          "total": 271,
-          "lat": 40.411183,
-          "lng": -3.689112
+          "total": 272,
+          "lat": 40.411086,
+          "lng": -3.688932
         },
         {
           "slug": "parla",
@@ -3853,13 +3797,6 @@
           "lng": -3.990307
         },
         {
-          "slug": "fuengirola",
-          "nombre": "Fuengirola",
-          "total": 1,
-          "lat": 40.384863,
-          "lng": -3.640212
-        },
-        {
           "slug": "fuente-el-saz-de-jarama",
           "nombre": "Fuente el Saz de Jarama",
           "total": 1,
@@ -3965,8 +3902,8 @@
           "lng": -3.962298
         }
       ],
-      "lat": 40.420026,
-      "lng": -3.753027
+      "lat": 40.420714,
+      "lng": -3.755235
     },
     {
       "slug": "malaga",
@@ -4748,9 +4685,23 @@
         {
           "slug": "san-isidro",
           "nombre": "San Isidro",
+          "total": 8,
+          "lat": 28.075165,
+          "lng": -16.557638
+        },
+        {
+          "slug": "arona",
+          "nombre": "Arona",
           "total": 7,
-          "lat": 28.074675,
-          "lng": -16.55734
+          "lat": 28.033594,
+          "lng": -16.685138
+        },
+        {
+          "slug": "la-laguna",
+          "nombre": "La Laguna",
+          "total": 6,
+          "lat": 28.465047,
+          "lng": -16.30333
         },
         {
           "slug": "santa-cruz-de-tenerife",
@@ -4758,20 +4709,6 @@
           "total": 6,
           "lat": 28.465247,
           "lng": -16.260021
-        },
-        {
-          "slug": "la-laguna",
-          "nombre": "La Laguna",
-          "total": 5,
-          "lat": 28.468108,
-          "lng": -16.304616
-        },
-        {
-          "slug": "arona",
-          "nombre": "Arona",
-          "total": 3,
-          "lat": 28.034711,
-          "lng": -16.688677
         },
         {
           "slug": "adeje",
@@ -4809,27 +4746,6 @@
           "lng": -16.369232
         },
         {
-          "slug": "fraile",
-          "nombre": "Fraile",
-          "total": 1,
-          "lat": 28.012239,
-          "lng": -16.669068
-        },
-        {
-          "slug": "fraile-el",
-          "nombre": "Fraile ( El )",
-          "total": 1,
-          "lat": 28.014035,
-          "lng": -16.669987
-        },
-        {
-          "slug": "guaza",
-          "nombre": "Guaza",
-          "total": 1,
-          "lat": 28.050289,
-          "lng": -16.67754
-        },
-        {
           "slug": "guia-de-isora",
           "nombre": "Guía de Isora",
           "total": 1,
@@ -4844,25 +4760,11 @@
           "lng": -16.656129
         },
         {
-          "slug": "los-cristianos",
-          "nombre": "Los Cristianos",
-          "total": 1,
-          "lat": 28.054462,
-          "lng": -16.713338
-        },
-        {
           "slug": "puerto-de-la-cruz",
           "nombre": "Puerto de la Cruz",
           "total": 1,
           "lat": 28.415247,
           "lng": -16.546017
-        },
-        {
-          "slug": "san-isidro-de-abona",
-          "nombre": "San Isidro de Abona",
-          "total": 1,
-          "lat": 28.0786,
-          "lng": -16.55972
         },
         {
           "slug": "santa-cruz-de-la-palma",
@@ -4877,17 +4779,10 @@
           "total": 1,
           "lat": 28.426154,
           "lng": -16.490632
-        },
-        {
-          "slug": "taco",
-          "nombre": "Taco",
-          "total": 1,
-          "lat": 28.449742,
-          "lng": -16.296903
         }
       ],
-      "lat": 28.218758,
-      "lng": -16.648649
+      "lat": 28.265151,
+      "lng": -16.670135
     },
     {
       "slug": "segovia",
@@ -5167,18 +5062,18 @@
           "lng": 0.521076
         },
         {
+          "slug": "calafell",
+          "nombre": "Calafell",
+          "total": 4,
+          "lat": 41.191966,
+          "lng": 1.581603
+        },
+        {
           "slug": "valls",
           "nombre": "Valls",
           "total": 4,
           "lat": 41.243211,
           "lng": 1.24345
-        },
-        {
-          "slug": "calafell",
-          "nombre": "Calafell",
-          "total": 3,
-          "lat": 41.191237,
-          "lng": 1.572418
         },
         {
           "slug": "mora-d-ebre",
@@ -5265,13 +5160,6 @@
           "lng": 0.504883
         },
         {
-          "slug": "segur-de-calafell",
-          "nombre": "Segur de Calafell",
-          "total": 1,
-          "lat": 41.194151,
-          "lng": 1.609158
-        },
-        {
           "slug": "torredembarra",
           "nombre": "Torredembarra",
           "total": 1,
@@ -5286,8 +5174,8 @@
           "lng": 1.144192
         }
       ],
-      "lat": 41.033402,
-      "lng": 1.044609
+      "lat": 41.026128,
+      "lng": 1.019365
     },
     {
       "slug": "teruel",

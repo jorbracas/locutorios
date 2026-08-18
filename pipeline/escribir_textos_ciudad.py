@@ -24,7 +24,7 @@ TEXTOS: dict[str, str] = {}
 # --------------------------------------------------------------------------
 
 TEXTOS["madrid/madrid"] = """\
-Madrid concentra 271 establecimientos con servicios de locutorio o envío de \
+Madrid concentra 272 establecimientos con servicios de locutorio o envío de \
 dinero, repartidos por 42 códigos postales distintos. Esa dispersión es la \
 característica más útil de la ciudad: salvo en los distritos del extremo norte, \
 es raro tener que desplazarse más de un par de barrios para encontrar uno.
@@ -32,18 +32,18 @@ es raro tener que desplazarse más de un par de barrios para encontrar uno.
 La actividad se concentra en la franja de 17:00 a 20:00, cuando coinciden la \
 salida del trabajo y el horario en el que resulta más cómodo llamar a otros \
 husos. Si puedes elegir, entre las 9:00 y las 11:00 hay bastante menos gente. \
-De los 147 locales con datos de afluencia, 128 registran movimiento en domingo, \
+De los 148 locales con datos de afluencia, 129 registran movimiento en domingo, \
 una proporción que en Madrid tiene sentido: buena parte de la clientela trabaja \
 de lunes a sábado.
 
 ## Qué se hace hoy en un locutorio madrileño
 
-De los 271 locales, 57 están orientados específicamente al envío de dinero y \
-177 figuran como locutorios que suelen combinar ese servicio con recargas de \
+De los 272 locales, 57 están orientados específicamente al envío de dinero y \
+178 figuran como locutorios que suelen combinar ese servicio con recargas de \
 móvil, tarjetas SIM, fotocopias y papelería. Las cabinas de llamadas, que dieron \
 nombre al negocio, han desaparecido casi por completo.
 
-Hay 230 fichas con teléfono publicado. Merece la pena usarlo: los horarios de \
+Hay 231 fichas con teléfono publicado. Merece la pena usarlo: los horarios de \
 estos negocios cambian con frecuencia y no siempre se reflejan en internet.
 """
 
@@ -98,26 +98,26 @@ Hay teléfono publicado en 69 de las 87 fichas.
 """
 
 TEXTOS["barcelona/barcelona"] = """\
-Barcelona reúne 84 establecimientos en 25 códigos postales, con una presencia \
+Barcelona reúne 85 establecimientos en 25 códigos postales, con una presencia \
 especialmente densa en Ciutat Vella y el Raval. Conviene tener en cuenta algo \
 que no aparece en el mapa de la ciudad: L'Hospitalet de Llobregat, a apenas 6,6 \
-km, suma otros 36 establecimientos, y Santa Coloma de Gramenet añade 16. Para \
+km, suma otros 38 establecimientos, y Santa Coloma de Gramenet añade 16. Para \
 quien se mueve en metro, el área metropolitana ofrece bastante más de lo que \
 sugiere el recuento municipal.
 
 ## Ritmo de la ciudad
 
 La franja de mayor afluencia es de 18:00 a 21:00 y la más tranquila de 9:00 a \
-11:00. De los 36 locales con datos de actividad, 33 registran movimiento en \
-domingo y 18 —la mitad— muestran el corte del mediodía, así que en Barcelona la \
+11:00. De los 37 locales con datos de actividad, 34 registran movimiento en \
+domingo y 18 —casi la mitad— muestran el corte del mediodía, así que en Barcelona la \
 jornada partida sigue siendo habitual en este tipo de negocio.
 
-De los 84 establecimientos, 53 son locutorios y 20 están centrados en el envío \
+De los 85 establecimientos, 53 son locutorios y 21 están centrados en el envío \
 de dinero. La mayoría combina remesas con recargas de móvil, venta de tarjetas \
 SIM, fotocopias e impresión; las cabinas de llamadas apenas quedan como \
 recuerdo del origen del negocio.
 
-Hay 70 fichas con teléfono, suficiente para confirmar antes de desplazarse.
+Hay 71 fichas con teléfono, suficiente para confirmar antes de desplazarse.
 """
 
 TEXTOS["sevilla/sevilla"] = """\
@@ -145,8 +145,8 @@ preguntar el importe final antes de cerrar la operación.
 """
 
 TEXTOS["bizkaia/bilbao"] = """\
-De los 66 establecimientos registrados en Bilbao, 42 son locutorios propiamente \
-dichos y solo 17 están centrados en el envío de dinero. Es una proporción más \
+De los 67 establecimientos registrados en Bilbao, 42 son locutorios propiamente \
+dichos y solo 18 están centrados en el envío de dinero. Es una proporción más \
 inclinada hacia el locutorio clásico que la de otras ciudades de tamaño similar, \
 donde la remesa suele haber ganado más terreno como negocio independiente.
 
@@ -155,17 +155,17 @@ San Francisco y el entorno de Bilbao La Vieja.
 
 ## La jornada partida sigue viva
 
-Es el rasgo más útil que revelan los datos de Bilbao: de los 29 locales con \
-información de afluencia, 17 muestran el corte del mediodía. Casi seis de cada \
+Es el rasgo más útil que revelan los datos de Bilbao: de los 30 locales con \
+información de afluencia, 18 muestran el corte del mediodía. Seis de cada \
 diez cierran unas horas entre la mañana y la tarde, así que planificar la visita \
 importa más aquí que en otras ciudades. La franja de mayor movimiento va de \
 17:00 a 20:00 y la más tranquila de 9:00 a 11:00. En domingo hay actividad \
-registrada en 27 de esos 29.
+registrada en 28 de esos 30.
 
 Aunque el rótulo diga locutorio, lo que se encuentra dentro son sobre todo \
 envíos de dinero, recargas de móvil, tarjetas SIM y servicios de impresión.
 
-Con 56 teléfonos publicados sobre 66 fichas, llamar antes es fácil y evita el \
+Con 57 teléfonos publicados sobre 67 fichas, llamar antes es fácil y evita el \
 viaje en balde.
 """
 
@@ -198,22 +198,22 @@ directorio: su franja más tranquila no es la primera hora de la mañana, sino l
 de 15:00 a 17:00. La afluencia cae en la sobremesa y repunta con fuerza entre \
 las 18:00 y las 21:00.
 
-El dato encaja con otro: de los 11 establecimientos con información de \
-actividad, 9 muestran el corte del mediodía. En Granada la jornada partida es la \
+El dato encaja con otro: de los 12 establecimientos con información de \
+actividad, 10 muestran el corte del mediodía. En Granada la jornada partida es la \
 norma, no la excepción, así que acercarse a las cuatro de la tarde es la peor \
 apuesta posible.
 
 ## Qué hay y dónde
 
-Son 39 establecimientos repartidos por 14 códigos postales: 19 locutorios, 8 \
+Son 40 establecimientos repartidos por 14 códigos postales: 20 locutorios, 8 \
 puntos centrados en el envío de dinero y 12 comercios que ofrecen servicios \
 relacionados. La oferta se concentra en el entorno del Zaidín y los barrios del \
 norte.
 
-De los 39, 15 declaran acceso para sillas de ruedas y otros tantos admiten pago \
-con tarjeta de crédito.
+De los 40, 15 declaran acceso para sillas de ruedas y 16 admiten pago con tarjeta \
+de crédito.
 
-Solo 22 fichas tienen teléfono publicado, bastante menos que en otras ciudades \
+Solo 23 fichas tienen teléfono publicado, bastante menos que en otras ciudades \
 de tamaño parecido. Cuando no lo haya, la alternativa es fiarse de las franjas \
 de actividad, teniendo en cuenta que son estimaciones y no horarios declarados.
 """
@@ -270,22 +270,22 @@ fichas.
 """
 
 TEXTOS["araba-alava/vitoria-gasteiz"] = """\
-Vitoria-Gasteiz tiene 36 establecimientos en 10 códigos postales, y una ventaja \
-práctica poco habitual: 32 de esas 36 fichas incluyen teléfono. Es una de las \
+Vitoria-Gasteiz tiene 38 establecimientos en 10 códigos postales, y una ventaja \
+práctica poco habitual: 34 de esas 38 fichas incluyen teléfono. Es una de las \
 mejores coberturas del directorio, lo que en un sector donde los horarios \
 cambian a menudo resulta más útil de lo que parece.
 
-De los 36, 23 son locutorios, 7 están centrados en el envío de dinero y 6 son \
+De los 38, 23 son locutorios, 8 están centrados en el envío de dinero y 7 son \
 comercios con servicios relacionados.
 
 ## Cuándo hay movimiento
 
 La franja de mayor afluencia va de 18:00 a 21:00 y la más despejada de 9:00 a \
-11:00. De los 18 locales con datos de actividad, 17 registran movimiento en \
-domingo y 9 —la mitad— cierran al mediodía, un patrón parecido al del resto del \
+11:00. De los 20 locales con datos de actividad, 19 registran movimiento en \
+domingo y 10 —la mitad— cierran al mediodía, un patrón parecido al del resto del \
 País Vasco.
 
-Veintiuno de los 36 admiten pago con tarjeta de crédito y 16 aceptan pago con \
+Veintiuno de los 38 admiten pago con tarjeta de crédito y 16 aceptan pago con \
 móvil por NFC, aunque para importes pequeños conviene llevar algo de efectivo.
 
 La oferta habitual combina envío de dinero al extranjero, recargas de móvil, \
@@ -295,7 +295,7 @@ el importe final antes de cerrar la operación.
 """
 
 TEXTOS["barcelona/l-hospitalet-de-llobregat"] = """\
-L'Hospitalet de Llobregat concentra 36 establecimientos en apenas 6 códigos \
+L'Hospitalet de Llobregat concentra 38 establecimientos en apenas 6 códigos \
 postales. Esa es la cifra que define la ciudad: es una de las densidades más \
 altas de España en este tipo de negocio, muy por encima de lo que corresponde a \
 su tamaño, y responde a la composición de barrios como La Torrassa, Collblanc o \
@@ -307,14 +307,14 @@ es que haya varias opciones en la misma calle o en la contigua.
 ## Horarios y servicios
 
 El movimiento se concentra entre las 18:00 y las 21:00, y la franja más \
-tranquila es la de 9:00 a 11:00. De los 15 locales con datos de afluencia, 14 \
-registran actividad en domingo y 8 cierran al mediodía.
+tranquila es la de 9:00 a 11:00. De los 17 locales con datos de afluencia, 16 \
+registran actividad en domingo y 9 cierran al mediodía.
 
-De los 36 establecimientos, 22 son locutorios y 7 están centrados \
+De los 38 establecimientos, 24 son locutorios y 7 están centrados \
 específicamente en el envío de dinero. La mayoría suma recargas de móvil, \
 tarjetas SIM, fotocopias y papelería.
 
-Barcelona queda a 6,6 km con otros 84 establecimientos, y Santa Coloma de \
+Barcelona queda a 6,6 km con otros 85 establecimientos, y Santa Coloma de \
 Gramenet a 12,2 km con 16 más, así que la oferta metropolitana es amplia si \
 buscas un servicio muy concreto.
 """

@@ -1,0 +1,240 @@
+{
+  "provincia": [],
+  "ciudad": [],
+  "revisar": [
+    {
+      "nombre": "ABDEL Market",
+      "codigoPostal": "04720",
+      "de": "almeria/el-parador-de-las-hortichuelas",
+      "a": "almeria/aguadulce",
+      "fichasOrigen": 3,
+      "fichasDestino": 1,
+      "direccion": "C. Sierra de los Filabres, 3, 04720 El Parador de las Hortichuelas, Almería, España"
+    },
+    {
+      "nombre": "Money Exchange Agente",
+      "codigoPostal": "01400",
+      "de": "araba-alava/vitoria-gasteiz",
+      "a": "araba-alava/laudio-llodio",
+      "fichasOrigen": 38,
+      "fichasDestino": 1,
+      "direccion": "Zumalakarregi Hiribidea, 26, 01400 Vitoria-Gasteiz, Araba, España"
+    },
+    {
+      "nombre": "LOCUTORIO LA SALUT 114A",
+      "codigoPostal": "08914",
+      "de": "barcelona/santa-coloma-de-gramenet",
+      "a": "barcelona/badalona",
+      "fichasOrigen": 16,
+      "fichasDestino": 11,
+      "direccion": "Carrer de Pau Piferrer, 114B, 08914 Santa Coloma de Gramenet, Barcelona, España"
+    },
+    {
+      "nombre": "Badalinks",
+      "codigoPostal": "08918",
+      "de": "barcelona/santa-coloma-de-gramenet",
+      "a": "barcelona/badalona",
+      "fichasOrigen": 16,
+      "fichasDestino": 11,
+      "direccion": "Av. d'Alfons XIII, 551, 08918 Santa Coloma de Gramenet, Barcelona, España"
+    },
+    {
+      "nombre": "LOCUTORIO BAR CAFERTERIA",
+      "codigoPostal": "48970",
+      "de": "bizkaia/elexalde",
+      "a": "bizkaia/arizgoiti",
+      "fichasOrigen": 3,
+      "fichasDestino": 1,
+      "direccion": "Butroe Ibaia Kalea, 48970 Elexalde, Bizkaia, España"
+    },
+    {
+      "nombre": "Besmi Allah",
+      "codigoPostal": "48940",
+      "de": "bizkaia/elexalde",
+      "a": "bizkaia/leioa",
+      "fichasOrigen": 3,
+      "fichasDestino": 2,
+      "direccion": "Sabino Arana, 82, 48940 Elexalde, Biscay, España"
+    },
+    {
+      "nombre": "Noshi Locutorio",
+      "codigoPostal": "48940",
+      "de": "bizkaia/lejona",
+      "a": "bizkaia/leioa",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "48940 Lejona, Biscay, España"
+    },
+    {
+      "nombre": "CIBER LOCUTORIO EL PUERTO",
+      "codigoPostal": "11500",
+      "de": "cadiz/el",
+      "a": "cadiz/el-puerto-de-sta-maria",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "C. Villa de Rota, 13, 11500 El, Cádiz, España"
+    },
+    {
+      "nombre": "Prensa - Locutorio Paris-Tombuctú",
+      "codigoPostal": "12579",
+      "de": "castellon/alcossebre-castellon",
+      "a": "castellon/alcossebre",
+      "fichasOrigen": 1,
+      "fichasDestino": 1,
+      "direccion": "C/ Alcalá de Xivert, 5 Local C, 12579 Alcossebre, Castellón, Castellón, España"
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "codigoPostal": "12006",
+      "de": "castellon/castellon-de-la-plana",
+      "a": "castellon/castellon",
+      "fichasOrigen": 8,
+      "fichasDestino": 1,
+      "direccion": "Av. de l'Alcora, 138, 12006 Castelló de la Plana, Castelló, España"
+    },
+    {
+      "nombre": "Locutorio Euroenvia",
+      "codigoPostal": "17190",
+      "de": "girona/girona",
+      "a": "girona/salt",
+      "fichasOrigen": 11,
+      "fichasDestino": 6,
+      "direccion": "Travessera de Sta. Eugènia, 40, bajo 5, 17190 Girona, España"
+    },
+    {
+      "nombre": "MoneyGram",
+      "codigoPostal": "17190",
+      "de": "girona/girona",
+      "a": "girona/salt",
+      "fichasOrigen": 11,
+      "fichasDestino": 6,
+      "direccion": "Travessera de Sta. Eugènia, 40, 17190 Girona, España"
+    },
+    {
+      "nombre": "Locutorio Kafoul",
+      "codigoPostal": "07840",
+      "de": "illes-balears/santa-eulalia-del-rio",
+      "a": "illes-balears/santa-eularia-des-riu",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "Carrer de Cèsar Puget Riquer, 2, 07840 Santa Eulalia del Río, Illes Balears, España"
+    },
+    {
+      "nombre": "Click World",
+      "codigoPostal": "35100",
+      "de": "las-palmas/san-bartolome-de-tirajana",
+      "a": "las-palmas/maspalomas",
+      "fichasOrigen": 1,
+      "fichasDestino": 1,
+      "direccion": "C. la Palma, 3, 35100 San Bartolomé de Tirajana, Las Palmas, España"
+    },
+    {
+      "nombre": "LOCUTORIO ELEWUACUBA",
+      "codigoPostal": "35110",
+      "de": "las-palmas/santa-lucia-de-tirajana",
+      "a": "las-palmas/vecindario",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "C. Sevilla, 38-A, 35110 Santa Lucía de Tirajana, Las Palmas, España"
+    },
+    {
+      "nombre": "Locutorio Universal Internet Recarga de Móviles",
+      "codigoPostal": "29651",
+      "de": "malaga/fuengirola",
+      "a": "malaga/las-lagunas-de-mijas",
+      "fichasOrigen": 6,
+      "fichasDestino": 3,
+      "direccion": "Cam. de Santiago, 46, 29651 Fuengirola, Málaga, España"
+    },
+    {
+      "nombre": "LOCUTORIO FERRARA",
+      "codigoPostal": "29793",
+      "de": "malaga/torrox-costa",
+      "a": "malaga/torrox",
+      "fichasOrigen": 1,
+      "fichasDestino": 1,
+      "direccion": "BLQ3 LOC 15, 29793 Torrox Costa, Málaga, España"
+    },
+    {
+      "nombre": "Locutorio mundo",
+      "codigoPostal": "30006",
+      "de": "murcia/murcia",
+      "a": "murcia/puente-tocinos",
+      "fichasOrigen": 39,
+      "fichasDestino": 2,
+      "direccion": "Bloque E-1, 30006 Murcia, España"
+    },
+    {
+      "nombre": "Locutorio Essallam",
+      "codigoPostal": "30570",
+      "de": "murcia/murcia",
+      "a": "murcia/beniajan",
+      "fichasOrigen": 39,
+      "fichasDestino": 2,
+      "direccion": "C. San Antonio, 18, 30570 Murcia, España"
+    },
+    {
+      "nombre": "Locutorio Alfafar",
+      "codigoPostal": "46910",
+      "de": "valencia/alfafar",
+      "a": "valencia/benetusser",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "C. de Juan Puertes, 21, 46910 Alfafar, Valencia, España"
+    },
+    {
+      "nombre": "Ria Money Transfer",
+      "codigoPostal": "46470",
+      "de": "valencia/massanassa",
+      "a": "valencia/catarroja",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "Carrer de Concepció Arenal, 2, 46470 Massanassa, Valencia, España"
+    },
+    {
+      "nombre": "LOCUTORIO QUART",
+      "codigoPostal": "46930",
+      "de": "valencia/quart-de-poblet",
+      "a": "valencia/manises",
+      "fichasOrigen": 1,
+      "fichasDestino": 1,
+      "direccion": "Carrer d'Azorín, 4, 46930 Quart de Poblet, Valencia, España"
+    },
+    {
+      "nombre": "Locutorio Albufera",
+      "codigoPostal": "46910",
+      "de": "valencia/sedavi",
+      "a": "valencia/benetusser",
+      "fichasOrigen": 1,
+      "fichasDestino": 2,
+      "direccion": "Avinguda de la Albufera, 9, 46910 Sedaví, Valencia, España"
+    },
+    {
+      "nombre": "LOCUTORIO REINA DEL CISNE",
+      "codigoPostal": "46139",
+      "de": "valencia/valencia",
+      "a": "valencia/la-pobla-de-farnals",
+      "fichasOrigen": 99,
+      "fichasDestino": 1,
+      "direccion": "Avinguda Doctor Ortiz Sebastian, 1, 46139 valencia, Valencia, España"
+    },
+    {
+      "nombre": "Locutorio Danish",
+      "codigoPostal": "46920",
+      "de": "valencia/valencia",
+      "a": "valencia/mislata",
+      "fichasOrigen": 99,
+      "fichasDestino": 4,
+      "direccion": "C/ del Pare Llansol, 3B, 46920 València, Valencia, España"
+    },
+    {
+      "nombre": "International Locutorio - Sanfer",
+      "codigoPostal": "46920",
+      "de": "valencia/valencia",
+      "a": "valencia/mislata",
+      "fichasOrigen": 99,
+      "fichasDestino": 4,
+      "direccion": "Avinguda Blasco Ibáñez, 6, 46920 València, Valencia, España"
+    }
+  ]
+}

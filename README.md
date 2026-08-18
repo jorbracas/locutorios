@@ -178,45 +178,81 @@ script solo convierte; el reparto por tipo se mantiene manual a propósito, para
 no colar por error una imagen de envío de dinero en una ficha que no ofrece
 ese servicio.
 
-## Saneamiento de riesgo reputacional
+## Saneamiento de datos y textos
 
-`pipeline/despersonalizar.py` ya se ha aplicado sobre `data/`. Vuelve a pasarlo
-cada vez que regeneres los datos desde el CSV:
+Dos scripts, **en este orden**, cada vez que se regeneren los datos desde el CSV:
 
 ```bash
 python3 pipeline/build_data.py /ruta/al/locutorios.csv ./data
-python3 pipeline/despersonalizar.py ./data          # obligatorio despues
-python3 pipeline/despersonalizar.py ./data --simular  # ver sin aplicar
+python3 pipeline/sanear_geografia.py ./data     # 1. geografía
+python3 pipeline/depurar_textos.py ./data       # 2. textos
+python3 pipeline/agregar_ciudades.py ./data     # 3. agregados
+python3 pipeline/escribir_textos_ciudad.py ./data
 ```
 
-Sobre 3.050 fichas afectó a 494 (16 %): 369 frases eliminadas y 262 citas
-integradas. La media perdida son 18 palabras y ninguna ficha baja de 460, así
-que el impacto en contenido es despreciable.
+Ambos aceptan `--simular` para ver el efecto sin escribir.
 
-Qué elimina y por qué:
+### 1. Geografía
 
-- **Imputaciones de delito** («estafa», «timo», «fraudulentas») y de infracción
-  sanitaria («productos caducados»). Afirmarlas sin sentencia puede ser calumnia
-  (art. 205 CP) y, en el caso sanitario, provocarle una inspección al negocio.
-- **Juicios duros sobre personas identificables.** En un local con una sola
-  persona tras el mostrador, «la dependienta es antipática» identifica a alguien
-  concreto aunque no se dé el nombre: art. 7.7 de la LO 1/1982.
-- **Reseñas entrecomilladas.** Las comillas delatan que el texto se copió de
-  algún sitio. Las citas cortas pierden solo las comillas y las palabras se
-  integran en la frase; las de más de 60 caracteres se eliminan con su frase.
+El origen trae fichas mal ubicadas, y eso genera páginas de localidad enteras en
+sitios equivocados. En España los dos primeros dígitos del código postal fijan la
+provincia sin ambigüedad, así que sirven de verificación objetiva.
 
-Lo que **no** hace, deliberadamente: reescribir. Un primer intento sustituía
-términos con expresiones regulares y producía castellano roto («resulta un trato
-poco cordial, seca y con un trato distante») además de destrozar usos neutros
-(«prevenir el fraude» → «prevenir el discrepancias sobre el servicio prestado»).
-Eliminar una frase de un texto de 745 palabras siempre da resultado gramatical;
-reescribirla automáticamente, casi nunca.
+Corrige 1 provincia errónea (un MoneyGram de Vitoria catalogado en Bizkaia, cuando
+Vitoria es Álava) y funde 16 localidades fantasma. La más llamativa: un locutorio
+con CP 28018 y dirección en Puente de Vallecas estaba catalogado en Fuengirola,
+porque la dirección de Google ya venía corrupta («28018 Fuengirola, Madrid»).
+Creaba una página `/madrid/fuengirola` inexistente, además de la Fuengirola real
+de Málaga.
 
-Tampoco antepone «según opiniones de clientes» de forma automática: la detección
-capturaba «bebidas frías», «frutos secos» y «la ausencia de quejas».
+También unifica los slugs con artículo pospuesto (`hospitalet-de-llobregat-l` →
+`l-hospitalet-de-llobregat`), que de otro modo publican dos páginas compitiendo.
 
-El informe de cambios queda en `data/informe-riesgo.json`, con la URL de cada
-ficha tocada por si quieres revisarlas a mano.
+La fusión automática solo se aplica cuando la localidad de origen es residual (2
+fichas o menos) y la de destino la triplica. No toda discrepancia es un error:
+Lejona y Leioa son la misma localidad en dos idiomas, Puente Tocinos es una
+pedanía de Murcia y Vecindario pertenece a Santa Lucía de Tirajana. Esos 26 casos
+quedan anotados en `data/informe-geografia.json` para revisión manual, sin tocar.
+
+### 2. Textos
+
+Cuatro niveles, **todos por eliminación de frase completa**. Ninguno reescribe:
+un intento anterior con sustituciones producía castellano roto y destrozaba usos
+neutros.
+
+- **Acusaciones graves** (99 frases): robo, acoso, racismo, amenazas, plagas,
+  móviles robados, retención de fondos. Un directorio no tiene por qué arbitrar
+  una acusación penal porque alguien la escribiera en una reseña, y las
+  coletillas de «no verificado» o «de ser cierto» no protegen: la imputación ya
+  está publicada y el negocio sigue siendo identificable.
+- **Juicios duros sobre personas identificables**: art. 7.7 de la LO 1/1982.
+- **Especulación** (4.818 frases + 883 secciones enteras): «es probable que
+  cuente con fax», «es común que dispongan de cabinas». Si no sabemos que tiene
+  fax, hablar del fax no aporta; añadir después que no está confirmado no arregla
+  nada, porque el lector ya lo ha leído. Se eliminan también los encabezados
+  especulativos («¿Qué servicios podría ofrecer un locutorio como este?») junto
+  con la sección que introducen.
+- **Relleno de entorno** (1.299 frases): «de fácil acceso», «tráfico moderado»,
+  «a pocos minutos del centro». No procede de ningún dato calculado.
+
+Resultado: 2.737 fichas tocadas, media de 106 palabras eliminadas. La media del
+corpus baja de 745 a 707 palabras y el mínimo queda en 205. Quince fichas bajan
+de 300 palabras, y son precisamente las que apenas tenían otra cosa que
+especulación.
+
+#### Falsos positivos que hubo que acotar
+
+El vocabulario se solapa con usos inocentes, y todos estos aparecieron de verdad
+en el corpus:
+
+- «el servicio más **demandado**» no es una demanda judicial.
+- «prevenir el **fraude**», «normativa de **blanqueo**» es lenguaje regulatorio.
+- «las fricciones son **menores**» es un adjetivo, no un menor de edad.
+- «**estafeta**» es una oficina de correos.
+- «citas para extranjería, **policía**, DNI» es un servicio del propio local.
+
+Por eso el detector lleva una lista de contextos neutros que desactivan la
+coincidencia. Conviene mantenerla si se amplían los patrones.
 
 ## Páginas de localidad
 
@@ -323,6 +359,38 @@ imposible cuando todo el CSS es propio. Se fijan igualmente para que
 Next.js publica ahora **parches de seguridad mensuales**. Conviene revisar
 `nextjs.org/blog` de vez en cuando y subir dentro de la línea 15.5, que no trae
 cambios incompatibles. Saltar a la 16.x sí es un cambio mayor y no urge.
+
+## Saneamiento de geografía
+
+`pipeline/sanear_geografia.py` corrige errores de ubicación del origen, que no
+son cosméticos: generan páginas de localidad enteras en sitios equivocados.
+
+En España los dos primeros dígitos del código postal determinan la provincia sin
+ambigüedad, y eso da una verificación objetiva. Para la ciudad se usa una
+heurística: si un CP concentra sus fichas en una localidad y aparece una suelta
+en otra, la suelta casi siempre está mal.
+
+Corrigió un error de provincia (un MoneyGram de Vitoria-Gasteiz catalogado en
+Bizkaia, siendo Álava) y fusionó 17 localidades fantasma. Entre ellas, un
+`madrid/fuengirola` creado por una ficha con CP 28018 y dirección en Puente de
+Vallecas: la dirección que venía de Google ya estaba corrupta. El total pasa de
+803 localidades a 787.
+
+No fusiona a ciegas: `lejona` y `leioa` son la misma localidad en castellano y
+euskera, Puente Tocinos es una pedanía de Murcia y Vecindario pertenece a Santa
+Lucía de Tirajana. La fusión automática solo actúa cuando la localidad de origen
+es residual y la de destino la triplica; las 26 restantes quedan anotadas en
+`data/informe-geografia.json` para revisión manual.
+
+**Orden obligatorio** al regenerar desde el CSV:
+
+```bash
+python3 pipeline/build_data.py /ruta/al.csv ./data
+python3 pipeline/sanear_geografia.py ./data
+python3 pipeline/depurar_textos.py ./data
+python3 pipeline/agregar_ciudades.py ./data
+python3 pipeline/escribir_textos_ciudad.py ./data
+```
 
 ## Pendiente
 
