@@ -1,0 +1,2903 @@
+{
+  "cortasAntes": 744,
+  "cortasDespues": 413,
+  "recuentos": {
+    "bloque_información": 455,
+    "fichas_ampliadas": 544,
+    "bloque_qué": 128,
+    "bloque_servicios": 72
+  },
+  "siguenCortas": [
+    {
+      "url": "/murcia/cartagena/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 205,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/burgos/burgos/locutorio-gamonal",
+      "nombre": "Locutorio Gamonal",
+      "palabras": 209,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/segovia/segovia/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 217,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/alhama-de-murcia/locutorio-alhama",
+      "nombre": "Locutorio Alhama",
+      "palabras": 218,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/l-hospitalet-de-llobregat/farhat-internet-locutorio",
+      "nombre": "Farhat Internet Locutorio",
+      "palabras": 270,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/san-sebastian-de-los-reyes/locutorio-virgen-de-fatima",
+      "nombre": "Locutorio Virgen de Fatima",
+      "palabras": 281,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/girona/ripoll/elkarib-brahim",
+      "nombre": "Elkarib Brahim",
+      "palabras": 292,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/almeria/el-ejido/locutorio-insaf-i",
+      "nombre": "Locutorio Insaf .I",
+      "palabras": 294,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/rafee-moviles-y-tecnologia",
+      "nombre": "Rafee Móviles Y Tecnologia",
+      "palabras": 304,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/lleida/la-seu-d-urgell/zahaf-rachid",
+      "nombre": "Zahaf Rachid",
+      "palabras": 307,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/getafe/locutorio-ciber-karen",
+      "nombre": "Locutorio Ciber Karen",
+      "palabras": 308,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/alcorcon/universal-de-envios",
+      "nombre": "Universal de Envíos",
+      "palabras": 311,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/la-bendicion",
+      "nombre": "La Bendicion",
+      "palabras": 316,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/cadiz/chiclana-de-la-frontera/ciber-locutorio-telefonia",
+      "nombre": "Ciber Locutorio Telefonia",
+      "palabras": 318,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/sevilla/locutorio-internet-sanfer-sevilla",
+      "nombre": "Locutorio Internet Sanfer@sevilla",
+      "palabras": 319,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/locutorio-gaming-center",
+      "nombre": "Locutorio Gaming Center",
+      "palabras": 321,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/murcia/locutorio-mundo",
+      "nombre": "Locutorio mundo",
+      "palabras": 322,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/almeria/albox/pak-euro-locutorio",
+      "nombre": "Pak Euro Locutorio",
+      "palabras": 325,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/bizkaia/bilbao/cherif-seye-mbaye",
+      "nombre": "Cherif Seye Mbaye",
+      "palabras": 325,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/girona/salt/locutorio-telegestions",
+      "nombre": "Locutorio Telegestions",
+      "palabras": 326,
+      "categoria": "Comercio",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/portugalete/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 328,
+      "categoria": "Tienda de alimentación",
+      "atributos": 2
+    },
+    {
+      "url": "/barcelona/l-hospitalet-de-llobregat/global-express-locutorio",
+      "nombre": "GLOBAL EXPRESS LOCUTORIO",
+      "palabras": 330,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/a-coruna/a-coruna/nofal-locutorio",
+      "nombre": "Nofal Locutorio",
+      "palabras": 336,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/cuenca/cuenca/ciber-net-locutorio-cuenca-distribuidor-oficial-digi",
+      "nombre": "Ciber.net - Locutorio Cuenca (Distribuidor Oficial Digi)",
+      "palabras": 336,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/jaen/jaen/melilla-alimentacion-locutorio",
+      "nombre": "Melilla Alimentacion Locutorio",
+      "palabras": 337,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/zaragoza/zaragoza/ria-money-transfer",
+      "nombre": "Ria Money Transfer",
+      "palabras": 337,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/el-ejido/locutorio-marwa",
+      "nombre": "Locutorio Marwa",
+      "palabras": 341,
+      "categoria": "Comercio",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/leioa/wasi-locutorio",
+      "nombre": "wasi locutorio",
+      "palabras": 341,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/girona/girona/locutorio-central",
+      "nombre": "Locutorio Central",
+      "palabras": 342,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/elche/locutorio-atlas",
+      "nombre": "Locutorio Atlas",
+      "palabras": 346,
+      "categoria": "Comercio",
+      "atributos": 1
+    },
+    {
+      "url": "/lleida/lleida/locutori-el-baraka",
+      "nombre": "Locutori El Baraka",
+      "palabras": 346,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/tarragona/tarragona/locutorio-2",
+      "nombre": "Locutorio",
+      "palabras": 348,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/sevilla/maxienvios-locutorio",
+      "nombre": "Maxienvios Locutorio",
+      "palabras": 353,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/ciudad-real/tomelloso/nidia-micelly-velasquez-alvarez",
+      "nombre": "NIDIA MICELLY VELASQUEZ ALVAREZ",
+      "palabras": 354,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/alicante/orihuela/locutorio-ria",
+      "nombre": "Locutorio Ria",
+      "palabras": 357,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/ceuta/ceuta/amar-mohamed-mohamed-davak",
+      "nombre": "Amar Mohamed Mohamed Davak",
+      "palabras": 357,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/olula-del-rio/mi-locutorio",
+      "nombre": "Mi Locutorio",
+      "palabras": 362,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/madrid/arganda-del-rey/saima-trading-international",
+      "nombre": "Saima Trading International",
+      "palabras": 362,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/tudela/locutorio-tudela",
+      "nombre": "Locutorio Tudela",
+      "palabras": 362,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/pilar-de-la-horadada/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 364,
+      "categoria": "Tienda de electrónica",
+      "atributos": 0
+    },
+    {
+      "url": "/pontevedra/lalin/locutorio-noura",
+      "nombre": "Locutorio Noura",
+      "palabras": 364,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/toledo/numancia-de-la-sagra/india-post",
+      "nombre": "India Post",
+      "palabras": 364,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/lleida/mollerussa/locutorio-baha",
+      "nombre": "Locutorio Baha",
+      "palabras": 365,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/huesca/belver-de-cinca/mamadou-tabara-diallo",
+      "nombre": "Mamadou Tábara Diallo",
+      "palabras": 366,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/san-bartolome-de-tirajana/click-world",
+      "nombre": "Click World",
+      "palabras": 369,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/granada/granada/remesas-y-comunicaciones",
+      "nombre": "Remesas Y Comunicaciones",
+      "palabras": 370,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/santa-cruz-de-tenerife/san-isidro/locutorio-san-isidro",
+      "nombre": "LOCUTORIO SAN ISIDRO",
+      "palabras": 373,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/zaragoza/zaragoza/peluqueria-y-locutorio-sisane",
+      "nombre": "Peluquería y Locutorio Sisane",
+      "palabras": 374,
+      "categoria": "Peluquería",
+      "atributos": 5
+    },
+    {
+      "url": "/ciudad-real/manzanares/locutorio-la-paraguaya",
+      "nombre": "Locutorio La Paraguaya",
+      "palabras": 375,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/santa-coloma-de-gramenet/badalinks",
+      "nombre": "Badalinks",
+      "palabras": 377,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/almeria/roquetas-de-mar/locutorio-prim",
+      "nombre": "LOCUTORIO PRIM",
+      "palabras": 378,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/malaga/comercial-noisew-sl",
+      "nombre": "Comercial Noisew Sl",
+      "palabras": 380,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/girona/sant-pere-pescador/moneygram",
+      "nombre": "MoneyGram",
+      "palabras": 382,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/barcelona/barcelona/total-tech-international-s-l",
+      "nombre": "Total Tech International S L",
+      "palabras": 384,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/esplugues-de-llobregat/locutorio-galvany",
+      "nombre": "Locutorio Galvany",
+      "palabras": 385,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/alicante/locutorio-ali-center",
+      "nombre": "Locutorio Ali Center",
+      "palabras": 386,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/barcelona/telesferic-comunicacions-s-l",
+      "nombre": "Telesfèric Comunicacions S.L.",
+      "palabras": 386,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/canovelles/kebe-ndiaye-ousmane",
+      "nombre": "Kebe Ndiaye, Ousmane",
+      "palabras": 388,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/huelva/lepe/locutorio-adil-lepe",
+      "nombre": "Locutorio Adil Lepe",
+      "palabras": 388,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/locutorio-achakar",
+      "nombre": "Locutorio Achakar",
+      "palabras": 389,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/manresa/cyberphonic",
+      "nombre": "CyberPhonic",
+      "palabras": 390,
+      "categoria": "Locutorio",
+      "atributos": 4
+    },
+    {
+      "url": "/salamanca/salamanca/locutorio-los-gemelos",
+      "nombre": "Locutorio los Gemelos",
+      "palabras": 390,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/gandia/locutorio-punto-clave",
+      "nombre": "Locutorio Punto Clavé",
+      "palabras": 390,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/gipuzkoa/donostia-san-sebastian/locutorio-2",
+      "nombre": "Locutorio 2",
+      "palabras": 392,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/murcia/locutorio-del-contrato",
+      "nombre": "Locutorio del contrato",
+      "palabras": 393,
+      "categoria": "Urbanización",
+      "atributos": 0
+    },
+    {
+      "url": "/teruel/teruel/locutorio-lifran",
+      "nombre": "Locutorio Lifran",
+      "palabras": 393,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-centro-de-servicios",
+      "nombre": "Locutorio Centro de Servicios",
+      "palabras": 393,
+      "categoria": "Tienda de electrónica",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/callosa-d-en-sarria/locutorio-telefonico-latinos-2000-s-l",
+      "nombre": "Locutorio Telefonico Latinos 2000 S.L",
+      "palabras": 394,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/sant-feliu-de-llobregat/locutori-said",
+      "nombre": "Locutori Saïd",
+      "palabras": 394,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/alicante/crevillent/locutorio-tarik",
+      "nombre": "Locutorio Tarik",
+      "palabras": 395,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/girona/girona/locutori-internet-fotocopies",
+      "nombre": "LOCUTORI- INTERNET - FOTOCÒPIES",
+      "palabras": 395,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/locutorio-tanger-internet-fax",
+      "nombre": "Locutorio Tanger Internet Fax",
+      "palabras": 395,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/inca/locutorio-karim",
+      "nombre": "Locutorio Karim",
+      "palabras": 395,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/colmenar-viejo/locutorio-isabelita",
+      "nombre": "Locutorio Isabelita",
+      "palabras": 395,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/barcelona/vallirana/valli-movils",
+      "nombre": "VALLI MOVILS",
+      "palabras": 396,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/navarra/castejon/nabil-ajilal",
+      "nombre": "NABIL AJILAL",
+      "palabras": 396,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/almeria/roquetas-de-mar/locutorio-internet-cafe",
+      "nombre": "Locutorio Internet Café",
+      "palabras": 397,
+      "categoria": "Comercio",
+      "atributos": 1
+    },
+    {
+      "url": "/araba-alava/vitoria-gasteiz/diale-comunicaciones",
+      "nombre": "DIALE COMUNICACIONES",
+      "palabras": 398,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/durango/locutorio-hoberena",
+      "nombre": "Locutorio Hoberena",
+      "palabras": 398,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/huesca/huesca/driss-bouchala",
+      "nombre": "Driss Bouchala",
+      "palabras": 398,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/madrid/madrid/solaiman-gazi-khatun",
+      "nombre": "Solaiman Gazi Khatun",
+      "palabras": 399,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-cyber",
+      "nombre": "Locutorio cyber",
+      "palabras": 400,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/madrid/locutorio-la-cochalita",
+      "nombre": "Locutorio La Cochalita",
+      "palabras": 402,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/gipuzkoa/azkoitia/locutorio-pak",
+      "nombre": "Locutorio Pak",
+      "palabras": 403,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/arrecife/tarmassi-sara",
+      "nombre": "Tarmassi, Sara",
+      "palabras": 404,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/madrid/lycamobile-geomil-ria-locutorio",
+      "nombre": "Lycamobile Geomil Ria Locutorio",
+      "palabras": 404,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/malaga/ciber-locutorio-sin-frontera",
+      "nombre": "Ciber - Locutorio Sin Frontera",
+      "palabras": 404,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-khalil",
+      "nombre": "Locutorio Khalil",
+      "palabras": 404,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/arlo-locutorio",
+      "nombre": "Arlo Locutorio",
+      "palabras": 404,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/barcelona/data-locutorio-cadi-33",
+      "nombre": "Data Locutorio Cadi 33",
+      "palabras": 406,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/locutorio-ms",
+      "nombre": "Locutorio Ms",
+      "palabras": 406,
+      "categoria": "Copistería",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/locutorio-omar",
+      "nombre": "LOCUTORIO OMAR",
+      "palabras": 407,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/lorca/mar-rojo",
+      "nombre": "Mar rojo",
+      "palabras": 408,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/locutorio-faty",
+      "nombre": "Locutorio Faty",
+      "palabras": 409,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/ria-money-transfer-money-gram",
+      "nombre": "Ria money transfer, Money Gram",
+      "palabras": 409,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/alicante/benidorm/locutorio-e-internet-sarwan-enterprise-s-l",
+      "nombre": "Locutorio E Internet Sarwan Enterprise, S.L.",
+      "palabras": 410,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/madrid/locutorio-vazquez-mella",
+      "nombre": "Locutorio Vázquez Mella",
+      "palabras": 410,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/pamplona/locutorio-kaki",
+      "nombre": "LOCUTORIO KAKI",
+      "palabras": 410,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/barcelona/locutorio-girona",
+      "nombre": "Locutorio Girona",
+      "palabras": 411,
+      "categoria": "Agencia inmobiliaria",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/cerdanyola-del-valles/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 411,
+      "categoria": "Servicio de tecnología de eventos",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/locutorio-ciber-africa",
+      "nombre": "Locutorio Ciber-Africa",
+      "palabras": 411,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/totana/pak-locutorio",
+      "nombre": "Pak Locutorio",
+      "palabras": 411,
+      "categoria": "Comercio",
+      "atributos": 1
+    },
+    {
+      "url": "/illes-balears/manacor/locutorio-rif",
+      "nombre": "Locutorio rif",
+      "palabras": 412,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/pamplona/locutorio-olite",
+      "nombre": "Locutorio Olite",
+      "palabras": 412,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/santa-cruz-de-tenerife/adeje/locutorio-minimarket-babsahara",
+      "nombre": "Locutorio Minimarket Babsahara",
+      "palabras": 412,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/bizkaia/bilbao/locutorio-3",
+      "nombre": "Locutorio",
+      "palabras": 414,
+      "categoria": "Tienda de electrónica",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/bilbao/mobile-city",
+      "nombre": "MOBILE CITY",
+      "palabras": 414,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/bilbao/locutorio-euskadi",
+      "nombre": "Locutorio Euskadi",
+      "palabras": 415,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/xativa/locutorio-pere-iv",
+      "nombre": "Locutorio Pere Iv",
+      "palabras": 415,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/castellon/benicarlo/habbi-locutorio",
+      "nombre": "habbi Locutorio",
+      "palabras": 416,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/las-palmas-de-gran-canaria/locutorio-habana",
+      "nombre": "Locutorio Habana",
+      "palabras": 416,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/calatayud/locutorio-ayud",
+      "nombre": "LOCUTORIO AYUD",
+      "palabras": 416,
+      "categoria": "Tienda de electrónica",
+      "atributos": 3
+    },
+    {
+      "url": "/alicante/alicante/titanes-locutorio",
+      "nombre": "Titanes Locutorio",
+      "palabras": 417,
+      "categoria": "Cibercafé",
+      "atributos": 2
+    },
+    {
+      "url": "/barcelona/l-hospitalet-de-llobregat/locutorio-choudhry",
+      "nombre": "Locutorio Choudhry",
+      "palabras": 418,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/madrid/boadilla-del-monte/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 418,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/el-algar/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 418,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/ciber-locutorio",
+      "nombre": "Ciber Locutorio",
+      "palabras": 418,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/sabadell/locutorio-sabadell",
+      "nombre": "LOCUTORIO SABADELL",
+      "palabras": 419,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/lleida/mollerussa/locutorio-sara",
+      "nombre": "LOCUTORIO SARA",
+      "palabras": 419,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/murcia/locutorio-gouaida",
+      "nombre": "Locutorio Gouaida",
+      "palabras": 419,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/barcelona/sant-celoni/moneygram",
+      "nombre": "MoneyGram",
+      "palabras": 421,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/cantabria/torrelavega/locutorioamigos",
+      "nombre": "locutorioamigos",
+      "palabras": 421,
+      "categoria": "Tienda de alimentación",
+      "atributos": 2
+    },
+    {
+      "url": "/malaga/san-luis-de-sabinillas/locutorio-mundo-movil",
+      "nombre": "Locutorio mundo movil",
+      "palabras": 422,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/cantabria/santander/western-union",
+      "nombre": "Western union",
+      "palabras": 423,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/el-ejido/locutorio-elias",
+      "nombre": "Locutorio Elias",
+      "palabras": 424,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/badajoz/almendralejo/locutorio-y-alimentos-telemo",
+      "nombre": "Locutorio y Alimentos TELEMO",
+      "palabras": 424,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/locutorio-granada-norte",
+      "nombre": "Locutorio Granada Norte",
+      "palabras": 424,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/torrijos/locutorio-evolution",
+      "nombre": "Locutorio Evolution",
+      "palabras": 424,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/la-mojonera/locutorio-africa",
+      "nombre": "LOCUTORIO AFRICA",
+      "palabras": 425,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/murcia/locutorio-multiservicios-san-andres",
+      "nombre": "Locutorio Multiservicios San Andrés",
+      "palabras": 425,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/navarra/caparroso/locutorio-alimentacion-carniceria",
+      "nombre": "Locutorio Alimentación Carnicería",
+      "palabras": 425,
+      "categoria": "Carnicería",
+      "atributos": 1
+    },
+    {
+      "url": "/santa-cruz-de-tenerife/san-sebastian-de-la-gomera/locutorio-jhony-2",
+      "nombre": "Locutorio Jhony 2",
+      "palabras": 425,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/toledo/locutorio-7-13",
+      "nombre": "Locutorio 7.13",
+      "palabras": 425,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/cartagena/locutorio-aynaou",
+      "nombre": "Locutorio Aynaou",
+      "palabras": 427,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/el-ejido/locutorio-malak",
+      "nombre": "Locutorio Malak",
+      "palabras": 428,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/yecla/locutorio-riad",
+      "nombre": "Locutorio riad",
+      "palabras": 431,
+      "categoria": "Centro comercial",
+      "atributos": 1
+    },
+    {
+      "url": "/alicante/cocentaina/bazar-locutorio-sanoshi",
+      "nombre": "Bazar-Locutorio Sanoshi",
+      "palabras": 432,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/redovan/locutorio-los-paisas",
+      "nombre": "Locutorio Los Paisas",
+      "palabras": 432,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/guernica-y-luno/locutorio-pak-lasani",
+      "nombre": "Locutorio Pak Lasani",
+      "palabras": 432,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/murcia/locutorio-amal",
+      "nombre": "Locutorio amal",
+      "palabras": 432,
+      "categoria": "Oficinas de empresa",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/corella/locutorio-bazar",
+      "nombre": "Locutorio Bazar",
+      "palabras": 432,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/cullera/ria-locutorio-sufian",
+      "nombre": "Ria Locutorio Sufian",
+      "palabras": 432,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/ciudad-real/ciudad-real/dommarket2-locutorio",
+      "nombre": "DomMarket2 Locutorio",
+      "palabras": 433,
+      "categoria": "Locutorio",
+      "atributos": 4
+    },
+    {
+      "url": "/madrid/alcorcon/locutorio-musa",
+      "nombre": "locutorio Musa",
+      "palabras": 433,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/santa-cruz-de-tenerife/arona/raya-abid-majeed",
+      "nombre": "Raya Abid Majeed",
+      "palabras": 433,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/barbera-del-valles/ria-money-transfer-agent-payout",
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "palabras": 434,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/terrassa/lycamobile",
+      "nombre": "Lycamobile",
+      "palabras": 434,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/sevilla/sevilla/punto-nickel-locutorio-blanca-paloma-4",
+      "nombre": "Punto Nickel - LOCUTORIO BLANCA PALOMA 4",
+      "palabras": 434,
+      "categoria": "Cajeros automáticos",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/pineda-de-mar/locutorio-gambiano",
+      "nombre": "Locutorio Gambiano",
+      "palabras": 435,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/lleida/lleida/locutori-huracan",
+      "nombre": "Locutori Huracán",
+      "palabras": 435,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/collado-villalba/locutorio-de-alimentacion-donde-wayner-jessi",
+      "nombre": "Locutorio de alimentación donde Wayner & Jessi",
+      "palabras": 435,
+      "categoria": "Tienda de alimentación",
+      "atributos": 1
+    },
+    {
+      "url": "/badajoz/merida/locutorio-cerca",
+      "nombre": "Locutorio cerca",
+      "palabras": 436,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/sevilla/locutorio-ray",
+      "nombre": "LOCUTORIO RAY",
+      "palabras": 436,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/la-rapita/locutorio-la-rapita",
+      "nombre": "locutorio la rapita",
+      "palabras": 436,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/vic/moneygram-2",
+      "nombre": "MoneyGram",
+      "palabras": 438,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/marriaga-escorcia-s-l",
+      "nombre": "Marriaga Escorcia S.L.",
+      "palabras": 438,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/murcia/murcia/locutorio-miriam",
+      "nombre": "Locutorio Miriam",
+      "palabras": 438,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/reus/locutorio-moneygram",
+      "nombre": "locutorio moneygram",
+      "palabras": 439,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/talavera-de-la-reina/locutorio-papeleria-tanger",
+      "nombre": "Locutorio papeleria tanger",
+      "palabras": 439,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/barcelona/montcada-i-reixac/wahid-naveed-m-b-din-s-l",
+      "nombre": "Wahid Naveed M B Din S L",
+      "palabras": 440,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/arganda-del-rey/locutorio-bla-bla-bla",
+      "nombre": "Locutorio Bla Bla Bla",
+      "palabras": 440,
+      "categoria": "Centro de llamadas",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/marbella/mohamed-belaribia",
+      "nombre": "Mohamed Belaribia",
+      "palabras": 440,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/algorta/ciber-locutorio-iberoamerica",
+      "nombre": "Ciber Locutorio Iberoamerica",
+      "palabras": 441,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-guacamaya",
+      "nombre": "LOCUTORIO GUACAMAYA",
+      "palabras": 441,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/araba-alava/vitoria-gasteiz/locutorio-serigne-babacar",
+      "nombre": "LOCUTORIO SERIGNE BABACAR",
+      "palabras": 442,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/manresa/amazon-hub-counter-locutorio-hosni",
+      "nombre": "Amazon Hub Counter - LOCUTORIO HOSNI",
+      "palabras": 442,
+      "categoria": "Servicio de mensajería",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/locutorio-nuevo-ecuador",
+      "nombre": "Locutorio Nuevo Ecuador",
+      "palabras": 442,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/safe-money-transfer",
+      "nombre": "Safe money transfer",
+      "palabras": 442,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/locutorio-internet-libracion-y-venta-de-moviles",
+      "nombre": "Locutorio Internet Libracion y Venta De Moviles",
+      "palabras": 442,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/madrid/parla/locutorio-juan-colombo",
+      "nombre": "Locutorio Juan Colombo",
+      "palabras": 442,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/punto-nickel-locutorio-ricardo-ortega",
+      "nombre": "Punto Nickel - LOCUTORIO RICARDO ORTEGA",
+      "palabras": 443,
+      "categoria": "Cajeros automáticos",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/asian-pacific-locutorio-internet",
+      "nombre": "Asian Pacific - Locutorio Internet",
+      "palabras": 443,
+      "categoria": "Tienda de móviles",
+      "atributos": 1
+    },
+    {
+      "url": "/cantabria/santander/locutorio-dakar",
+      "nombre": "Locutorio Dakar",
+      "palabras": 444,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/arrecife/zayou-mahmud",
+      "nombre": "Zayou Mahmud",
+      "palabras": 444,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/lorca/locutorio-atlas-lorca",
+      "nombre": "LOCUTORIO ATLAS LORCA",
+      "palabras": 444,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/santa-coloma-de-gramenet/locutorio-el-paisa-2",
+      "nombre": "Locutorio El Paisa 2",
+      "palabras": 445,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/fuenlabrada/locutorio-ali-haidar",
+      "nombre": "Locutorio Alí Haidar",
+      "palabras": 445,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/locutorio-malek",
+      "nombre": "LOCUTORIO MALEK",
+      "palabras": 445,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/sevilla/locutorio-blanca-paloma",
+      "nombre": "Locutorio Blanca Paloma",
+      "palabras": 445,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/asturias/oviedo/el-avila-locutorio",
+      "nombre": "El Avila Locutorio",
+      "palabras": 446,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/campohermoso/pak-global-telecom-s-l",
+      "nombre": "Pak Global Telecom S.L.",
+      "palabras": 447,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/murcia/locutorio-el-shaday",
+      "nombre": "Locutorio El Shaday",
+      "palabras": 447,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/la-rioja/logrono/locutorio-mi-patria-querida",
+      "nombre": "Locutorio Mi Patria Querida",
+      "palabras": 448,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/locutorio-e-internet",
+      "nombre": "Locutorio e Internet",
+      "palabras": 448,
+      "categoria": "Servicio de limpieza",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/torremolinos/ouadid-zineb",
+      "nombre": "Ouadid Zineb",
+      "palabras": 448,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/recas/locutorio-recas",
+      "nombre": "Locutorio Recas",
+      "palabras": 448,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/jumilla/locutorio-intercontinental",
+      "nombre": "Locutorio Intercontinental",
+      "palabras": 449,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/alicante/asoc-lirico-musicalciudad-de-ali",
+      "nombre": "Asoc.Lirico Musicalciudad de Alí",
+      "palabras": 450,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/asturias/gijon/el-deportivo",
+      "nombre": "El Deportivo",
+      "palabras": 450,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/cornella-de-llobregat/locutorio-internet",
+      "nombre": "Locutorio Internet",
+      "palabras": 450,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/locutorio-el-molino",
+      "nombre": "Locutorio El Molino",
+      "palabras": 450,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/granada/baza/locutorio-ideal",
+      "nombre": "Locutorio ideal",
+      "palabras": 450,
+      "categoria": "Servicio de comercio electrónico",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/locutorio-usman-ii",
+      "nombre": "Locutorio Usman ii",
+      "palabras": 450,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/santa-coloma-de-gramenet/shahid-mehmood-siddique-baguam",
+      "nombre": "Shahid Mehmood Siddique Baguam",
+      "palabras": 451,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/albunol/alimentacion-bazar-locutorio",
+      "nombre": "Alimentación Bazar Locutorio",
+      "palabras": 451,
+      "categoria": "Tienda general",
+      "atributos": 2
+    },
+    {
+      "url": "/navarra/cintruenigo/locutorio-cintruenigo",
+      "nombre": "Locutorio Cintruénigo",
+      "palabras": 451,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/tarragona/roquetes/locutorio-monte-caro",
+      "nombre": "LOCUTORIO Monte Caro",
+      "palabras": 451,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/al-ahsan-locutorio",
+      "nombre": "Al-Ahsan Locutorio",
+      "palabras": 451,
+      "categoria": "Oficina de cambio de divisas",
+      "atributos": 1
+    },
+    {
+      "url": "/alicante/cocentaina/comunidad-de-bienes-fartbotis",
+      "nombre": "Comunidad De Bienes Fartbotis",
+      "palabras": 452,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/manresa/rachid-locutorio",
+      "nombre": "Rachid Locutorio",
+      "palabras": 452,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/coslada/locutorio-cristina-envio-de-dinero",
+      "nombre": "Locutorio Cristina. Envío de Dinero",
+      "palabras": 452,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/molina-de-segura/locutorioamigo",
+      "nombre": "locutorioamigo",
+      "palabras": 452,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/elmar-locutorio",
+      "nombre": "Elmar Locutorio",
+      "palabras": 452,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/albacete/la-roda/locutorio-el-habib",
+      "nombre": "Locutorio El Habib",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/villajoyosa/eurolatino",
+      "nombre": "Eurolatino",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/granollers/locutori-internet",
+      "nombre": "Locutori @ Internet",
+      "palabras": 453,
+      "categoria": "Agencia de viajes",
+      "atributos": 1
+    },
+    {
+      "url": "/girona/lloret-de-mar/audifonos-y-telefonos-s-l",
+      "nombre": "Audifonos y Teléfonos S.L.",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/locutorio-lafayda",
+      "nombre": "Locutorio Lafayda",
+      "palabras": 453,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/ibiza/locutorio-el-puerto",
+      "nombre": "Locutorio El Puerto",
+      "palabras": 453,
+      "categoria": "Almacén",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/servitran-sanits",
+      "nombre": "Servitran Sanits",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/alhaurin-de-la-torre/rusadir-i",
+      "nombre": "Rusadir.I",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/san-pedro-del-pinatar/locutorio-oumay",
+      "nombre": "locutorio oumay",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/toledo/navahermosa/western-union",
+      "nombre": "Western Union",
+      "palabras": 453,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/locutorio-steve-mec",
+      "nombre": "Locutorio Steve Mec",
+      "palabras": 453,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/areeta-las-arenas/locutorio-union-latina-s-l",
+      "nombre": "locutorio unión latina S.L",
+      "palabras": 454,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/burgos/burgos/locutorio-best-gujrat-moneygram",
+      "nombre": "Locutorio Best Gujrat Moneygram",
+      "palabras": 454,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/manlleu/locutorio-arrahma-manlleu",
+      "nombre": "Locutorio Arrahma Manlleu",
+      "palabras": 455,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/san-vicente-de-barakaldo/muriel",
+      "nombre": "Muriel",
+      "palabras": 455,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/cuenca/quintanar-del-rey/locutorio-amine",
+      "nombre": "Locutorio Amine",
+      "palabras": 455,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/inca/locutorio-comunik-t",
+      "nombre": "Locutorio Comunik T",
+      "palabras": 455,
+      "categoria": "Proveedor de servicios de telecomunicaciones",
+      "atributos": 2
+    },
+    {
+      "url": "/toledo/noblejas/locutorio-moulay",
+      "nombre": "Locutorio Moulay",
+      "palabras": 455,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/barcelona/umar-2-locutorio-e-internet",
+      "nombre": "Umar 2 Locutorio e Internet",
+      "palabras": 456,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/locutorio-yomonha-telecom",
+      "nombre": "Locutorio Yomonha Telecom",
+      "palabras": 456,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/madrid/madrid/locutorio-vanessa",
+      "nombre": "LOCUTORIO VANESSA",
+      "palabras": 456,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/valencia/algemesi/locutorio-los-amigos",
+      "nombre": "Locutorio Los Amigos",
+      "palabras": 456,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/cervello/triaple-2-s-l",
+      "nombre": "Triaple 2, S.L.",
+      "palabras": 457,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/ventas-de-zafarraya/locutorio-abassi",
+      "nombre": "Locutorio Abassi",
+      "palabras": 457,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/lleida/lleida/aymen-locutorio-2015-sl",
+      "nombre": "Aymen Locutorio 2015 Sl.",
+      "palabras": 457,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/santa-cruz-de-tenerife/arona/locutorio-interconecta",
+      "nombre": "Locutorio interconecta",
+      "palabras": 457,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/locutorio-las-americas-1",
+      "nombre": "locutorio las americas 1",
+      "palabras": 458,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/murcia/molina-de-segura/locutorio-alimentacion-mi-tierra",
+      "nombre": "Locutorio & Alimentación Mi Tierra",
+      "palabras": 458,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/bizkaia/bilbao/puntocom-western",
+      "nombre": "Puntocom western",
+      "palabras": 459,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/burgos/burgos/america-locutorio",
+      "nombre": "América locutorio",
+      "palabras": 459,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/murcia/murcia/locutorio-lina",
+      "nombre": "Locutorio Lina",
+      "palabras": 459,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/locutorio-estrella",
+      "nombre": "Locutorio Estrella",
+      "palabras": 459,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/barcelona/b-k-international-europe-p",
+      "nombre": "B K International Europe P",
+      "palabras": 460,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/sevilla/locutorio-albarak",
+      "nombre": "Locutorio albarak",
+      "palabras": 460,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/cadiz/el-puerto-de-sta-maria/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 461,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/cyber-locutorio",
+      "nombre": "Cyber Locutorio",
+      "palabras": 461,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/huelva/lucena-del-puerto/bazar-locutorio",
+      "nombre": "bazar locutorio",
+      "palabras": 462,
+      "categoria": "Bazar",
+      "atributos": 1
+    },
+    {
+      "url": "/illes-balears/cala-ratjada/locutorio-cala-ratjada-supermercado-latino",
+      "nombre": "Locutorio Cala Ratjada (Supermercado Latino)",
+      "palabras": 463,
+      "categoria": "Tienda de alimentación",
+      "atributos": 3
+    },
+    {
+      "url": "/las-palmas/puerto-del-rosario/luigi-locutorio",
+      "nombre": "Luigi Locutorio",
+      "palabras": 463,
+      "categoria": "Tienda de alimentación",
+      "atributos": 3
+    },
+    {
+      "url": "/madrid/madrid/locutorio-sami",
+      "nombre": "Locutorio Sami",
+      "palabras": 463,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/locutorio-la-red",
+      "nombre": "Locutorio La Red",
+      "palabras": 463,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/montblanc/locutorio-la-conca",
+      "nombre": "LOCUTORIO LA CONCA",
+      "palabras": 463,
+      "categoria": "Tienda de electrónica",
+      "atributos": 1
+    },
+    {
+      "url": "/valencia/valencia/locutorio-sye1",
+      "nombre": "Locutorio Sye1",
+      "palabras": 463,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-rincon-nica",
+      "nombre": "LOCUTORIO Rincon Nica",
+      "palabras": 463,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/locutorio-latinos",
+      "nombre": "Locutorio Latinos",
+      "palabras": 465,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/lleida/soses/aymane-locutorio",
+      "nombre": "AYMANE LOCUTORIO",
+      "palabras": 465,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/locutorio-samantha-10",
+      "nombre": "Locutorio Samantha 10",
+      "palabras": 465,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/mostoles/locutorio-internet-2",
+      "nombre": "locutorio internet 2",
+      "palabras": 465,
+      "categoria": "Tienda de móviles",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/velilla-de-san-antonio/locutorio-mounir",
+      "nombre": "Locutorio Mounir",
+      "palabras": 465,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/malaga/locutorio-la-union",
+      "nombre": "Locutorio La Unión",
+      "palabras": 465,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/almeria/lebara-mil-locutorio-dream",
+      "nombre": "Lebara Mil Locutorio Dream",
+      "palabras": 466,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/huesca/huesca/munana-y-fili",
+      "nombre": "Munana y Fili",
+      "palabras": 466,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/murcia/jumilla/locutorio-multiservicios-mi-tierra-2-europhil-ria-monty-mony",
+      "nombre": "LOCUTORIO MULTISERVICIOS MI TIERRA 2. EUROPHIL. RIA .MONTY .MONY",
+      "palabras": 466,
+      "categoria": "Locutorio",
+      "atributos": 6
+    },
+    {
+      "url": "/valencia/gandia/k2-super-express",
+      "nombre": "K2 SUPER EXPRESS",
+      "palabras": 466,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/barcelona/barcelona/ria-money-transfer-agent",
+      "nombre": "Ria Money Transfer Agent",
+      "palabras": 467,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/premia-de-mar/locutorio-cottet",
+      "nombre": "Locutorio Cottet",
+      "palabras": 467,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/guadalajara/guadalajara/alimentacion-frutos-secos-y-locutorio",
+      "nombre": "Alimentacion Frutos Secos y Locutorio",
+      "palabras": 467,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/huelva/bollullos-par-del-condado/india-post",
+      "nombre": "India Post",
+      "palabras": 467,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/huelva/lepe/locutorio-hadj",
+      "nombre": "Locutorio Hadj",
+      "palabras": 467,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/pamplona/locutorio-los-primos",
+      "nombre": "Locutorio Los Primos",
+      "palabras": 467,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/lleida/solsona/locutori-solsona",
+      "nombre": "Locutori Solsona",
+      "palabras": 468,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/amazon-hub-counter-locutorio-jlm",
+      "nombre": "Amazon Hub Counter - LOCUTORIO JLM",
+      "palabras": 468,
+      "categoria": "Servicio de mensajería",
+      "atributos": 1
+    },
+    {
+      "url": "/malaga/marbella/locutorio-moultazam-darou-khalifa-mini-market",
+      "nombre": "Locutorio Moultazam Darou Khalifa Mini Market",
+      "palabras": 468,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/girona/banyoles/western-union",
+      "nombre": "Western Union",
+      "palabras": 469,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/bureau-de-change-magalluf-s-l",
+      "nombre": "Bureau De Change Magalluf S L",
+      "palabras": 469,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/estepona/locutorio-no-solo",
+      "nombre": "Locutorio No solo",
+      "palabras": 469,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/melilla/melilla/locutorio-kato",
+      "nombre": "LOCUTORIO KATO",
+      "palabras": 469,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/almeria/la-mojonera/locutorio-amaya",
+      "nombre": "LOCUTORIO AMAYA",
+      "palabras": 470,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/l-hospitalet-de-llobregat/raja-ahmed-kamal",
+      "nombre": "Raja Ahmed Kamal",
+      "palabras": 470,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/cordoba/cordoba/khalid-mahmood",
+      "nombre": "Khalid Mahmood",
+      "palabras": 470,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/tarragona/tarragona/amal-phone-locutorio",
+      "nombre": "Amal Phone Locutorio",
+      "palabras": 470,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/toledo/toledo/mapicar",
+      "nombre": "Mapicar",
+      "palabras": 470,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/mislata/moazam-locutorio",
+      "nombre": "Moazam Locutorio",
+      "palabras": 470,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/alicante/amazon-hub-counter-locutorio-el-djazair",
+      "nombre": "Amazon Hub Counter - LOCUTORIO EL DJAZAIR",
+      "palabras": 471,
+      "categoria": "Servicio de mensajería",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/madrid/parada-amarilla-locutorios-2",
+      "nombre": "Parada Amarilla Locutorios",
+      "palabras": 471,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/navarra/tudela/locutorio-y-asesoria-de-tudela",
+      "nombre": "LOCUTORIO Y ASESORIA DE TUDELA",
+      "palabras": 471,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/ourense/o-carballino/locutorio-mi-pais",
+      "nombre": "Locutorio mi país",
+      "palabras": 471,
+      "categoria": "Tienda de alimentación",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/buy-sim-card",
+      "nombre": "Buy Sim Card",
+      "palabras": 471,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/alicante/alicante/locutorio-farah",
+      "nombre": "Locutorio Farah",
+      "palabras": 472,
+      "categoria": "Tienda de alimentación",
+      "atributos": 3
+    },
+    {
+      "url": "/castellon/l-alcora/ciber-locutorio",
+      "nombre": "Ciber locutorio",
+      "palabras": 472,
+      "categoria": "Tienda de alimentación",
+      "atributos": 2
+    },
+    {
+      "url": "/la-rioja/logrono/locutorio-butt",
+      "nombre": "LOCUTORIO BUTT &",
+      "palabras": 472,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/arrecife/seirella-gestiones-y-servicios",
+      "nombre": "Seirella gestiones y servicios",
+      "palabras": 472,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/crevillent/locutorio-crevillente",
+      "nombre": "Locutorio Crevillente",
+      "palabras": 473,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/l-hospitalet-de-llobregat/locutorio-barcelona",
+      "nombre": "Locutorio Barcelona",
+      "palabras": 473,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/piera/ali-khan-nawaz",
+      "nombre": "Alí Khan Nawaz",
+      "palabras": 473,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/cadiz/jerez-de-la-frontera/j-v-comunicaciones-publicas",
+      "nombre": "J.V. Comunicaciones Públicas",
+      "palabras": 473,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/joldina-locutorios-7",
+      "nombre": "Joldina Locutorios",
+      "palabras": 473,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 1
+    },
+    {
+      "url": "/valencia/valencia/locutorio-del-barrio-de-desamparados",
+      "nombre": "LOCUTORIO DEL BARRIO DE DESAMPARADOS",
+      "palabras": 473,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/madrid/parla/shani-locutorio",
+      "nombre": "Shani Locutorio",
+      "palabras": 474,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/alicante/punto-nickel-ciber-locutorio-altozano",
+      "nombre": "Punto Nickel - CIBER LOCUTORIO ALTOZANO",
+      "palabras": 475,
+      "categoria": "Cajeros automáticos",
+      "atributos": 1
+    },
+    {
+      "url": "/sevilla/sevilla/locutorio-y-mas-b-b",
+      "nombre": "Locutorio y Más B&B",
+      "palabras": 475,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 4
+    },
+    {
+      "url": "/valencia/ontinyent/locutorio-rif",
+      "nombre": "Locutorio Rif",
+      "palabras": 475,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/robert-locutorio-envios-de-dinero-san-cristobal",
+      "nombre": "Robert Locutorio Envios de Dinero San Cristobal",
+      "palabras": 476,
+      "categoria": "Locutorio",
+      "atributos": 4
+    },
+    {
+      "url": "/guadalajara/azuqueca-de-henares/locutorio-azuqueca-comendador",
+      "nombre": "Locutorio Azuqueca Comendador",
+      "palabras": 477,
+      "categoria": "Cafetería",
+      "atributos": 11
+    },
+    {
+      "url": "/madrid/madrid/paqueteria-y-locutorio-alma-hn-504",
+      "nombre": "Paqueteria y locutorio Alma HN 504",
+      "palabras": 477,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/albacete/albacete/india-post",
+      "nombre": "India Post",
+      "palabras": 478,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/denia/ministorexpress",
+      "nombre": "Ministorexpress",
+      "palabras": 478,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/asturias/vegadeo/telecentro-vegadeo",
+      "nombre": "Telecentro Vegadeo",
+      "palabras": 478,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/madrid/locutorio-danilo",
+      "nombre": "Locutorio danilo",
+      "palabras": 478,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/murcia/lorca/locutorio-geomil-n-7",
+      "nombre": "Locutorio Geomil N° 7",
+      "palabras": 478,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/caparroso/locutorio-internacional",
+      "nombre": "Locutorio Internacional",
+      "palabras": 478,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/reus/miri-multiservicios",
+      "nombre": "Miri multiservicios",
+      "palabras": 478,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/illes-balears/santa-eularia-des-riu/moneygram",
+      "nombre": "MoneyGram",
+      "palabras": 479,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/palencia/palencia/locutorio-el-habib-ii",
+      "nombre": "Locutorio EL HABIB II",
+      "palabras": 479,
+      "categoria": "Tienda de electrónica",
+      "atributos": 1
+    },
+    {
+      "url": "/salamanca/bejar/doctor-mohamed-salman-ahmad",
+      "nombre": "Doctor Mohamed Salman Ahmad",
+      "palabras": 479,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/locutorio-telefonico",
+      "nombre": "Locutorio Telefonico",
+      "palabras": 479,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/pedrola/ciber-locutorio-m-a",
+      "nombre": "Ciber Locutorio M & A",
+      "palabras": 479,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/torrevieja/great-multiservice",
+      "nombre": "GREAT MULTISERVICE",
+      "palabras": 480,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/malaga/las-lagunas-de-mijas/locutorio-mijas-net",
+      "nombre": "Locutorio Mijas Net",
+      "palabras": 480,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/lorca/money-exchange-agente",
+      "nombre": "Money Exchange Agente",
+      "palabras": 480,
+      "categoria": "Empresa",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/reus/ria-money-trans",
+      "nombre": "Ria money trans",
+      "palabras": 480,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/toledo/illescas/locutorio-irama-2",
+      "nombre": "Locutorio Irama 2",
+      "palabras": 480,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/sabadell/locutorio-h33",
+      "nombre": "LOCUTORIO H33",
+      "palabras": 481,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/vic/pattar-harinder",
+      "nombre": "Pattar Harinder",
+      "palabras": 481,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/gipuzkoa/errenteria/sabor-y-esencia",
+      "nombre": "Sabor y Esencia",
+      "palabras": 481,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/huelva/lepe/locutorio-cheikh",
+      "nombre": "Locutorio CHEIKH",
+      "palabras": 481,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/arrecife/locutorio",
+      "nombre": "Locutorio",
+      "palabras": 481,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/murcia/lorca/locutorio-alamo",
+      "nombre": "Locutorio ¨Álamo¨",
+      "palabras": 481,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/sevilla/tienda-y-locutorio-melita",
+      "nombre": "Tienda y locutorio melita",
+      "palabras": 481,
+      "categoria": "Tienda de alimentación",
+      "atributos": 3
+    },
+    {
+      "url": "/tarragona/cambrils/cambrils",
+      "nombre": "CAMBRILS",
+      "palabras": 481,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/barcelona/cornella-de-llobregat/locutori-redouan",
+      "nombre": "Locutori Redouan",
+      "palabras": 482,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/bizkaia/bilbao/ria-star",
+      "nombre": "Ria Star",
+      "palabras": 482,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/malaga/malaga/el-ghazouani",
+      "nombre": "El Ghazouani",
+      "palabras": 482,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/burgos/aranda-de-duero/locutoriozarata",
+      "nombre": "locutoriozarata",
+      "palabras": 483,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/gipuzkoa/lasarte/locutorio-nicaraguense",
+      "nombre": "Locutorio Nicaragüense",
+      "palabras": 483,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/inca/locutorio-comercial-africano",
+      "nombre": "LOCUTORIO COMERCIAL AFRICANO",
+      "palabras": 483,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/ria-money-transfer-agent-payout-2",
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "palabras": 483,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/alcantarilla/ciber-locutorio-brian",
+      "nombre": "Ciber Locutorio Brian",
+      "palabras": 483,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/navarra/pamplona/meza-fluvio-romeo",
+      "nombre": "Meza Fluvio Romeo",
+      "palabras": 483,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/alzira/locutorio-adriana",
+      "nombre": "Locutorio Adriana",
+      "palabras": 483,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/araba-alava/vitoria-gasteiz/locutorio-nabil",
+      "nombre": "Locutorio Nabil",
+      "palabras": 484,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/locutienda-latino",
+      "nombre": "Locutienda Latino",
+      "palabras": 484,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/cantabria/san-vicente-de-la-barquera/ria-money-transfer-agent-payout",
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "palabras": 484,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/l-ametlla-de-mar/western-union",
+      "nombre": "Western Union",
+      "palabras": 484,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/xeraco/locutorio-ronda",
+      "nombre": "Locutorio Ronda",
+      "palabras": 484,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/jaen/ubeda/locutorio-ubeda",
+      "nombre": "LOCUTORIO UBEDA",
+      "palabras": 485,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/mostoles/locutorio-bambuu",
+      "nombre": "LOCUTORIO BAMBUU",
+      "palabras": 485,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/elche/locutorio-latino-renjuandres",
+      "nombre": "Locutorio Latino Renjuandres",
+      "palabras": 486,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/punto-nickel-locutorio-deusto",
+      "nombre": "Punto Nickel - LOCUTORIO DEUSTO",
+      "palabras": 486,
+      "categoria": "Cajeros automáticos",
+      "atributos": 1
+    },
+    {
+      "url": "/girona/blanes/euro-africa-p",
+      "nombre": "Euro África P",
+      "palabras": 486,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/illes-balears/palma/cyber-locutorio",
+      "nombre": "Cyber locutorio",
+      "palabras": 486,
+      "categoria": "Tienda de electrónica",
+      "atributos": 0
+    },
+    {
+      "url": "/illes-balears/palma/inter-link-locutorio",
+      "nombre": "Inter - Link Locutorio",
+      "palabras": 486,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/fuenlabrada/joldina-locutorios",
+      "nombre": "Joldina Locutorios",
+      "palabras": 486,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/palencia/palencia/serviphone",
+      "nombre": "Serviphone",
+      "palabras": 486,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/sevilla/brenes/locutorio-brenes",
+      "nombre": "Locutorio Brenes",
+      "palabras": 486,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/illes-balears/porto-cristo/ciber-locutorio-sultan",
+      "nombre": "Ciber Locutorio Sultan",
+      "palabras": 487,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-solucion-movil",
+      "nombre": "Locutorio Solución Móvil",
+      "palabras": 487,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/zaragoza/locutorio-assalam",
+      "nombre": "Locutorio Assalam",
+      "palabras": 487,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/gipuzkoa/errenteria/modou-diop-n-diaye",
+      "nombre": "Modou Diop N Diaye",
+      "palabras": 488,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/santa-cruz-de-tenerife/la-laguna/yuly-gonzalez-alvarez",
+      "nombre": "Yuly González Alvarez",
+      "palabras": 488,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/tarragona/salou/moneygram",
+      "nombre": "MoneyGram",
+      "palabras": 488,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/illescas/mas-locutorio",
+      "nombre": "Mas Locutorio",
+      "palabras": 488,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/elche/el-sahli-a",
+      "nombre": "El Sahli, A.",
+      "palabras": 489,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/torrevieja/carrier-enabler",
+      "nombre": "Carrier Enabler",
+      "palabras": 489,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/badalona/ria-money-transfer-agent-payout",
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "palabras": 489,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/bilbocomunik2",
+      "nombre": "Bilbocomunik2",
+      "palabras": 489,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/granada/granada/locutorio-mini-market-5-estrellas",
+      "nombre": "Locutorio mini market 5 estrellas",
+      "palabras": 489,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/granada/granada/locutorio-granata",
+      "nombre": "Locutorio granata",
+      "palabras": 489,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/lorca/small-world-fs-lorca",
+      "nombre": "Small World FS – Lorca",
+      "palabras": 489,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/la-puebla-de-montalban/locutorio-aduana",
+      "nombre": "Locutorio Aduana",
+      "palabras": 489,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/cantabria/maliano/locutorio-la-costenita",
+      "nombre": "LOCUTORIO LA COSTEÑITA",
+      "palabras": 490,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/madrid/madrid/euro-remesa",
+      "nombre": "Euro Remesa",
+      "palabras": 490,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/santa-maria-locutorio",
+      "nombre": "Santa Maria Locutorio",
+      "palabras": 490,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/bizkaia/durango/locutorio-norway-liberacion-de-moviles",
+      "nombre": "Locutorio Norway Liberación De Móviles",
+      "palabras": 491,
+      "categoria": "Comercio",
+      "atributos": 2
+    },
+    {
+      "url": "/jaen/andujar/mini-tienda",
+      "nombre": "Mini-Tienda",
+      "palabras": 491,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/lugo/lugo/locutorio-internacional",
+      "nombre": "Locutorio Internacional",
+      "palabras": 491,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/leganes/locutorio-phone-shop",
+      "nombre": "locutorio phone shop",
+      "palabras": 491,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/tarragona/mora-d-ebre/moneygram",
+      "nombre": "MoneyGram",
+      "palabras": 491,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/canovelles/locutorio-telegiros",
+      "nombre": "Locutorio Telegiros",
+      "palabras": 492,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/castellon/benicarlo/habibi-telecom",
+      "nombre": "HABIBI TELECOM",
+      "palabras": 492,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 1
+    },
+    {
+      "url": "/girona/figueres/moneygram-2",
+      "nombre": "MoneyGram",
+      "palabras": 492,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/puerto-del-rosario/bazar-ciber-locutorio-las-estrellas",
+      "nombre": "Bazar Ciber Locutorio Las Estrellas",
+      "palabras": 492,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/madrid/parla/locutorio-rooha",
+      "nombre": "Locutorio Rooha",
+      "palabras": 492,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/asturias/gijon/tienda-locutorio-d-s",
+      "nombre": "Tienda locutorio D&S",
+      "palabras": 493,
+      "categoria": "Tienda de alimentación",
+      "atributos": 2
+    },
+    {
+      "url": "/madrid/pozuelo-de-alarcon/locutorio-parada-amarilla-pozuelo",
+      "nombre": "Locutorio parada amarilla pozuelo",
+      "palabras": 493,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/navarra/aranarache/locutorios",
+      "nombre": "Locutorios",
+      "palabras": 493,
+      "categoria": "Tienda de artículos para el hogar",
+      "atributos": 0
+    },
+    {
+      "url": "/toledo/torrijos/western-union",
+      "nombre": "Western Union",
+      "palabras": 493,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 1
+    },
+    {
+      "url": "/valencia/gandia/locutorio-safor-3",
+      "nombre": "LOCUTORIO SAFOR 3",
+      "palabras": 493,
+      "categoria": "Exportació d'aliments i begudes",
+      "atributos": 1
+    },
+    {
+      "url": "/valladolid/valladolid/locutorio-a-b-servercom",
+      "nombre": "Locutorio A B Servercom",
+      "palabras": 493,
+      "categoria": "Soporte y servicios informáticos",
+      "atributos": 2
+    },
+    {
+      "url": "/badajoz/almendralejo/locutorio-bazar-kamilya",
+      "nombre": "Locutorio Bazar Kamilya",
+      "palabras": 494,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/bizkaia/arrigorriaga/moneygram",
+      "nombre": "MoneyGram",
+      "palabras": 494,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/ciudad-real/la-solana/locutorio-mir",
+      "nombre": "locutorio mir",
+      "palabras": 494,
+      "categoria": "Locutorio",
+      "atributos": 2
+    },
+    {
+      "url": "/lleida/guissona/locutori-guissona-internet",
+      "nombre": "Locutori Guissona Internet",
+      "palabras": 494,
+      "categoria": "Cibercafé",
+      "atributos": 0
+    },
+    {
+      "url": "/valencia/valencia/locutorio-aguila-dorada",
+      "nombre": "Locutorio Aguila Dorada",
+      "palabras": 494,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/zaragoza/alfamen/locutorio-bazar-alfamen",
+      "nombre": "Locutorio Bazar Alfamen",
+      "palabras": 494,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/badalona/no-tiene-moneygram",
+      "nombre": "no tiene MoneyGram",
+      "palabras": 495,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/rubi/euro-net-y-locutorio",
+      "nombre": "Euro Net Y Locutorio",
+      "palabras": 495,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bermeo/bermeolocutorio",
+      "nombre": "Bermeolocutorio",
+      "palabras": 495,
+      "categoria": "Estación de carga de teléfonos móviles",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/shan-locutorio-movil",
+      "nombre": "Shan locutorio movil",
+      "palabras": 495,
+      "categoria": "Tienda de móviles",
+      "atributos": 3
+    },
+    {
+      "url": "/madrid/torrejon-de-ardoz/neutralpoint-s-l",
+      "nombre": "Neutralpoint S.L.",
+      "palabras": 495,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/murcia/totana/unimundo-telecom",
+      "nombre": "Unimundo Telecom",
+      "palabras": 495,
+      "categoria": "Locutorio",
+      "atributos": 3
+    },
+    {
+      "url": "/tarragona/torredembarra/locutorio-la-torre",
+      "nombre": "LOCUTORIO LA TORRE",
+      "palabras": 495,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/sabadell/dua-locutorio",
+      "nombre": "Dua locutorio",
+      "palabras": 496,
+      "categoria": "Servicio de transferencias de dinero",
+      "atributos": 0
+    },
+    {
+      "url": "/granada/granada/cyber-locutorio-rayan",
+      "nombre": "Cyber Locutorio Rayan",
+      "palabras": 496,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/las-palmas/arrecife/locutorio-nador-minimarket",
+      "nombre": "locutorio nador minimarket",
+      "palabras": 496,
+      "categoria": "Tienda general",
+      "atributos": 0
+    },
+    {
+      "url": "/almeria/berja/ciberlocutoriomaraluca",
+      "nombre": "CIBERLOCUTORIOMARALUCA",
+      "palabras": 497,
+      "categoria": "Cibercafé",
+      "atributos": 1
+    },
+    {
+      "url": "/jaen/martos/locutorio-mounia",
+      "nombre": "LOCUTORIO MOUNIA",
+      "palabras": 497,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/las-palmas/arrecife/minimarket-y-locutorio-tita",
+      "nombre": "Minimarket y Locutorio Tita",
+      "palabras": 497,
+      "categoria": "Tienda de alimentación",
+      "atributos": 3
+    },
+    {
+      "url": "/madrid/alcobendas/locutorio-ria-money-transfer",
+      "nombre": "Locutorio Ria Money transfer",
+      "palabras": 497,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/castellon/villarreal/koko-s-locutorio",
+      "nombre": "KOKO'S LOCUTORIO",
+      "palabras": 498,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/gipuzkoa/irun/locutorio-kawsay",
+      "nombre": "Locutorio Kawsay",
+      "palabras": 498,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/sevilla/dos-hermanas/locutorio-chaouen",
+      "nombre": "LOCUTORIO CHAOUEN",
+      "palabras": 498,
+      "categoria": "",
+      "atributos": 0
+    },
+    {
+      "url": "/alicante/orihuela/locutorio-internet-zoco",
+      "nombre": "Locutorio Internet Zoco",
+      "palabras": 499,
+      "categoria": "Oficinas de empresa",
+      "atributos": 0
+    },
+    {
+      "url": "/barcelona/barcelona/super-malik-s-l",
+      "nombre": "Super Malik S L",
+      "palabras": 499,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/barcelona/l-hospitalet-de-llobregat/envios-miraflores",
+      "nombre": "Envíos Miraflores",
+      "palabras": 499,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/bizkaia/bilbao/locutorio-internet",
+      "nombre": "Locutorio-Internet",
+      "palabras": 499,
+      "categoria": "Comercio",
+      "atributos": 0
+    },
+    {
+      "url": "/lleida/ivars-d-urgell/locutori-d-ivars",
+      "nombre": "Locutori d'Ivars",
+      "palabras": 499,
+      "categoria": "Locutorio",
+      "atributos": 1
+    },
+    {
+      "url": "/lugo/lugo/locutorio-camino-real-1",
+      "nombre": "Locutorio camino real 1",
+      "palabras": 499,
+      "categoria": "Locutorio",
+      "atributos": 4
+    },
+    {
+      "url": "/navarra/peralta/marlene-greys-chavez-reyes",
+      "nombre": "Marlene Greys Chávez Reyes",
+      "palabras": 499,
+      "categoria": "Locutorio",
+      "atributos": 0
+    },
+    {
+      "url": "/tarragona/tarragona/mazigh-omar",
+      "nombre": "Mazigh, Omar",
+      "palabras": 499,
+      "categoria": "Locutorio",
+      "atributos": 1
+    }
+  ]
+}
