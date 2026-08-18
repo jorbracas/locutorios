@@ -382,12 +382,39 @@ Lucía de Tirajana. La fusión automática solo actúa cuando la localidad de or
 es residual y la de destino la triplica; las 26 restantes quedan anotadas en
 `data/informe-geografia.json` para revisión manual.
 
+### El código postal no siempre es de fiar
+
+`sanear_geografia.py` valida la provincia con el CP, que en España la determina
+sin ambigüedad. Pero da por bueno el propio CP, y ahí tiene un punto ciego.
+
+Lo destapó India Post: figuraba en La Adrada con CP 05430, que es efectivamente
+de La Adrada, así que la validación no protestó. Sus coordenadas, en cambio,
+caen a 0,5 km del casco de Sotillo de la Adrada y a 3,6 km del de La Adrada, y
+la calle Carmen Rodríguez está en el callejero de Sotillo, cuyo CP es 05420. El
+dato erróneo era el código postal.
+
+De ahí `corregir_localidades.py`, que hace dos cosas: aplica correcciones
+verificadas una a una, y audita todas las fichas comparando su posición con el
+centroide de su localidad. Cuando el CP y las coordenadas discrepan, mandan las
+coordenadas: un CP se teclea mal, una latitud viene del propio mapa.
+
+Corrigió cuatro casos (India Post, un Money Exchange asignado a Vitoria estando
+en Laudio/Llodio, un Locutorio de Montornès puesto en Barcelona y un locutorio
+de La Pobla de Farnals puesto en València) y dejó 28 discrepancias en
+`data/informe-localidades.json` para revisión manual. Varias de esas 28 no son
+errores: Casetas es un barrio de Zaragoza y Beniaján una pedanía de Murcia, así
+que no se tocan sin comprobarlas.
+
 **Orden obligatorio** al regenerar desde el CSV:
 
 ```bash
 python3 pipeline/build_data.py /ruta/al.csv ./data
 python3 pipeline/sanear_geografia.py ./data
+python3 pipeline/corregir_localidades.py ./data
 python3 pipeline/depurar_textos.py ./data
+python3 pipeline/corregir_fichas.py ./data
+python3 pipeline/ampliar_fichas.py ./data
+python3 pipeline/correccion_final.py ./data
 python3 pipeline/agregar_ciudades.py ./data
 python3 pipeline/escribir_textos_ciudad.py ./data
 ```

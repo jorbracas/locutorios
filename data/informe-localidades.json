@@ -1,0 +1,282 @@
+{
+  "correccionesAplicadas": [
+    {
+      "nombre": "India Post",
+      "de": "/avila/la-adrada/india-post",
+      "a": "/avila/sotillo-de-la-adrada/india-post",
+      "motivo": "La calle Carmen Rodríguez pertenece al callejero de Sotillo de la Adrada (CP 05420). Las coordenadas están a 0,5 km de Sotillo y a 3,6 km de La Adrada. El CP de origen era erróneo."
+    },
+    {
+      "nombre": "Money Exchange Agente",
+      "de": "/araba-alava/vitoria-gasteiz/money-exchange-agente",
+      "a": "/araba-alava/laudio-llodio/money-exchange-agente",
+      "motivo": "El CP 01400 corresponde a Laudio/Llodio. Estaba asignado a Vitoria-Gasteiz, a 39 km de sus propias coordenadas."
+    },
+    {
+      "nombre": "Locutorio",
+      "de": "/barcelona/barcelona/locutorio",
+      "a": "/barcelona/montornes-del-valles/locutorio",
+      "motivo": "El CP 08170 es de Montornès del Vallès, no de Barcelona ciudad, de cuyo centro dista 17,6 km."
+    },
+    {
+      "nombre": "LOCUTORIO REINA DEL CISNE",
+      "de": "/valencia/valencia/locutorio-reina-del-cisne",
+      "a": "/valencia/la-pobla-de-farnals/locutorio-reina-del-cisne",
+      "motivo": "El CP 46139 corresponde a La Pobla de Farnals. Las coordenadas coinciden con esa localidad, a 12,5 km de València capital."
+    }
+  ],
+  "revisionManual": [
+    {
+      "nombre": "DomMarket2 Locutorio",
+      "url": "/ciudad-real/ciudad-real/dommarket2-locutorio",
+      "codigoPostal": "13004",
+      "distanciaASuCiudadKm": 23.4,
+      "candidata": "Bolaños de Calatrava",
+      "distanciaACandidataKm": 3.5,
+      "direccion": "C. Conde de la Cañada, 12, local 4, 13004 Ciudad Real, España"
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/tarragona/valls/ria-money-transfer-agent-payout",
+      "codigoPostal": "43800",
+      "distanciaASuCiudadKm": 14.3,
+      "candidata": "Tarragona",
+      "distanciaACandidataKm": 1.1,
+      "direccion": "Locutorio Aljazira, Carrer Valls, 3, 43800 Valls, Tarragona, España"
+    },
+    {
+      "nombre": "Besmi Allah",
+      "url": "/bizkaia/elexalde/besmi-allah",
+      "codigoPostal": "48940",
+      "distanciaASuCiudadKm": 12.8,
+      "candidata": "Leioa",
+      "distanciaACandidataKm": 0.8,
+      "direccion": "Sabino Arana, 82, 48940 Elexalde, Biscay, España"
+    },
+    {
+      "nombre": "Jorge Locutorios",
+      "url": "/madrid/majadahonda/jorge-locutorios",
+      "codigoPostal": "",
+      "distanciaASuCiudadKm": 12.7,
+      "candidata": "Madrid",
+      "distanciaACandidataKm": 1.1,
+      "direccion": "Gran Vía, Centro, 28014 Majadahonda, Madrid, España"
+    },
+    {
+      "nombre": "Locutorio Casetas Alimentación",
+      "url": "/zaragoza/zaragoza/locutorio-casetas-alimentacion",
+      "codigoPostal": "50620",
+      "distanciaASuCiudadKm": 13.8,
+      "candidata": "Utebo",
+      "distanciaACandidataKm": 3.1,
+      "direccion": "Av. de Logroño, 53, 50620 Zaragoza, España"
+    },
+    {
+      "nombre": "Locutorio Internacional Barajas",
+      "url": "/madrid/madrid/locutorio-internacional-barajas",
+      "codigoPostal": "28042",
+      "distanciaASuCiudadKm": 11.7,
+      "candidata": "Paracuellos de Jarama",
+      "distanciaACandidataKm": 5.2,
+      "direccion": "Calle del Concejal Tomás Serrano Guío, 4, Barajas, 28042 Madrid, España"
+    },
+    {
+      "nombre": "Locutorio Essallam",
+      "url": "/murcia/murcia/locutorio-essallam",
+      "codigoPostal": "30570",
+      "distanciaASuCiudadKm": 5.0,
+      "candidata": "Beniaján",
+      "distanciaACandidataKm": 0.2,
+      "direccion": "C. San Antonio, 18, 30570 Murcia, España"
+    },
+    {
+      "nombre": "Shahzad Khurram",
+      "url": "/barcelona/barcelona/shahzad-khurram",
+      "codigoPostal": "08028",
+      "distanciaASuCiudadKm": 5.3,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.1,
+      "direccion": "Carrer del Regent Mendieta, 6, Les Corts, 08028 Barcelona, España"
+    },
+    {
+      "nombre": "Locutorio Codwin",
+      "url": "/valencia/valencia/locutorio-codwin",
+      "codigoPostal": "46035",
+      "distanciaASuCiudadKm": 5.2,
+      "candidata": "Burjassot",
+      "distanciaACandidataKm": 1.1,
+      "direccion": "Carrer del Campament, 5, bajo, Poblados del Oeste, 46035 València, Valencia, España"
+    },
+    {
+      "nombre": "WORLD CIS LATINO BADAL (ENVIOS DE DINERO)",
+      "url": "/barcelona/barcelona/world-cis-latino-badal-envios-de-dinero",
+      "codigoPostal": "08028",
+      "distanciaASuCiudadKm": 5.2,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.3,
+      "direccion": "Carrer de Carreras i Candi, 9, Sants-Montjuïc, 08028 Barcelona, España"
+    },
+    {
+      "nombre": "MoneyGram",
+      "url": "/barcelona/barcelona/moneygram",
+      "codigoPostal": "08028",
+      "distanciaASuCiudadKm": 5.2,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.3,
+      "direccion": "Carrer de Carreras i Candi, 9, LO 2, Distrito de Sants-Montjuïc, 08028 Barcelona, España"
+    },
+    {
+      "nombre": "Locutorio Mundial",
+      "url": "/barcelona/barcelona/locutorio-mundial",
+      "codigoPostal": "08033",
+      "distanciaASuCiudadKm": 5.9,
+      "candidata": "Montcada i Reixac",
+      "distanciaACandidataKm": 2.4,
+      "direccion": "Av. dels Rasos de Peguera, 21, Nou Barris, 08033 Barcelona, España"
+    },
+    {
+      "nombre": "Locutorio Savera Internet y copisteria",
+      "url": "/barcelona/barcelona/locutorio-savera-internet-y-copisteria",
+      "codigoPostal": "08014",
+      "distanciaASuCiudadKm": 5.3,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.8,
+      "direccion": "Carrer de la Constitució, 122, Sants-Montjuïc, 08014 Barcelona, España"
+    },
+    {
+      "nombre": "WORLD CIS LATINO ZONA FRANCA (ENVIOS DE DINERO)",
+      "url": "/barcelona/barcelona/world-cis-latino-zona-franca-envios-de-dinero",
+      "codigoPostal": "08038",
+      "distanciaASuCiudadKm": 6.0,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.6,
+      "direccion": "Pg. de la Zona Franca, 165, Sants-Montjuïc, 08038 Barcelona, España"
+    },
+    {
+      "nombre": "Locutorio Danish",
+      "url": "/valencia/valencia/locutorio-danish",
+      "codigoPostal": "46920",
+      "distanciaASuCiudadKm": 3.6,
+      "candidata": "Mislata",
+      "distanciaACandidataKm": 0.2,
+      "direccion": "C/ del Pare Llansol, 3B, 46920 València, Valencia, España"
+    },
+    {
+      "nombre": "MundiEnvíos (Western Union - Ria - Europhil - Titanes)",
+      "url": "/barcelona/barcelona/mundienvios-western-union-ria-europhil-titanes",
+      "codigoPostal": "08038",
+      "distanciaASuCiudadKm": 5.6,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.4,
+      "direccion": "Carrer de la Mare de Déu de Port, 375, Bajos Local 3, Sants-Montjuïc, 08038 Barcelona, Esp"
+    },
+    {
+      "nombre": "EL Paisa 93",
+      "url": "/barcelona/barcelona/el-paisa-93",
+      "codigoPostal": "08038",
+      "distanciaASuCiudadKm": 5.6,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.4,
+      "direccion": "Carrer de la Mare de Déu de Port, 385, Sants-Montjuïc, 08038 Barcelona, España"
+    },
+    {
+      "nombre": "International Locutorio - Sanfer",
+      "url": "/valencia/valencia/international-locutorio-sanfer",
+      "codigoPostal": "46920",
+      "distanciaASuCiudadKm": 3.2,
+      "candidata": "Mislata",
+      "distanciaACandidataKm": 0.3,
+      "direccion": "Avinguda Blasco Ibáñez, 6, 46920 València, Valencia, España"
+    },
+    {
+      "nombre": "Arkways - Envio de Dinero y Venta de Moviles y Accesorios",
+      "url": "/barcelona/barcelona/arkways-envio-de-dinero-y-venta-de-moviles-y-accesorios",
+      "codigoPostal": "08033",
+      "distanciaASuCiudadKm": 5.0,
+      "candidata": "Santa Coloma de Gramenet",
+      "distanciaACandidataKm": 2.1,
+      "direccion": "Carrer del Turó de la Trinitat, 41, Local 2, San Andrés de Palomar, 08033 Barcelona, Españ"
+    },
+    {
+      "nombre": "Mushtaq, A.",
+      "url": "/barcelona/barcelona/mushtaq-a",
+      "codigoPostal": "08033",
+      "distanciaASuCiudadKm": 5.0,
+      "candidata": "Santa Coloma de Gramenet",
+      "distanciaACandidataKm": 2.1,
+      "direccion": "Carrer de Mireia, 6, Sant Andreu, 08033 Barcelona, España"
+    },
+    {
+      "nombre": "Multiservicios Llum",
+      "url": "/valencia/valencia/multiservicios-llum",
+      "codigoPostal": "46014",
+      "distanciaASuCiudadKm": 3.5,
+      "candidata": "Mislata",
+      "distanciaACandidataKm": 0.7,
+      "direccion": "Av. de Marconi, 21, L'Olivereta, 46014 València, Valencia, España"
+    },
+    {
+      "nombre": "Locutorio Casillas",
+      "url": "/murcia/murcia/locutorio-casillas",
+      "codigoPostal": "30007",
+      "distanciaASuCiudadKm": 4.4,
+      "candidata": "Puente Tocinos",
+      "distanciaACandidataKm": 1.9,
+      "direccion": "C. Mayor, 14, 30007 Murcia, España"
+    },
+    {
+      "nombre": "Akash Locutorio",
+      "url": "/barcelona/barcelona/akash-locutorio",
+      "codigoPostal": "08019",
+      "distanciaASuCiudadKm": 3.8,
+      "candidata": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.3,
+      "direccion": "Carrer d'Alfons el Magnànim, 63, Sant Martí, 08019 Barcelona, España"
+    },
+    {
+      "nombre": "ALI LOCUTORIO",
+      "url": "/barcelona/barcelona/ali-locutorio",
+      "codigoPostal": "08019",
+      "distanciaASuCiudadKm": 3.6,
+      "candidata": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.2,
+      "direccion": "Pl. de Jaume Huguet, Sant Martí, 08019 Barcelona, España"
+    },
+    {
+      "nombre": "Locutorio Bon Pastor (Communication Center II)",
+      "url": "/barcelona/barcelona/locutorio-bon-pastor-communication-center-ii",
+      "codigoPostal": "08030",
+      "distanciaASuCiudadKm": 4.1,
+      "candidata": "Santa Coloma de Gramenet",
+      "distanciaACandidataKm": 1.7,
+      "direccion": "Carrer de l'Estadella, 52, San Andrés de Palomar, 08030 Barcelona, España"
+    },
+    {
+      "nombre": "money transfer locutorio",
+      "url": "/barcelona/barcelona/money-transfer-locutorio",
+      "codigoPostal": "08014",
+      "distanciaASuCiudadKm": 4.5,
+      "candidata": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.2,
+      "direccion": "Carrer d'Alcolea, 20, Sants-Montjuïc, 08014 Barcelona, España"
+    },
+    {
+      "nombre": "Ria Money Transfer Agent",
+      "url": "/barcelona/barcelona/ria-money-transfer-agent",
+      "codigoPostal": "08019",
+      "distanciaASuCiudadKm": 3.9,
+      "candidata": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.8,
+      "direccion": "S.A Locutori, Carrer de Llull, 394, Sant Martí, 08019 Barcelona, España"
+    },
+    {
+      "nombre": "Locutorio Yeny",
+      "url": "/santa-cruz-de-tenerife/arona/locutorio-yeny",
+      "codigoPostal": "38632",
+      "distanciaASuCiudadKm": 3.1,
+      "candidata": "Las Galletas",
+      "distanciaACandidataKm": 1.1,
+      "direccion": "C. Fuerteventura, 30, 38632 Arona, Santa Cruz de Tenerife, España"
+    }
+  ]
+}

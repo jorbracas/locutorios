@@ -635,9 +635,16 @@
         {
           "slug": "vitoria-gasteiz",
           "nombre": "Vitoria-Gasteiz",
-          "total": 38,
-          "lat": 42.859387,
-          "lng": -2.683073
+          "total": 37,
+          "lat": 42.85165,
+          "lng": -2.675575
+        },
+        {
+          "slug": "laudio-llodio",
+          "nombre": "Laudio / Llodio",
+          "total": 2,
+          "lat": 43.14566,
+          "lng": -2.960495
         },
         {
           "slug": "alegria-dulantzi",
@@ -652,17 +659,10 @@
           "total": 1,
           "lat": 43.051445,
           "lng": -3.001775
-        },
-        {
-          "slug": "laudio-llodio",
-          "nombre": "Laudio / Llodio",
-          "total": 1,
-          "lat": 43.145674,
-          "lng": -2.960484
         }
       ],
-      "lat": 42.974653,
-      "lng": -2.789106
+      "lat": 42.972715,
+      "lng": -2.787234
     },
     {
       "slug": "asturias",
@@ -784,6 +784,13 @@
           "lng": -4.690607
         },
         {
+          "slug": "sotillo-de-la-adrada",
+          "nombre": "Sotillo de la Adrada",
+          "total": 2,
+          "lat": 40.292765,
+          "lng": -4.581588
+        },
+        {
           "slug": "candeleda",
           "nombre": "Candeleda",
           "total": 1,
@@ -791,29 +798,15 @@
           "lng": -5.240768
         },
         {
-          "slug": "la-adrada",
-          "nombre": "La Adrada",
-          "total": 1,
-          "lat": 40.293813,
-          "lng": -4.579371
-        },
-        {
           "slug": "madrigal-de-las-altas-torres",
           "nombre": "Madrigal de las Altas Torres",
           "total": 1,
           "lat": 41.088801,
           "lng": -4.998545
-        },
-        {
-          "slug": "sotillo-de-la-adrada",
-          "nombre": "Sotillo de la Adrada",
-          "total": 1,
-          "lat": 40.291718,
-          "lng": -4.583805
         }
       ],
-      "lat": 40.496912,
-      "lng": -4.818619
+      "lat": 40.547949,
+      "lng": -4.877877
     },
     {
       "slug": "badajoz",
@@ -916,9 +909,9 @@
         {
           "slug": "barcelona",
           "nombre": "Barcelona",
-          "total": 85,
-          "lat": 41.411526,
-          "lng": 2.17269
+          "total": 83,
+          "lat": 41.408105,
+          "lng": 2.170411
         },
         {
           "slug": "l-hospitalet-de-llobregat",
@@ -1150,6 +1143,13 @@
           "total": 2,
           "lat": 41.538365,
           "lng": 2.213066
+        },
+        {
+          "slug": "montornes-del-valles",
+          "nombre": "Montornès del Vallès",
+          "total": 2,
+          "lat": 41.553467,
+          "lng": 2.267274
         },
         {
           "slug": "sant-celoni",
@@ -1418,8 +1418,8 @@
           "lng": 2.386678
         }
       ],
-      "lat": 41.529681,
-      "lng": 2.12353
+      "lat": 41.52996,
+      "lng": 2.125468
     },
     {
       "slug": "bizkaia",
@@ -5441,9 +5441,9 @@
         {
           "slug": "valencia",
           "nombre": "Valencia",
-          "total": 99,
-          "lat": 39.472821,
-          "lng": -0.374037
+          "total": 98,
+          "lat": 39.471729,
+          "lng": -0.374511
         },
         {
           "slug": "gandia",
@@ -5563,6 +5563,13 @@
           "total": 2,
           "lat": 39.40548,
           "lng": -0.40708
+        },
+        {
+          "slug": "la-pobla-de-farnals",
+          "nombre": "La Pobla de Farnals",
+          "total": 2,
+          "lat": 39.579852,
+          "lng": -0.327644
         },
         {
           "slug": "oliva",
@@ -5705,13 +5712,6 @@
           "lng": -0.554104
         },
         {
-          "slug": "la-pobla-de-farnals",
-          "nombre": "La Pobla de Farnals",
-          "total": 1,
-          "lat": 39.579852,
-          "lng": -0.327644
-        },
-        {
           "slug": "manises",
           "nombre": "Manises",
           "total": 1,
@@ -5810,8 +5810,8 @@
           "lng": -0.428769
         }
       ],
-      "lat": 39.338211,
-      "lng": -0.449199
+      "lat": 39.338191,
+      "lng": -0.449207
     },
     {
       "slug": "valladolid",

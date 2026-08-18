@@ -1,0 +1,442 @@
+{
+  "fichasTocadas": 1073,
+  "recuentos": {
+    "frases_eliminadas": 7,
+    "retenciones_reformuladas": 2,
+    "bloques_diversificados": 326,
+    "gramatica": 174,
+    "nombres_eliminados": 33,
+    "atributos_deduplicados": 790,
+    "direcciones_restauradas": 118,
+    "montornes": 1
+  },
+  "muestra": [
+    {
+      "nombre": "Western Union - Conectame",
+      "url": "/a-coruna/a-coruna/western-union-conectame",
+      "cambios": {
+        "direcciones_restauradas": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Unicornio",
+      "url": "/a-coruna/a-coruna/locutorio-unicornio",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "MoneyGram",
+      "url": "/a-coruna/arteixo/moneygram",
+      "cambios": {
+        "nombres_eliminados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Telefónico Y Multi-Tienda La Magdalena",
+      "url": "/a-coruna/ferrol/locutorio-telefonico-y-multi-tienda-la-magdalena",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Prensa—libreria o cruceiro",
+      "url": "/a-coruna/melide/prensalibreria-o-cruceiro",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Aló q tal",
+      "url": "/albacete/albacete/locutorio-alo-q-tal",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Chévere Locutorio",
+      "url": "/albacete/albacete/chevere-locutorio",
+      "cambios": {
+        "gramatica": 1,
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio La Alpaca",
+      "url": "/albacete/albacete/locutorio-la-alpaca",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Punto de Venta DHL Express (LOCUTORIO CHEVERE)",
+      "url": "/albacete/albacete/punto-de-venta-dhl-express-locutorio-chevere",
+      "cambios": {
+        "direcciones_restauradas": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Cibertron",
+      "url": "/albacete/albacete/locutorio-cibertron",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "LOCUTORIO TIENDA 24 HORAS , ALIMENTACION Mini Mercado El Oasis",
+      "url": "/albacete/albacete/locutorio-tienda-24-horas-alimentacion-mini-mercado-el-oasis",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "comercial locutorio asunción",
+      "url": "/albacete/albacete/comercial-locutorio-asuncion",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "OASIS 3 LOCUTORIO / TIENDA LATINA",
+      "url": "/albacete/albacete/oasis-3-locutorio-tienda-latina",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Alimentación senegales sope Khadimou rassoul",
+      "url": "/albacete/albacete/alimentacion-senegales-sope-khadimou-rassoul",
+      "cambios": {
+        "direcciones_restauradas": 1
+      }
+    },
+    {
+      "nombre": "Locutorio El Habib",
+      "url": "/albacete/la-roda/locutorio-el-habib",
+      "cambios": {
+        "gramatica": 3
+      }
+    },
+    {
+      "nombre": "India Post",
+      "url": "/albacete/villamalea/india-post",
+      "cambios": {
+        "direcciones_restauradas": 1
+      }
+    },
+    {
+      "nombre": "India Post",
+      "url": "/albacete/villarrobledo/india-post",
+      "cambios": {
+        "bloques_diversificados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio",
+      "url": "/alicante/albatera/locutorio",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Albatera",
+      "url": "/alicante/albatera/locutorio-albatera",
+      "cambios": {
+        "atributos_deduplicados": 2
+      }
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/alicante/alcoi/ria-money-transfer-agent-payout",
+      "cambios": {
+        "bloques_diversificados": 2
+      }
+    },
+    {
+      "nombre": "Amazon Hub Counter - LOCUTORIO EL DJAZAIR",
+      "url": "/alicante/alicante/amazon-hub-counter-locutorio-el-djazair",
+      "cambios": {
+        "bloques_diversificados": 2
+      }
+    },
+    {
+      "nombre": "Ciber Locutorio ALTOZANO",
+      "url": "/alicante/alicante/ciber-locutorio-altozano",
+      "cambios": {
+        "atributos_deduplicados": 2
+      }
+    },
+    {
+      "nombre": "DIANA envíos de dinero y mucho más",
+      "url": "/alicante/alicante/diana-envios-de-dinero-y-mucho-mas",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "LOCUTORIO CAROLINAS S.L",
+      "url": "/alicante/alicante/locutorio-carolinas-s-l",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Farah",
+      "url": "/alicante/alicante/locutorio-farah",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "ria MONEY TRANFER -MUNDOENVIOS-Western Union",
+      "url": "/alicante/alicante/ria-money-tranfer-mundoenvios-western-union",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Babilonia",
+      "url": "/alicante/alicante/locutorio-babilonia",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Aracil24horas",
+      "url": "/alicante/alicante/aracil24horas",
+      "cambios": {
+        "gramatica": 1,
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Locu Sur",
+      "url": "/alicante/alicante-alacant/locutorio-locu-sur",
+      "cambios": {
+        "bloques_diversificados": 1
+      }
+    },
+    {
+      "nombre": "Ciber Locutorio El Paseo",
+      "url": "/alicante/almoradi/ciber-locutorio-el-paseo",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Aspe",
+      "url": "/alicante/aspe/locutorio-aspe",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Internet Mini Market",
+      "url": "/alicante/benidorm/locutorio-internet-mini-market",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Regalos Inteligentes Benidorm",
+      "url": "/alicante/benidorm/regalos-inteligentes-benidorm",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Bali Moviles y Locutorio mayor",
+      "url": "/alicante/benidorm/bali-moviles-y-locutorio-mayor",
+      "cambios": {
+        "bloques_diversificados": 1,
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/alicante/benissa/ria-money-transfer-agent-payout",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/alicante/callosa-de-segura/ria-money-transfer-agent-payout-2",
+      "cambios": {
+        "bloques_diversificados": 1
+      }
+    },
+    {
+      "nombre": "Calp Telephone Center",
+      "url": "/alicante/calp/calp-telephone-center",
+      "cambios": {
+        "bloques_diversificados": 1
+      }
+    },
+    {
+      "nombre": "LOCUTORIO GRANJA COX - MOVILES",
+      "url": "/alicante/cox/locutorio-granja-cox-moviles",
+      "cambios": {
+        "atributos_deduplicados": 2
+      }
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/alicante/cox/ria-money-transfer-agent-payout",
+      "cambios": {
+        "bloques_diversificados": 2
+      }
+    },
+    {
+      "nombre": "Kiara Cyber Locutorio",
+      "url": "/alicante/denia/kiara-cyber-locutorio",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Envíos Galeras y productos Latinos",
+      "url": "/alicante/denia/locutorio-envios-galeras-y-productos-latinos",
+      "cambios": {
+        "nombres_eliminados": 1
+      }
+    },
+    {
+      "nombre": "CIBER LOCUTORIO CAMPELLO",
+      "url": "/alicante/el-campello/ciber-locutorio-campello",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "El Sahli, A.",
+      "url": "/alicante/elche/el-sahli-a",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Ciber Cafe La Fortuna",
+      "url": "/alicante/elche/ciber-cafe-la-fortuna",
+      "cambios": {
+        "bloques_diversificados": 1,
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "INTERTRANSFER ELCHE",
+      "url": "/alicante/elche/intertransfer-elche",
+      "cambios": {
+        "atributos_deduplicados": 2
+      }
+    },
+    {
+      "nombre": "CIBER Lkva - Western Union - Ria Envia y Pago Dinero - NACEX paqueteria",
+      "url": "/alicante/elche/ciber-lkva-western-union-ria-envia-y-pago-dinero-nacex-paqueteria",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "MULTISERVICIOS PLANETA locutorio",
+      "url": "/alicante/elche/multiservicios-planeta-locutorio",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio MasEnvíos",
+      "url": "/alicante/elche/locutorio-masenvios",
+      "cambios": {
+        "bloques_diversificados": 1,
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Amigo Elche",
+      "url": "/alicante/elche/locutorio-amigo-elche",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Mundial",
+      "url": "/alicante/elche/locutorio-mundial",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Multiservicios Tele-Fashion SL",
+      "url": "/alicante/ibi/locutorio-multiservicios-tele-fashion-sl",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Novelda",
+      "url": "/alicante/novelda/locutorio-novelda",
+      "cambios": {
+        "bloques_diversificados": 1,
+        "nombres_eliminados": 1
+      }
+    },
+    {
+      "nombre": "ismayines&locutorio",
+      "url": "/alicante/ondara/ismayines-locutorio",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Deni Service express Ondara",
+      "url": "/alicante/ondara/deni-service-express-ondara",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Locutorio La Morena",
+      "url": "/alicante/orihuela/locutorio-la-morena",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Ria Money Transfer Agent",
+      "url": "/alicante/pinoso/ria-money-transfer-agent",
+      "cambios": {
+        "bloques_diversificados": 2,
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "Locutorio Los Paisas",
+      "url": "/alicante/redovan/locutorio-los-paisas",
+      "cambios": {
+        "gramatica": 1
+      }
+    },
+    {
+      "nombre": "LOCUTORIO LATINOS",
+      "url": "/alicante/san-vicente-del-raspeig/locutorio-latinos",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Ciber Locutorio Wintel",
+      "url": "/alicante/sant-joan-d-alacant/ciber-locutorio-wintel",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    },
+    {
+      "nombre": "Sal y Pimienta Mini Mercado",
+      "url": "/alicante/torrevieja/sal-y-pimienta-mini-mercado",
+      "cambios": {
+        "atributos_deduplicados": 1
+      }
+    }
+  ]
+}
