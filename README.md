@@ -526,6 +526,21 @@ localidades quedó intacto.
 
 **Informe completo**: `data/INFORME-REVISION-GEO-SEO.json`.
 
+## Dominio de producción: www
+
+Vercel tiene configurado `www.locutorioscercademi.com` como dominio de
+producción, con el apex (`locutorioscercademi.com`) haciendo un redirect 308
+permanente hacia él. `SITIO.dominio` en `src/lib/seo.ts` es la única fuente
+de verdad para esto — de ahí salen `metadataBase`, el `canonical` de cada
+página, las 3.836 URLs del sitemap, el `Host` de `robots.txt` y el `url` del
+JSON-LD. Si el dominio de producción cambia otra vez, ese es el único sitio
+que hay que tocar.
+
+Antes de este ajuste, todo apuntaba al apex sin `www`, lo que habría obligado
+a un salto de redirección extra en cada URL del sitemap al rastrear, y
+generado una inconsistencia entre la URL declarada canónica y la que
+realmente sirve el contenido sin redirigir.
+
 ## Pendiente
 
 - **Aviso legal y privacidad.** Los textos están redactados pero tienen campos
