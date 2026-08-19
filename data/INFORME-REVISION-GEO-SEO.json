@@ -1,0 +1,553 @@
+{
+  "fichas_totales_antes": 3050,
+  "fichas_totales_despues": 3050,
+  "casos_ya_corregidos": [
+    {
+      "nombre": "Money Exchange Agente",
+      "url": "/araba-alava/laudio-llodio/money-exchange-agente",
+      "verificado": "Permanece en Laudio/Llodio, dirección coherente. No se ha tocado."
+    },
+    {
+      "nombre": "LOCUTORIO REINA DEL CISNE",
+      "url": "/valencia/la-pobla-de-farnals/locutorio-reina-del-cisne",
+      "verificado": "Permanece en La Pobla de Farnals. No se ha tocado."
+    }
+  ],
+  "fichas_movidas": [
+    {
+      "nombre": "Badalinks",
+      "url_anterior": "/barcelona/santa-coloma-de-gramenet/badalinks",
+      "url_final": "/barcelona/badalona/badalinks",
+      "direccion": "Av. d'Alfons XIII, 551, 08918 Badalona, Barcelona",
+      "accion": "corregido",
+      "motivo": "El CP 08918 corresponde a Badalona, no a Santa Coloma de Gramenet."
+    },
+    {
+      "nombre": "LOCUTORIO BAR CAFERTERIA",
+      "url_anterior": "/bizkaia/elexalde/locutorio-bar-caferteria",
+      "url_final": "/bizkaia/basauri/locutorio-bar-caferteria",
+      "direccion": "Butroe Ibaia Kalea, 48970 Basauri, Bizkaia",
+      "accion": "corregido",
+      "motivo": "Butroe Ibaia Kalea, CP 48970, corresponde a Basauri, no a Elexalde."
+    },
+    {
+      "nombre": "Besmi Allah",
+      "url_anterior": "/bizkaia/elexalde/besmi-allah",
+      "url_final": "/bizkaia/leioa/besmi-allah",
+      "direccion": "Sabino Arana, 82, 48940 Leioa",
+      "accion": "corregido",
+      "motivo": "Sabino Arana 82, CP 48940, corresponde a Leioa, no a Elexalde."
+    },
+    {
+      "nombre": "Noshi Locutorio",
+      "url_anterior": "/bizkaia/lejona/noshi-locutorio",
+      "url_final": "/bizkaia/leioa/noshi-locutorio",
+      "direccion": "48940 Leioa, Bizkaia",
+      "accion": "normalizacion_de_nombre",
+      "motivo": "Lejona y Leioa son el mismo municipio; se usa la denominación canónica."
+    },
+    {
+      "nombre": "CIBER LOCUTORIO EL PUERTO",
+      "url_anterior": "/cadiz/el/ciber-locutorio-el-puerto",
+      "url_final": "/cadiz/el-puerto-de-sta-maria/ciber-locutorio-el-puerto",
+      "direccion": "C. Villa de Rota, 13, 11500 El Puerto de Santa María, Cádiz",
+      "accion": "corregido",
+      "motivo": "'El' no es una localidad válida; era un truncamiento de El Puerto de Santa María."
+    },
+    {
+      "nombre": "Prensa - Locutorio Paris-Tombuctú",
+      "url_anterior": "/castellon/alcossebre-castellon/prensa-locutorio-paris-tombuctu",
+      "url_final": "/castellon/alcossebre/prensa-locutorio-paris-tombuctu",
+      "direccion": "C/ Alcalá de Xivert, 5 Local C, 12579 Alcossebre, Castellón",
+      "accion": "normalizacion_de_nombre",
+      "motivo": "'alcossebre-castellon' duplicaba la localidad; se normaliza a 'alcossebre'."
+    },
+    {
+      "nombre": "Locutorio Euroenvia",
+      "url_anterior": "/girona/girona/locutorio-euroenvia",
+      "url_final": "/girona/salt/locutorio-euroenvia",
+      "direccion": "Travessera de Sta. Eugènia, 40, bajo 5, 17190 Salt",
+      "accion": "corregido",
+      "motivo": "El CP 17190 (Travessera de Sta. Eugènia) corresponde a Salt, no a Girona capital. Verificado con fuente externa."
+    },
+    {
+      "nombre": "MoneyGram",
+      "url_anterior": "/girona/girona/moneygram",
+      "url_final": "/girona/salt/moneygram",
+      "direccion": "Travessera de Sta. Eugènia, 40, 17190 Salt",
+      "accion": "corregido",
+      "motivo": "Mismo punto que Locutorio Euroenvia (Travessera de Sta. Eugènia 40): Salt."
+    },
+    {
+      "nombre": "Locutorio Kafoul",
+      "url_anterior": "/illes-balears/santa-eulalia-del-rio/locutorio-kafoul",
+      "url_final": "/illes-balears/santa-eularia-des-riu/locutorio-kafoul",
+      "direccion": "Carrer de Cèsar Puget Riquer, 2, 07840 Santa Eulària des Riu",
+      "accion": "normalizacion_de_nombre",
+      "motivo": "Mismo municipio en dos grafías; se usa la denominación canónica catalana."
+    },
+    {
+      "nombre": "Locutorio mundo",
+      "url_anterior": "/murcia/murcia/locutorio-mundo",
+      "url_final": "/murcia/puente-tocinos/locutorio-mundo",
+      "direccion": "Bloque E-1, 30006 Puente Tocinos, Murcia",
+      "accion": "corregido",
+      "motivo": "El CP 30006 corresponde a Puente Tocinos (pedanía de Murcia)."
+    },
+    {
+      "nombre": "Locutorio Essallam",
+      "url_anterior": "/murcia/murcia/locutorio-essallam",
+      "url_final": "/murcia/beniajan/locutorio-essallam",
+      "direccion": "C. San Antonio, 18, 30570 Beniaján, Murcia",
+      "accion": "corregido",
+      "motivo": "El CP 30570 corresponde a Beniaján (pedanía de Murcia)."
+    },
+    {
+      "nombre": "Locutorio Danish",
+      "url_anterior": "/valencia/valencia/locutorio-danish",
+      "url_final": "/valencia/mislata/locutorio-danish",
+      "direccion": "C/ del Pare Llansol, 3B, 46920 Mislata",
+      "accion": "corregido",
+      "motivo": "El CP 46920 corresponde a Mislata, no a València capital."
+    },
+    {
+      "nombre": "International Locutorio - Sanfer",
+      "url_anterior": "/valencia/valencia/international-locutorio-sanfer",
+      "url_final": "/valencia/mislata/international-locutorio-sanfer",
+      "direccion": "Avinguda Blasco Ibáñez, 6, 46920 Mislata",
+      "accion": "corregido",
+      "motivo": "El CP 46920 corresponde a Mislata, no a València capital."
+    },
+    {
+      "nombre": "MOON MART LOCUTORIO BASAURI (...)",
+      "url_anterior": "/bizkaia/arizgoiti/moon-mart-locutorio-basauri-...",
+      "url_final": "/bizkaia/basauri/moon-mart-locutorio-basauri-...",
+      "direccion": "Agirre Lehendakaria Kalea, 1, 48970 Basauri",
+      "accion": "corregido",
+      "motivo": "Única ficha de 'arizgoiti'; su propio nombre comercial dice 'BASAURI'."
+    },
+    {
+      "nombre": "Pak Movil Store - Reparación Móviles, Envíos Dinero",
+      "url_anterior": "/castellon/castellon/pak-movil-store-...",
+      "url_final": "/castellon/castellon-de-la-plana/pak-movil-store-...",
+      "direccion": "Carrer d'Onda, 22, bajo, 12006 Castellón de la Plana",
+      "accion": "normalizacion_de_nombre",
+      "motivo": "Única ficha de 'castellon' (CP 12006 = Castellón de la Plana); localidad redundante."
+    }
+  ],
+  "falsos_positivos_geograficos": [
+    {
+      "nombre": "ABDEL Market",
+      "url": "/almeria/el-parador-de-las-hortichuelas",
+      "motivo": "El detector proponía Aguadulce por proximidad al centroide; se mantiene sin cambio."
+    },
+    {
+      "nombre": "LOCUTORIO LA SALUT 114A",
+      "url": "/barcelona/santa-coloma-de-gramenet",
+      "motivo": "El detector proponía Badalona por proximidad; se mantiene Santa Coloma de Gramenet."
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout (Av. de l'Alcora 138)",
+      "url": "/castellon/castellon-de-la-plana",
+      "motivo": "Permanece en Castellón de la Plana; no se mueve a la localidad redundante 'castellon' (ya eliminada)."
+    },
+    {
+      "nombre": "Locutorio Universal Internet Recarga de Móviles",
+      "url": "/malaga/fuengirola",
+      "motivo": "El detector proponía Las Lagunas de Mijas por proximidad; se mantiene Fuengirola."
+    },
+    {
+      "nombre": "LOCUTORIO FERRARA",
+      "url": "/malaga/torrox-costa",
+      "motivo": "Torrox Costa es localidad válida y más precisa que Torrox para esta dirección."
+    },
+    {
+      "nombre": "Locutorio Alfafar",
+      "url": "/valencia/alfafar",
+      "motivo": "El detector proponía Benetússer por proximidad; se mantiene Alfafar."
+    },
+    {
+      "nombre": "Ria Money Transfer (Concepció Arenal 2)",
+      "url": "/valencia/massanassa",
+      "motivo": "El detector proponía Catarroja por proximidad; se mantiene Massanassa."
+    },
+    {
+      "nombre": "LOCUTORIO QUART",
+      "url": "/valencia/quart-de-poblet",
+      "motivo": "El detector proponía Manises por proximidad; se mantiene Quart de Poblet."
+    },
+    {
+      "nombre": "Locutorio Albufera",
+      "url": "/valencia/sedavi",
+      "motivo": "El detector proponía Benetússer por proximidad; se mantiene Sedaví."
+    },
+    {
+      "nombre": "Locutorio Internacional Barajas",
+      "url": "/madrid/madrid/locutorio-internacional-barajas",
+      "motivo": "Hallazgo nuevo de esta pasada: el propio nombre comercial confirma el distrito de Barajas (CP 28042), que pertenece a Madrid capital. El detector proponía Paracuellos de Jarama solo por cercanía de centroide; se descarta el cambio."
+    }
+  ],
+  "revision_manual_sin_cambio": [
+    {
+      "nombre": "Click World",
+      "url": "/las-palmas/san-bartolome-de-tirajana",
+      "motivo": "La dirección está dentro del municipio de San Bartolomé de Tirajana; el uso de Maspalomas/San Fernando de Maspalomas depende del nivel administrativo utilizado. Sin evidencia concluyente, no se cambia."
+    },
+    {
+      "nombre": "LOCUTORIO ELEWUACUBA",
+      "url": "/las-palmas/santa-lucia-de-tirajana",
+      "motivo": "Mismo problema de municipio/localidad que Click World; se mantiene sin cambio."
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/tarragona/valls/ria-money-transfer-agent-payout",
+      "codigoPostal": "43800",
+      "distanciaASuCiudadKm": 14.3,
+      "candidataDelDetector": "Tarragona",
+      "distanciaACandidataKm": 1.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Locutorio Yeny",
+      "url": "/santa-cruz-de-tenerife/arona/locutorio-yeny",
+      "codigoPostal": "38632",
+      "distanciaASuCiudadKm": 3.1,
+      "candidataDelDetector": "Las Galletas",
+      "distanciaACandidataKm": 1.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "DomMarket2 Locutorio",
+      "url": "/ciudad-real/ciudad-real/dommarket2-locutorio",
+      "codigoPostal": "13004",
+      "distanciaASuCiudadKm": 23.4,
+      "candidataDelDetector": "Bolaños de Calatrava",
+      "distanciaACandidataKm": 3.5,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Jorge Locutorios",
+      "url": "/madrid/majadahonda/jorge-locutorios",
+      "codigoPostal": "",
+      "distanciaASuCiudadKm": 12.7,
+      "candidataDelDetector": "Madrid",
+      "distanciaACandidataKm": 1.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Locutorio Casetas Alimentación",
+      "url": "/zaragoza/zaragoza/locutorio-casetas-alimentacion",
+      "codigoPostal": "50620",
+      "distanciaASuCiudadKm": 13.8,
+      "candidataDelDetector": "Utebo",
+      "distanciaACandidataKm": 3.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Locutorio Codwin",
+      "url": "/valencia/valencia/locutorio-codwin",
+      "codigoPostal": "46035",
+      "distanciaASuCiudadKm": 5.3,
+      "candidataDelDetector": "Burjassot",
+      "distanciaACandidataKm": 1.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Multiservicios Llum",
+      "url": "/valencia/valencia/multiservicios-llum",
+      "codigoPostal": "46014",
+      "distanciaASuCiudadKm": 3.5,
+      "candidataDelDetector": "Mislata",
+      "distanciaACandidataKm": 0.7,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "money transfer locutorio",
+      "url": "/barcelona/barcelona/money-transfer-locutorio",
+      "codigoPostal": "08014",
+      "distanciaASuCiudadKm": 4.5,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.2,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Arkways - Envio de Dinero y Venta de Moviles y Accesorios",
+      "url": "/barcelona/barcelona/arkways-envio-de-dinero-y-venta-de-moviles-y-accesorios",
+      "codigoPostal": "08033",
+      "distanciaASuCiudadKm": 5.0,
+      "candidataDelDetector": "Santa Coloma de Gramenet",
+      "distanciaACandidataKm": 2.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Locutorio Savera Internet y copisteria",
+      "url": "/barcelona/barcelona/locutorio-savera-internet-y-copisteria",
+      "codigoPostal": "08014",
+      "distanciaASuCiudadKm": 5.3,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.8,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "MundiEnvíos (Western Union - Ria - Europhil - Titanes)",
+      "url": "/barcelona/barcelona/mundienvios-western-union-ria-europhil-titanes",
+      "codigoPostal": "08038",
+      "distanciaASuCiudadKm": 5.6,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.4,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "WORLD CIS LATINO BADAL (ENVIOS DE DINERO)",
+      "url": "/barcelona/barcelona/world-cis-latino-badal-envios-de-dinero",
+      "codigoPostal": "08028",
+      "distanciaASuCiudadKm": 5.2,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.3,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Locutorio Bon Pastor (Communication Center II)",
+      "url": "/barcelona/barcelona/locutorio-bon-pastor-communication-center-ii",
+      "codigoPostal": "08030",
+      "distanciaASuCiudadKm": 4.1,
+      "candidataDelDetector": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.7,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "WORLD CIS LATINO ZONA FRANCA (ENVIOS DE DINERO)",
+      "url": "/barcelona/barcelona/world-cis-latino-zona-franca-envios-de-dinero",
+      "codigoPostal": "08038",
+      "distanciaASuCiudadKm": 6.0,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.6,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Locutorio Mundial",
+      "url": "/barcelona/barcelona/locutorio-mundial",
+      "codigoPostal": "08033",
+      "distanciaASuCiudadKm": 5.9,
+      "candidataDelDetector": "Montcada i Reixac",
+      "distanciaACandidataKm": 2.4,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Shahzad Khurram",
+      "url": "/barcelona/barcelona/shahzad-khurram",
+      "codigoPostal": "08028",
+      "distanciaASuCiudadKm": 5.3,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Akash Locutorio",
+      "url": "/barcelona/barcelona/akash-locutorio",
+      "codigoPostal": "08019",
+      "distanciaASuCiudadKm": 3.8,
+      "candidataDelDetector": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.3,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "EL Paisa 93",
+      "url": "/barcelona/barcelona/el-paisa-93",
+      "codigoPostal": "08038",
+      "distanciaASuCiudadKm": 5.6,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 2.4,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Mushtaq, A.",
+      "url": "/barcelona/barcelona/mushtaq-a",
+      "codigoPostal": "08033",
+      "distanciaASuCiudadKm": 5.0,
+      "candidataDelDetector": "Santa Coloma de Gramenet",
+      "distanciaACandidataKm": 2.1,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "Ria Money Transfer Agent",
+      "url": "/barcelona/barcelona/ria-money-transfer-agent",
+      "codigoPostal": "08019",
+      "distanciaASuCiudadKm": 3.9,
+      "candidataDelDetector": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.8,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "ALI LOCUTORIO",
+      "url": "/barcelona/barcelona/ali-locutorio",
+      "codigoPostal": "08019",
+      "distanciaASuCiudadKm": 3.6,
+      "candidataDelDetector": "Sant Adrià de Besòs",
+      "distanciaACandidataKm": 1.2,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    },
+    {
+      "nombre": "MoneyGram",
+      "url": "/barcelona/barcelona/moneygram",
+      "codigoPostal": "08028",
+      "distanciaASuCiudadKm": 5.2,
+      "candidataDelDetector": "L'Hospitalet de Llobregat",
+      "distanciaACandidataKm": 1.3,
+      "motivo": "Discrepancia detectada por proximidad de centroide en esta pasada. La mayoría corresponde a distritos/barrios de ciudades grandes (Barcelona, Madrid) cuya posición geográfica puede caer cerca de un municipio vecino sin que eso signifique un error de localidad. No se mueve sin verificar la calle en el callejero oficial."
+    }
+  ],
+  "localidades_eliminadas_por_duplicidad": [
+    "/bizkaia/lejona",
+    "/cadiz/el",
+    "/castellon/alcossebre-castellon",
+    "/illes-balears/santa-eulalia-del-rio",
+    "/bizkaia/arizgoiti",
+    "/castellon/castellon"
+  ],
+  "normalizaciones_localidad": [
+    {
+      "de": "bizkaia/lejona",
+      "a": "bizkaia/leioa"
+    },
+    {
+      "de": "illes-balears/santa-eulalia-del-rio",
+      "a": "illes-balears/santa-eularia-des-riu"
+    },
+    {
+      "de": "castellon/alcossebre-castellon",
+      "a": "castellon/alcossebre"
+    },
+    {
+      "de": "castellon/castellon",
+      "a": "castellon/castellon-de-la-plana"
+    }
+  ],
+  "redirects_creados": [
+    {
+      "source": "/barcelona/santa-coloma-de-gramenet/badalinks",
+      "destination": "/barcelona/badalona/badalinks",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/elexalde/locutorio-bar-caferteria",
+      "destination": "/bizkaia/basauri/locutorio-bar-caferteria",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/elexalde/besmi-allah",
+      "destination": "/bizkaia/leioa/besmi-allah",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/lejona/noshi-locutorio",
+      "destination": "/bizkaia/leioa/noshi-locutorio",
+      "permanent": true
+    },
+    {
+      "source": "/cadiz/el/ciber-locutorio-el-puerto",
+      "destination": "/cadiz/el-puerto-de-sta-maria/ciber-locutorio-el-puerto",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/alcossebre-castellon/prensa-locutorio-paris-tombuctu",
+      "destination": "/castellon/alcossebre/prensa-locutorio-paris-tombuctu",
+      "permanent": true
+    },
+    {
+      "source": "/girona/girona/locutorio-euroenvia",
+      "destination": "/girona/salt/locutorio-euroenvia",
+      "permanent": true
+    },
+    {
+      "source": "/girona/girona/moneygram",
+      "destination": "/girona/salt/moneygram",
+      "permanent": true
+    },
+    {
+      "source": "/illes-balears/santa-eulalia-del-rio/locutorio-kafoul",
+      "destination": "/illes-balears/santa-eularia-des-riu/locutorio-kafoul",
+      "permanent": true
+    },
+    {
+      "source": "/murcia/murcia/locutorio-mundo",
+      "destination": "/murcia/puente-tocinos/locutorio-mundo",
+      "permanent": true
+    },
+    {
+      "source": "/murcia/murcia/locutorio-essallam",
+      "destination": "/murcia/beniajan/locutorio-essallam",
+      "permanent": true
+    },
+    {
+      "source": "/valencia/valencia/locutorio-danish",
+      "destination": "/valencia/mislata/locutorio-danish",
+      "permanent": true
+    },
+    {
+      "source": "/valencia/valencia/international-locutorio-sanfer",
+      "destination": "/valencia/mislata/international-locutorio-sanfer",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/arizgoiti/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+      "destination": "/bizkaia/basauri/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/castellon/pak-movil-store-reparacion-moviles-envios-dinero",
+      "destination": "/castellon/castellon-de-la-plana/pak-movil-store-reparacion-moviles-envios-dinero",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/lejona",
+      "destination": "/bizkaia/leioa",
+      "permanent": true
+    },
+    {
+      "source": "/cadiz/el",
+      "destination": "/cadiz/el-puerto-de-sta-maria",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/alcossebre-castellon",
+      "destination": "/castellon/alcossebre",
+      "permanent": true
+    },
+    {
+      "source": "/illes-balears/santa-eulalia-del-rio",
+      "destination": "/illes-balears/santa-eularia-des-riu",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/arizgoiti",
+      "destination": "/bizkaia/basauri",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/castellon",
+      "destination": "/castellon/castellon-de-la-plana",
+      "permanent": true
+    }
+  ],
+  "metaTitulos_duplicados_antes": 7,
+  "metaTitulos_duplicados_despues": 0,
+  "metaDescripciones_duplicadas_antes": 1,
+  "metaDescripciones_duplicadas_despues": 0,
+  "textos_ciudad_actualizados_por_recuento": [
+    {
+      "url": "/murcia/murcia",
+      "motivo": "Perdió 2 fichas (Locutorio mundo, Locutorio Essallam). Cifras actualizadas: 39->37 establecimientos, 12->10 códigos postales, 15/13/11->14/13/10 por tipo, 28/39->28/37 con teléfono."
+    },
+    {
+      "url": "/valencia/valencia",
+      "motivo": "Perdió 2 fichas (Locutorio Danish, International Locutorio - Sanfer). Cifras actualizadas: 99->96 establecimientos, 20->18 códigos postales, 48/28/23->46/27/23 por tipo, actividad 46->44 muestra."
+    }
+  ],
+  "sitemap_lastmod_corregido": true,
+  "home_copy_corregido": true,
+  "typecheck": "PASS",
+  "build": "PASS",
+  "paginas_generadas": 3894,
+  "problemas_restantes": []
+}

@@ -1,0 +1,397 @@
+{
+  "reparaciones": [
+    {
+      "nombre": "Calp Telephone Center",
+      "url": "/alicante/calp/calp-telephone-center",
+      "campo": "resumen",
+      "antes": "Calp Telephone Center es un establecimiento multifuncional en Calp que combina tienda de accesorios para móviles, locutorio, cibercafé y taller de reparaciones. Destaca por su acce",
+      "despues": "Calp Telephone Center es un establecimiento multifuncional en Calp que combina tienda de accesorios para móviles, locutorio, cibercafé y taller de reparaciones. Destaca por su acce"
+    },
+    {
+      "nombre": "Tienda/Locutorio \"La Fortuna\"",
+      "url": "/alicante/torrevieja/tienda-locutorio-la-fortuna",
+      "campo": "metaDescripcion",
+      "antes": "Conoce el Locutorio La Fortuna en Torrevieja: servicios de mensajería, transferencias, telefonía, copias y más. Lee sobr.y aspectos a…",
+      "despues": "Conoce el Locutorio La Fortuna en Torrevieja: servicios de mensajería, transferencias, telefonía, copias y más. Lee sobre experiencias y aspectos a…"
+    },
+    {
+      "nombre": "MOVIL YAN -Transferencias de dinero",
+      "url": "/almeria/almeria/movil-yan-transferencias-de-dinero",
+      "campo": "resumen",
+      "antes": "MOVIL YAN combina transferencias de dinero con servicios de paquetería y telefonía en Almería. Con más de 13 años d., destaca por su atención amable y su accesibilidad.",
+      "despues": "MOVIL YAN combina transferencias de dinero con servicios de paquetería y telefonía en Almería. Con más de 13 años de experiencia, destaca por su atención amable y su accesibilidad."
+    },
+    {
+      "nombre": "MOVIL YAN -Transferencias de dinero",
+      "url": "/almeria/almeria/movil-yan-transferencias-de-dinero",
+      "campo": "metaDescripcion",
+      "antes": "MOVIL YAN ofrece envío de dinero nacional e internacional, recogida de paquetes y accesorios de telefonía en Almería. Más de 13 años d.y…",
+      "despues": "MOVIL YAN ofrece envío de dinero nacional e internacional, recogida de paquetes y accesorios de telefonía en Almería. Más de 13 años de experiencia y…"
+    },
+    {
+      "nombre": "Ria Money Transfer Copias",
+      "url": "/barcelona/barcelona/ria-money-transfer-copias",
+      "campo": "resumen",
+      "antes": "Ria Money Transfer Copias es un locutorio en el Eixample de Barcelona con 18 años d., especializado en envíos de dinero, recargas internacionales y servicios de copistería.",
+      "despues": "Ria Money Transfer Copias es un locutorio en el Eixample de Barcelona con 18 años de experiencia, especializado en envíos de dinero, recargas internacionales y servicios de copiste"
+    },
+    {
+      "nombre": "Akash Locutorio",
+      "url": "/barcelona/barcelona/akash-locutorio",
+      "campo": "resumen",
+      "antes": "Akash Locutorio es un establecimiento en Barcelona dedicado a transferencias de dinero, con servicios adicionales como escaneo, fotocopias e internet. Destaca por su horario extend",
+      "despues": "Akash Locutorio es un establecimiento en Barcelona dedicado a transferencias de dinero, con servicios adicionales como escaneo, fotocopias e internet. Destaca por su horario extend"
+    },
+    {
+      "nombre": "Locutorio El Paisa 12",
+      "url": "/barcelona/barcelona/locutorio-el-paisa-12",
+      "campo": "resumen",
+      "antes": "Locutorio en Sant Martí (Barcelona) con servicios de paquetería, reparación de móviles y envíos de dinero. Destaca por su accesibilidad y ambiente inclusivo, aunqu.muestran problem",
+      "despues": "Locutorio en Sant Martí (Barcelona) con servicios de paquetería, reparación de móviles y envíos de dinero. Destaca por su accesibilidad y ambiente inclusivo, aunque las experiencia"
+    },
+    {
+      "nombre": "Transfer Latina",
+      "url": "/barcelona/l-hospitalet-de-llobregat/transfer-latina",
+      "campo": "metaDescripcion",
+      "antes": "Transfer Latina es un locutorio y servicio de mensajería en L'Hospitalet de Llobregat con 20 años d.declarada. Envíos aéreos urgentes…",
+      "despues": "Transfer Latina es un locutorio y servicio de mensajería en L'Hospitalet de Llobregat con 20 años de experiencia declarada. Envíos aéreos urgentes…"
+    },
+    {
+      "nombre": "Locutorio Ali",
+      "url": "/barcelona/mataro/locutorio-ali",
+      "campo": "resumen",
+      "antes": "Locutorio Ali es un establecimiento en Mataró especializado en transferencias de dinero. Ofrece además servicios como envío de documentos, impresión y recogida de paquetes DHL, aun",
+      "despues": "Locutorio Ali es un establecimiento en Mataró especializado en transferencias de dinero. Ofrece además servicios como envío de documentos, impresión y recogida de paquetes DHL, aun"
+    },
+    {
+      "nombre": "Locutorio Shinda Net Center",
+      "url": "/barcelona/pineda-de-mar/locutorio-shinda-net-center",
+      "campo": "resumen",
+      "antes": "Locutorio en Pineda de Mar con 25 años d. Ofrece envíos de dinero, recogida de paquetes, impresión, recargas y más. Accesible y con aparcamiento.",
+      "despues": "Locutorio en Pineda de Mar con 25 años de experiencia. Ofrece envíos de dinero, recogida de paquetes, impresión, recargas y más. Accesible y con aparcamiento."
+    },
+    {
+      "nombre": "Locutorio Shinda Net Center",
+      "url": "/barcelona/pineda-de-mar/locutorio-shinda-net-center",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio en Pineda de Mar con 25 años d. Envíos de dinero, recogida de paquetes, impresión, recargas y más. Accesible y con aparcamiento.",
+      "despues": "Locutorio en Pineda de Mar con 25 años de experiencia. Envíos de dinero, recogida de paquetes, impresión, recargas y más. Accesible y con aparcamiento."
+    },
+    {
+      "nombre": "Locutorio Latinoamericano",
+      "url": "/bizkaia/areeta-las-arenas/locutorio-latinoamericano",
+      "campo": "resumen",
+      "antes": "Locutorio Latinoamericano, en Las Arenas, combina servicios de comunicación, envío de dinero y copistería, con 22 años d.y un enfoque inclusivo.",
+      "despues": "Locutorio Latinoamericano, en Las Arenas, combina servicios de comunicación, envío de dinero y copistería, con 22 años de experiencia y un enfoque inclusivo."
+    },
+    {
+      "nombre": "Money Exchange Bilbao - Envio de Dinero - Cambio de Divisas - Change Dollar, Libras",
+      "url": "/bizkaia/bilbao/money-exchange-bilbao-envio-de-dinero-cambio-de-divisas-change-dollar-libras",
+      "campo": "resumen",
+      "antes": "Money Exchange Bilbao es un establecimiento en Deusto especializado en envío de dinero y cambio de divisas, con más de 20 años d.y registro como Entidad de Pago.",
+      "despues": "Money Exchange Bilbao es un establecimiento en Deusto especializado en envío de dinero y cambio de divisas, con más de 20 años de experiencia y registro como Entidad de Pago."
+    },
+    {
+      "nombre": "MOBILE CITY",
+      "url": "/bizkaia/bilbao/mobile-city",
+      "campo": "resumen",
+      "antes": "MOBILE CITY es un locutorio en Bilbao (Ibaiondo) que acepta tarjetas, con atención amable y precios económicos, aunqu.varían.",
+      "despues": "MOBILE CITY es un locutorio en Bilbao (Ibaiondo) que acepta tarjetas, con atención amable y precios económicos, aunque las experiencias varían."
+    },
+    {
+      "nombre": "Besmi Allah",
+      "url": "/bizkaia/elexalde/besmi-allah",
+      "campo": "resumen",
+      "antes": "Locutorio en Elexalde con fotocopias a buen precio, reparación de pantallas y envíos. Destaca por la atención amable y precios competitivos, aunque ha.mixtas en reparaciones y hora",
+      "despues": "Locutorio en Elexalde con fotocopias a buen precio, reparación de pantallas y envíos. Destaca por la atención amable y precios competitivos, aunque hay experiencias mixtas en repar"
+    },
+    {
+      "nombre": "Locutorio Pak Lasani",
+      "url": "/bizkaia/guernica-y-luno/locutorio-pak-lasani",
+      "campo": "metaDescripcion",
+      "antes": "Conoce el Locutorio Pak Lasani en Guernica y Luno, Vizcaya. Ofrece reparación de móviles y recargas de teléfono, aunqu.son mixtas.",
+      "despues": "Conoce el Locutorio Pak Lasani en Guernica y Luno, Vizcaya. Ofrece reparación de móviles y recargas de teléfono, aunque las experiencias son mixtas."
+    },
+    {
+      "nombre": "Pak Movil Store - Reparación Móviles , Envíos Dinero",
+      "url": "/castellon/castellon/pak-movil-store-reparacion-moviles-envios-dinero",
+      "campo": "metaDescripcion",
+      "antes": "Pak Movil Store en Castellón ofrece reparación de móviles y tablets, venta de accesorios, recargas y envío de dinero. Más de 20 años d.",
+      "despues": "Pak Movil Store en Castellón ofrece reparación de móviles y tablets, venta de accesorios, recargas y envío de dinero. Más de 20 años de experiencia."
+    },
+    {
+      "nombre": "Locutorio Internacional",
+      "url": "/castellon/la-vall-d-uixo/locutorio-internacional",
+      "campo": "resumen",
+      "antes": "Locutorio Internacional, en la Vall d'Uixó, ofrece envíos de dinero con Western Union, Monty Global y Ria, recargas de teléfono, activaciones de fibra, paquetería y servicio de imp",
+      "despues": "Locutorio Internacional, en la Vall d'Uixó, ofrece envíos de dinero con Western Union, Monty Global y Ria, recargas de teléfono, activaciones de fibra, paquetería y servicio de imp"
+    },
+    {
+      "nombre": "Locutorio Internacional",
+      "url": "/castellon/la-vall-d-uixo/locutorio-internacional",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio Internacional en la Vall d'Uixó ofrece envíos de dinero, recargas, paquetería y más. Con más de 20 años d., destaca por su variedad de…",
+      "despues": "Locutorio Internacional en la Vall d'Uixó ofrece envíos de dinero, recargas, paquetería y más. Con más de 20 años de experiencia, destaca por su variedad de…"
+    },
+    {
+      "nombre": "Doce de Octubre",
+      "url": "/cordoba/cordoba/doce-de-octubre",
+      "campo": "resumen",
+      "antes": "Locutorio familiar en el centro de Córdoba con más de 10 años d., especializado en transferencias internacionales, recargas, productos latinoamericanos, telefonía e informática. De",
+      "despues": "Locutorio familiar en el centro de Córdoba con más de 10 años de experiencia, especializado en transferencias internacionales, recargas, productos latinoamericanos, telefonía e inf"
+    },
+    {
+      "nombre": "Doce de Octubre",
+      "url": "/cordoba/cordoba/doce-de-octubre",
+      "campo": "metaDescripcion",
+      "antes": "Doce de Octubre es un locutorio familiar en el centro de Córdoba con más de 10 años d. Ofrece transferencias internacionales, recargas…",
+      "despues": "Doce de Octubre es un locutorio familiar en el centro de Córdoba con más de 10 años de experiencia. Ofrece transferencias internacionales, recargas…"
+    },
+    {
+      "nombre": "Locutorio Lalamusa",
+      "url": "/gipuzkoa/eibar/locutorio-lalamusa",
+      "campo": "resumen",
+      "antes": "El Locutorio Lalamusa en Eibar ofrece servicios de envío y atención al cliente, aunqu.sobre el trato son variadas.",
+      "despues": "El Locutorio Lalamusa en Eibar ofrece servicios de envío y atención al cliente, aunque las experiencias sobre el trato son variadas."
+    },
+    {
+      "nombre": "Amalur Lau",
+      "url": "/gipuzkoa/tolosa/amalur-lau",
+      "campo": "resumen",
+      "antes": "Amalur Lau es un establecimiento en Tolosa que combina transferencias de dinero, paquetería (INPOST y GLS) y venta minorista. Su ubicación céntrica lo convierte en un punto práctic",
+      "despues": "Amalur Lau es un establecimiento en Tolosa que combina transferencias de dinero, paquetería (INPOST y GLS) y venta minorista. Su ubicación céntrica lo convierte en un punto práctic"
+    },
+    {
+      "nombre": "LOCUTORIO JORDAY",
+      "url": "/guadalajara/azuqueca-de-henares/locutorio-jorday",
+      "campo": "resumen",
+      "antes": "Locutorio Jorday es una tienda latina en Azuqueca de Henares con 7 años d., que ofrece productos de varios países y servicios de envíos de dinero.",
+      "despues": "Locutorio Jorday es una tienda latina en Azuqueca de Henares con 7 años de experiencia, que ofrece productos de varios países y servicios de envíos de dinero."
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url": "/illes-balears/palma/ria-money-transfer-agent-payout-4",
+      "campo": "resumen",
+      "antes": "Establecimiento en Palma que opera como agente de Ria Money Transfer, centrado en el envío de dinero a nivel internacional. Ofrece transferencias a casi 160 países, aunqu.varían y ",
+      "despues": "Establecimiento en Palma que opera como agente de Ria Money Transfer, centrado en el envío de dinero a nivel internacional. Ofrece transferencias a casi 160 países, aunque las expe"
+    },
+    {
+      "nombre": "Multiservicios Assalam 2 / Distribuidor oficial Digimobil",
+      "url": "/lleida/lleida/multiservicios-assalam-2-distribuidor-oficial-digimobil",
+      "campo": "resumen",
+      "antes": "Multiservicios Assalam 2 es un locutorio en Lleida que combina envíos de dinero, gestión de trámites administrativos, copias, escaneo y venta de productos electrónicos. Destaca por",
+      "despues": "Multiservicios Assalam 2 es un locutorio en Lleida que combina envíos de dinero, gestión de trámites administrativos, copias, escaneo y venta de productos electrónicos. Destaca por"
+    },
+    {
+      "nombre": "MultiServeis SORT , Reparación móviles , Recargas ,Envios de dinero Wester Union",
+      "url": "/lleida/sort/multiserveis-sort-reparacion-moviles-recargas-envios-de-dinero-wester-union",
+      "campo": "resumen",
+      "antes": "MultiServeis Sort es un establecimiento polivalente en Sort que combina reparación de móviles, venta de accesorios, recargas y envíos de dinero Western Union, con una atención al c",
+      "despues": "MultiServeis Sort es un establecimiento polivalente en Sort que combina reparación de móviles, venta de accesorios, recargas y envíos de dinero Western Union, con una atención al c"
+    },
+    {
+      "nombre": "Locutorio el Gauchito",
+      "url": "/madrid/alcala-de-henares/locutorio-el-gauchito",
+      "campo": "resumen",
+      "antes": "Locutorio el Gauchito es un comercio en Alcalá de Henares que ofrece paquetería, envíos de dinero a Colombia, Estados Unidos, Perú y Ecuador, y otros servicios. Destaca por su acce",
+      "despues": "Locutorio el Gauchito es un comercio en Alcalá de Henares que ofrece paquetería, envíos de dinero a Colombia, Estados Unidos, Perú y Ecuador, y otros servicios. Destaca por su acce"
+    },
+    {
+      "nombre": "Locutorios Alfertel S.L",
+      "url": "/madrid/collado-villalba/locutorios-alfertel-s-l",
+      "campo": "metaDescripcion",
+      "antes": "Locutorios Alfertel S.L ofrece envíos de dinero, paquetería, recargas, impresiones y punto de entrega en Collado Villalba. Con más de 25 años d.",
+      "despues": "Locutorios Alfertel S.L ofrece envíos de dinero, paquetería, recargas, impresiones y punto de entrega en Collado Villalba. Con más de 25 años de experiencia."
+    },
+    {
+      "nombre": "Locutorio Arco",
+      "url": "/madrid/galapagar/locutorio-arco",
+      "campo": "resumen",
+      "antes": "Locutorio Arco es un establecimiento en Galapagar especializado en transferencias de dinero. Ofrece también venta de tarjetas SIM, recargas de móvil y uso de ordenadores, aunqu.son",
+      "despues": "Locutorio Arco es un establecimiento en Galapagar especializado en transferencias de dinero. Ofrece también venta de tarjetas SIM, recargas de móvil y uso de ordenadores, aunque la"
+    },
+    {
+      "nombre": "Ciber Leganés",
+      "url": "/madrid/leganes/ciber-leganes",
+      "campo": "resumen",
+      "antes": "Ciber Leganés es un locutorio en Leganés con más de 20 años d., que ofrece envíos de dinero, paquetería, impresiones y productos variados. Destaca por su accesibilidad y múltiples ",
+      "despues": "Ciber Leganés es un locutorio en Leganés con más de 20 años de experiencia, que ofrece envíos de dinero, paquetería, impresiones y productos variados. Destaca por su accesibilidad "
+    },
+    {
+      "nombre": "Locutorio Santo Domingo ECU 2 - Ciudad Lineal",
+      "url": "/madrid/madrid/locutorio-santo-domingo-ecu-2-ciudad-lineal",
+      "campo": "resumen",
+      "antes": "Local de envío de dinero en Ciudad Lineal, Madrid, con 15 años d.declarada y servicio de transferencias.",
+      "despues": "Local de envío de dinero en Ciudad Lineal, Madrid, con 15 años de experiencia declarada y servicio de transferencias."
+    },
+    {
+      "nombre": "Locutorio Santo Domingo ECU 2 - Ciudad Lineal",
+      "url": "/madrid/madrid/locutorio-santo-domingo-ecu-2-ciudad-lineal",
+      "campo": "metaDescripcion",
+      "antes": "Servicio de transferencias de dinero en la Calle Alcalá 407, Madrid. Con 15 años d.declarada, se presenta como agente de entidades de pago…",
+      "despues": "Servicio de transferencias de dinero en la Calle Alcalá 407, Madrid. Con 15 años de experiencia declarada, se presenta como agente de entidades de pago…"
+    },
+    {
+      "nombre": "LOCUTORIO MADRID-ENVIOS Y PAGOS",
+      "url": "/madrid/madrid/locutorio-madrid-envios-y-pagos",
+      "campo": "resumen",
+      "antes": "Locutorio Madrid combina envíos de dinero a través de Western Union, MoneyGram y Ria con servicios de paquetería, copistería y personalización de regalos. Con más de 18 años d.y un",
+      "despues": "Locutorio Madrid combina envíos de dinero a través de Western Union, MoneyGram y Ria con servicios de paquetería, copistería y personalización de regalos. Con más de 18 años de exp"
+    },
+    {
+      "nombre": "Locutorio Santo Domingo Ecu 1 - Pueblo Nuevo",
+      "url": "/madrid/madrid/locutorio-santo-domingo-ecu-1-pueblo-nuevo",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio en Madrid con 16 años d.en envíos y recepción de dinero. Agente autorizado de Western Union, MoneyGram y más. Dos sucursales…",
+      "despues": "Locutorio en Madrid con 16 años de experiencia en envíos y recepción de dinero. Agente autorizado de Western Union, MoneyGram y más. Dos sucursales…"
+    },
+    {
+      "nombre": "MoneyGram Omer Locutorio",
+      "url": "/madrid/madrid/moneygram-omer-locutorio",
+      "campo": "resumen",
+      "antes": "MoneyGram Omer Locutorio es un establecimiento en Madrid que combina servicios de transferencia de dinero con los de un locutorio. Su asociación con MoneyGram es su rasgo más disti",
+      "despues": "MoneyGram Omer Locutorio es un establecimiento en Madrid que combina servicios de transferencia de dinero con los de un locutorio. Su asociación con MoneyGram es su rasgo más disti"
+    },
+    {
+      "nombre": "Money Exchange Fuencarral - Envio de Dinero - Cambio de Divisas - Change Dollar, Libras",
+      "url": "/madrid/madrid/money-exchange-fuencarral-envio-de-dinero-cambio-de-divisas-change-dollar-libras",
+      "campo": "resumen",
+      "antes": "Money Exchange Fuencarral es un establecimiento en el centro de Madrid especializado en envío de dinero y cambio de divisas, con más de 20 años d.y registro como Entidad de Pago.",
+      "despues": "Money Exchange Fuencarral es un establecimiento en el centro de Madrid especializado en envío de dinero y cambio de divisas, con más de 20 años de experiencia y registro como Entid"
+    },
+    {
+      "nombre": "LOCUTORIO CACIL ENVIOS",
+      "url": "/madrid/madrid/locutorio-cacil-envios",
+      "campo": "resumen",
+      "antes": "El Locutorio Cacil Envíos, en el distrito de Latina, combina servicios de locutorio con un punto de recogida y envío de paquetes. Ofrece recogida en tienda, aparcamiento adaptado y",
+      "despues": "El Locutorio Cacil Envíos, en el distrito de Latina, combina servicios de locutorio con un punto de recogida y envío de paquetes. Ofrece recogida en tienda, aparcamiento adaptado y"
+    },
+    {
+      "nombre": "Jorge Locutorios",
+      "url": "/madrid/majadahonda/jorge-locutorios",
+      "campo": "resumen",
+      "antes": "Jorge Locutorios, en la Gran Vía de Majadahonda, es un establecimiento con más de 25 años d.en envíos de dinero. Además, ofrece recargas, impresiones, venta de billetes de vuelo y ",
+      "despues": "Jorge Locutorios, en la Gran Vía de Majadahonda, es un establecimiento con más de 25 años de experiencia en envíos de dinero. Además, ofrece recargas, impresiones, venta de billete"
+    },
+    {
+      "nombre": "Locutorio Confornet 2",
+      "url": "/madrid/mejorada-del-campo/locutorio-confornet-2",
+      "campo": "resumen",
+      "antes": "Locutorio Confornet 2 es un negocio polivalente en Mejorada del Campo con más de 15 años d., que ofrece paquetería, fotocopias, envíos de dinero y otros servicios.",
+      "despues": "Locutorio Confornet 2 es un negocio polivalente en Mejorada del Campo con más de 15 años de experiencia, que ofrece paquetería, fotocopias, envíos de dinero y otros servicios."
+    },
+    {
+      "nombre": "Locutorio Confornet 2",
+      "url": "/madrid/mejorada-del-campo/locutorio-confornet-2",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio Confornet 2 ofrece paquetería, fotocopias, envíos de dinero y más en Mejorada del Campo. Con más de 15 años d., es un punto de…",
+      "despues": "Locutorio Confornet 2 ofrece paquetería, fotocopias, envíos de dinero y más en Mejorada del Campo. Con más de 15 años de experiencia, es un punto de…"
+    },
+    {
+      "nombre": "Farhan Locutorio",
+      "url": "/madrid/parla/farhan-locutorio",
+      "campo": "resumen",
+      "antes": "Farhan Locutorio, en Parla, combina servicios de locutorio con gestión de documentos y trámites. Destaca por su ayuda en nacionalidad, aunqu.varían en atención y fiabilidad.",
+      "despues": "Farhan Locutorio, en Parla, combina servicios de locutorio con gestión de documentos y trámites. Destaca por su ayuda en nacionalidad, aunque las experiencias varían en atención y "
+    },
+    {
+      "nombre": "Nuevo Locutorio",
+      "url": "/madrid/torrelaguna/nuevo-locutorio",
+      "campo": "resumen",
+      "antes": "El Nuevo Locutorio en Torrelaguna ofrece envíos de paquetes y transferencias de dinero. Destaca por su cercanía, aunqu.sobre el trato son variadas.",
+      "despues": "El Nuevo Locutorio en Torrelaguna ofrece envíos de paquetes y transferencias de dinero. Destaca por su cercanía, aunque las experiencias sobre el trato son variadas."
+    },
+    {
+      "nombre": "Locutorio Johana",
+      "url": "/malaga/malaga/locutorio-johana",
+      "campo": "resumen",
+      "antes": "El Locutorio Johana, en la Calle Ciudad de Andújar, ofrece servicios de impresión, escaneo, envío de dinero y recogida de paquetes. Destaca por su accesibilidad y aceptación de pag",
+      "despues": "El Locutorio Johana, en la Calle Ciudad de Andújar, ofrece servicios de impresión, escaneo, envío de dinero y recogida de paquetes. Destaca por su accesibilidad y aceptación de pag"
+    },
+    {
+      "nombre": "LOCUTORIO DEITANIA",
+      "url": "/murcia/totana/locutorio-deitania",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio Deitania en Totana ofrece envíos de dinero, trámites administrativos, tarjetas SIM, recargas, fotocopias y más. Con 25 años d.",
+      "despues": "Locutorio Deitania en Totana ofrece envíos de dinero, trámites administrativos, tarjetas SIM, recargas, fotocopias y más. Con 25 años de experiencia."
+    },
+    {
+      "nombre": "Locutorio Raúl",
+      "url": "/navarra/pamplona/locutorio-raul",
+      "campo": "resumen",
+      "antes": "Locutorio en Pamplona con acceso adaptado, pago con tarjeta y una atención que destaca por su amabilidad, aunqu.sobre el ambiente son variadas.",
+      "despues": "Locutorio en Pamplona con acceso adaptado, pago con tarjeta y una atención que destaca por su amabilidad, aunque las experiencias sobre el ambiente son variadas."
+    },
+    {
+      "nombre": "Locutorio France Patois",
+      "url": "/santa-cruz-de-tenerife/arona/locutorio-france-patois",
+      "campo": "resumen",
+      "antes": "Locutorio y servicio de transferencias de dinero en Fraile, con más de 15 años d. Ofrece envío de dinero y paquetes a destinos como Cuba, Colombia, Senegal, República Dominicana, V",
+      "despues": "Locutorio y servicio de transferencias de dinero en Fraile, con más de 15 años de experiencia. Ofrece envío de dinero y paquetes a destinos como Cuba, Colombia, Senegal, República "
+    },
+    {
+      "nombre": "Locutorio France Patois",
+      "url": "/santa-cruz-de-tenerife/arona/locutorio-france-patois",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio en Fraile, Tenerife, con más de 15 años d. Envío de dinero a través de RIA, MoneyGram y Smart World, y paquetería internacional a…",
+      "despues": "Locutorio en Fraile, Tenerife, con más de 15 años de experiencia. Envío de dinero a través de RIA, MoneyGram y Smart World, y paquetería internacional a…"
+    },
+    {
+      "nombre": "Cyber Dream Candelaria",
+      "url": "/santa-cruz-de-tenerife/candelaria/cyber-dream-candelaria",
+      "campo": "resumen",
+      "antes": "Cyber Dream Candelaria es un establecimiento polivalente en Candelaria (Tenerife) especializado en envíos de dinero, cambio de divisas, copistería y recargas móviles, con más de 25",
+      "despues": "Cyber Dream Candelaria es un establecimiento polivalente en Candelaria (Tenerife) especializado en envíos de dinero, cambio de divisas, copistería y recargas móviles, con más de 25"
+    },
+    {
+      "nombre": "Locutorio \"ROBERTO\". Conective World Center",
+      "url": "/sevilla/sevilla/locutorio-roberto-conective-world-center",
+      "campo": "metaDescripcion",
+      "antes": "Locutorio Roberto en Sevilla ofrece envíos de dinero, recargas, productos variados y más. Con más de 13 años d., es un referente en el barrio.",
+      "despues": "Locutorio Roberto en Sevilla ofrece envíos de dinero, recargas, productos variados y más. Con más de 13 años de experiencia, es un referente en el barrio."
+    },
+    {
+      "nombre": "Nor Locutorio",
+      "url": "/tarragona/calafell/nor-locutorio",
+      "campo": "resumen",
+      "antes": "Nor Locutorio, en Calafell, combina servicios de locutorio con impresión y reparación de móviles. Destaca por aceptar pagos con tarjeta y móvil, aunqu.varían.",
+      "despues": "Nor Locutorio, en Calafell, combina servicios de locutorio con impresión y reparación de móviles. Destaca por aceptar pagos con tarjeta y móvil, aunque las experiencias varían."
+    },
+    {
+      "nombre": "Parc Crespí Locutorio Internet Nasir mahmood",
+      "url": "/valencia/alzira/parc-crespi-locutorio-internet-nasir-mahmood",
+      "campo": "resumen",
+      "antes": "Parc Crespí Locutorio Internet Nasir mahmood es un establecimiento en Alzira que, por su nombre, ofrece servicios de locutorio e internet. La atención recib.positivas, aunque hay a",
+      "despues": "Parc Crespí Locutorio Internet Nasir mahmood es un establecimiento en Alzira que, por su nombre, ofrece servicios de locutorio e internet. La atención recibe valoraciones positivas"
+    },
+    {
+      "nombre": "Ama locutorio RIA Moneygram",
+      "url": "/valencia/valencia/ama-locutorio-ria-moneygram",
+      "campo": "resumen",
+      "antes": "Ama locutorio RIA Moneygram, en el barrio de Extramurs de Valencia, ofrece envío y recepción de dinero, recargas y productos latinos. Destaca por su atención amable y su conexión c",
+      "despues": "Ama locutorio RIA Moneygram, en el barrio de Extramurs de Valencia, ofrece envío y recepción de dinero, recargas y productos latinos. Destaca por su atención amable y su conexión c"
+    },
+    {
+      "nombre": "Locutorio Las Rosas",
+      "url": "/valencia/valencia/locutorio-las-rosas",
+      "campo": "resumen",
+      "antes": "Locutorio Las Rosas combina cibercafé e imprenta en el barrio de Poblados Marítimos, Valencia. Destaca por su accesibilidad y aceptación de tarjetas, aunqu.varían.",
+      "despues": "Locutorio Las Rosas combina cibercafé e imprenta en el barrio de Poblados Marítimos, Valencia. Destaca por su accesibilidad y aceptación de tarjetas, aunque las experiencias varían"
+    },
+    {
+      "nombre": "LOCUTORIO DEL BARRIO DE DESAMPARADOS",
+      "url": "/valencia/valencia/locutorio-del-barrio-de-desamparados",
+      "campo": "resumen",
+      "antes": "El Locutorio del Barrio de Desamparados es un establecimiento de barrio en Valencia que ofrece servicios como venta de chips, helados y copias, aunqu.muestran algunas quejas sobre ",
+      "despues": "El Locutorio del Barrio de Desamparados es un establecimiento de barrio en Valencia que ofrece servicios como venta de chips, helados y copias, aunque las experiencias de los clien"
+    },
+    {
+      "nombre": "LOCUTORIO AYUD",
+      "url": "/zaragoza/calatayud/locutorio-ayud",
+      "campo": "resumen",
+      "antes": "Locutorio Ayud es una tienda de electrónica en Calatayud que permite comprar en tienda y pagar con tarjeta o móvil. También actúa como punto de recogida de Amazon, aunqu.de atenció",
+      "despues": "Locutorio Ayud es una tienda de electrónica en Calatayud que permite comprar en tienda y pagar con tarjeta o móvil. También actúa como punto de recogida de Amazon, aunque las exper"
+    }
+  ],
+  "dudosas": []
+}

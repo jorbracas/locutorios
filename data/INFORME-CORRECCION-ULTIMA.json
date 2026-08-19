@@ -1,0 +1,124 @@
+{
+  "fichas_modificadas": 18,
+  "errores_gramaticales_corregidos": 11,
+  "errores_gramaticales_restantes": 0,
+  "nombres_anonimizados": 7,
+  "nombres_conservados_por_fuente_oficial": [],
+  "unknown_noindex": true,
+  "unknown_fuera_sitemap": true,
+  "urls_modificadas": 0,
+  "geografia_modificada": 0,
+  "problemas_restantes": [],
+  "detalle_gramatica": [
+    {
+      "ficha": "LOCUTORIO SARA",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "India Post",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "Locutorio Ms",
+      "campo": "metaDescripcion",
+      "correccion": "las información...varían -> la información...varía"
+    },
+    {
+      "ficha": "Locutorio Amapolas Seseña Nuevo",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "The Fox",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "Locutorio OLIVERA",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "Locutorio Más Cerca",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "LOCUTORIO HSA",
+      "campo": "metaDescripcion",
+      "correccion": "las información -> la información"
+    },
+    {
+      "ficha": "Cyber",
+      "campo": "resumen",
+      "correccion": "algunas información -> alguna información"
+    },
+    {
+      "ficha": "Servitran Sanits",
+      "campo": "resumen",
+      "correccion": "algunas información aisladas -> algunos datos aislados"
+    },
+    {
+      "ficha": "Easy Call Internet y Locutorio",
+      "campo": "resumen",
+      "correccion": "algunas información positivas -> algunos datos positivos"
+    }
+  ],
+  "detalle_nombres": [
+    {
+      "nombre": "Mónica",
+      "ficha": "Locutorio Morán",
+      "contexto_original": "atención amable y profesional, especialmente de Mónica",
+      "accion": "anonimizado -> 'del personal'"
+    },
+    {
+      "nombre": "Pomi",
+      "ficha": "Locutorio Aini Telecom",
+      "contexto_original": "se destaca la figura de Pomi, descrito como una persona atenta",
+      "accion": "anonimizado -> 'al personal'"
+    },
+    {
+      "nombre": "Rubén",
+      "ficha": "TU TIENDA PICA PICA",
+      "contexto_original": "3 apariciones: 'la figura de Rubén, identificado como responsable...'",
+      "accion": "anonimizado -> 'la persona responsable' / 'el personal' / 'la atención recibida'"
+    },
+    {
+      "nombre": "Ruth",
+      "ficha": "LOCUTORIO TIENDA DE ALIMENTACION LATINO PHONEBELL",
+      "contexto_original": "se menciona a Ruth, la empleada que atiende",
+      "accion": "anonimizado -> 'la empleada que atiende'"
+    },
+    {
+      "nombre": "Tatiana",
+      "ficha": "Small World FS – Burgos",
+      "contexto_original": "la figura de Tatiana, en particular, se asocia a una gestión ágil",
+      "accion": "anonimizado -> 'la atención recibida'"
+    },
+    {
+      "nombre": "Samba",
+      "ficha": "Cybertel",
+      "contexto_original": "8 apariciones en cuerpo/resumen/encabezado H2",
+      "accion": "anonimizado -> 'la persona que atiende' / 'el personal' / 'quien atiende'"
+    },
+    {
+      "nombre": "Roberto",
+      "ficha": "UNKNOWN",
+      "contexto_original": "la figura de Roberto, el encargado, se repite en las conversaciones",
+      "accion": "anonimizado -> 'el encargado'"
+    }
+  ],
+  "verificacion": {
+    "recargado_desde_disco": true,
+    "fichas_totales": 3050,
+    "ficheros_provincia_modificados": 11,
+    "campos_criticos_sin_cambios": true,
+    "typecheck": "PASS",
+    "build": "PASS",
+    "paginas_generadas": 3894,
+    "redirects_sin_cambios": 21,
+    "unknown_meta_robots": "noindex, follow"
+  }
+}

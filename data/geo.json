@@ -1,7 +1,7 @@
 {
   "totalFichas": 3050,
   "totalProvincias": 52,
-  "totalCiudades": 787,
+  "totalCiudades": 782,
   "provincias": [
     {
       "slug": "a-coruna",
@@ -923,9 +923,16 @@
         {
           "slug": "santa-coloma-de-gramenet",
           "nombre": "Santa Coloma de Gramenet",
-          "total": 16,
-          "lat": 41.447619,
-          "lng": 2.215194
+          "total": 15,
+          "lat": 41.448488,
+          "lng": 2.214912
+        },
+        {
+          "slug": "badalona",
+          "nombre": "Badalona",
+          "total": 12,
+          "lat": 41.443136,
+          "lng": 2.22547
         },
         {
           "slug": "manresa",
@@ -933,13 +940,6 @@
           "total": 12,
           "lat": 41.727099,
           "lng": 1.828445
-        },
-        {
-          "slug": "badalona",
-          "nombre": "Badalona",
-          "total": 11,
-          "lat": 41.443912,
-          "lng": 2.226021
         },
         {
           "slug": "sabadell",
@@ -1418,8 +1418,8 @@
           "lng": 2.386678
         }
       ],
-      "lat": 41.52996,
-      "lng": 2.125468
+      "lat": 41.529961,
+      "lng": 2.125457
     },
     {
       "slug": "bizkaia",
@@ -1455,18 +1455,18 @@
           "lng": -2.634604
         },
         {
+          "slug": "leioa",
+          "nombre": "Leioa",
+          "total": 4,
+          "lat": 43.324664,
+          "lng": -2.996568
+        },
+        {
           "slug": "bermeo",
           "nombre": "Bermeo",
           "total": 3,
           "lat": 43.41968,
           "lng": -2.726513
-        },
-        {
-          "slug": "elexalde",
-          "nombre": "Elexalde",
-          "total": 3,
-          "lat": 43.237,
-          "lng": -2.884016
         },
         {
           "slug": "portugalete",
@@ -1497,6 +1497,13 @@
           "lng": -3.010976
         },
         {
+          "slug": "basauri",
+          "nombre": "Basauri",
+          "total": 2,
+          "lat": 43.230406,
+          "lng": -2.890706
+        },
+        {
           "slug": "gernika-lumo",
           "nombre": "Gernika-Lumo",
           "total": 2,
@@ -1504,25 +1511,11 @@
           "lng": -2.678248
         },
         {
-          "slug": "leioa",
-          "nombre": "Leioa",
-          "total": 2,
-          "lat": 43.323914,
-          "lng": -2.996469
-        },
-        {
           "slug": "sestao",
           "nombre": "Sestao",
           "total": 2,
           "lat": 43.309893,
           "lng": -3.006086
-        },
-        {
-          "slug": "arizgoiti",
-          "nombre": "Arizgoiti",
-          "total": 1,
-          "lat": 43.237878,
-          "lng": -2.893983
         },
         {
           "slug": "arrigorriaga",
@@ -1546,6 +1539,13 @@
           "lng": -3.193901
         },
         {
+          "slug": "elexalde",
+          "nombre": "Elexalde",
+          "total": 1,
+          "lat": 43.163492,
+          "lng": -2.777718
+        },
+        {
           "slug": "elorrio",
           "nombre": "Elorrio",
           "total": 1,
@@ -1565,13 +1565,6 @@
           "total": 1,
           "lat": 43.173896,
           "lng": -2.638744
-        },
-        {
-          "slug": "lejona",
-          "nombre": "Lejona",
-          "total": 1,
-          "lat": 43.326255,
-          "lng": -3.006436
         },
         {
           "slug": "lekeitio",
@@ -1630,8 +1623,8 @@
           "lng": -2.912985
         }
       ],
-      "lat": 43.274161,
-      "lng": -2.822901
+      "lat": 43.269435,
+      "lng": -2.812436
     },
     {
       "slug": "burgos",
@@ -1748,18 +1741,18 @@
           "lng": -6.134938
         },
         {
+          "slug": "el-puerto-de-sta-maria",
+          "nombre": "El Puerto de Sta María",
+          "total": 3,
+          "lat": 36.597599,
+          "lng": -6.233412
+        },
+        {
           "slug": "chiclana-de-la-frontera",
           "nombre": "Chiclana de la Frontera",
           "total": 2,
           "lat": 36.42184,
           "lng": -6.147737
-        },
-        {
-          "slug": "el-puerto-de-sta-maria",
-          "nombre": "El Puerto de Sta María",
-          "total": 2,
-          "lat": 36.597447,
-          "lng": -6.231712
         },
         {
           "slug": "ubrique",
@@ -1788,13 +1781,6 @@
           "total": 1,
           "lat": 36.529859,
           "lng": -6.291144
-        },
-        {
-          "slug": "el",
-          "nombre": "El",
-          "total": 1,
-          "lat": 36.597901,
-          "lng": -6.236812
         },
         {
           "slug": "la-linea-de-la-concepcion",
@@ -1832,8 +1818,8 @@
           "lng": -5.647346
         }
       ],
-      "lat": 36.538643,
-      "lng": -5.969572
+      "lat": 36.534096,
+      "lng": -5.949146
     },
     {
       "slug": "cantabria",
@@ -1929,9 +1915,9 @@
         {
           "slug": "castellon-de-la-plana",
           "nombre": "Castellón de la Plana",
-          "total": 8,
-          "lat": 39.987521,
-          "lng": -0.043041
+          "total": 9,
+          "lat": 39.986473,
+          "lng": -0.04362
         },
         {
           "slug": "benicarlo",
@@ -1953,6 +1939,13 @@
           "total": 4,
           "lat": 39.935961,
           "lng": -0.098976
+        },
+        {
+          "slug": "alcossebre",
+          "nombre": "Alcossebre",
+          "total": 2,
+          "lat": 40.245095,
+          "lng": 0.276787
         },
         {
           "slug": "almassora",
@@ -1983,20 +1976,6 @@
           "lng": 0.474402
         },
         {
-          "slug": "alcossebre",
-          "nombre": "Alcossebre",
-          "total": 1,
-          "lat": 40.245387,
-          "lng": 0.276594
-        },
-        {
-          "slug": "alcossebre-castellon",
-          "nombre": "Alcossebre, Castellón",
-          "total": 1,
-          "lat": 40.244802,
-          "lng": 0.276979
-        },
-        {
           "slug": "nules",
           "nombre": "Nules",
           "total": 1,
@@ -2011,13 +1990,6 @@
           "lng": 0.137742
         },
         {
-          "slug": "castellon",
-          "nombre": "castellon",
-          "total": 1,
-          "lat": 39.978085,
-          "lng": -0.048247
-        },
-        {
           "slug": "la-vall-d-uixo",
           "nombre": "la Vall d'Uixó",
           "total": 1,
@@ -2025,8 +1997,8 @@
           "lng": -0.230082
         }
       ],
-      "lat": 40.065631,
-      "lng": 0.027643
+      "lat": 40.057884,
+      "lng": 0.013157
     },
     {
       "slug": "ceuta",
@@ -2445,9 +2417,16 @@
         {
           "slug": "girona",
           "nombre": "Girona",
-          "total": 11,
-          "lat": 41.976479,
-          "lng": 2.808219
+          "total": 9,
+          "lat": 41.976624,
+          "lng": 2.809936
+        },
+        {
+          "slug": "salt",
+          "nombre": "Salt",
+          "total": 8,
+          "lat": 41.975079,
+          "lng": 2.79622
         },
         {
           "slug": "lloret-de-mar",
@@ -2455,13 +2434,6 @@
           "total": 6,
           "lat": 41.699688,
           "lng": 2.838955
-        },
-        {
-          "slug": "salt",
-          "nombre": "Salt",
-          "total": 6,
-          "lat": 41.97483,
-          "lng": 2.794795
         },
         {
           "slug": "banyoles",
@@ -2632,8 +2604,8 @@
           "lng": 2.930396
         }
       ],
-      "lat": 42.039745,
-      "lng": 2.85858
+      "lat": 42.039759,
+      "lng": 2.858692
     },
     {
       "slug": "granada",
@@ -3020,6 +2992,13 @@
           "lng": 1.302247
         },
         {
+          "slug": "santa-eularia-des-riu",
+          "nombre": "Santa Eulària des Riu",
+          "total": 3,
+          "lat": 38.984897,
+          "lng": 1.535983
+        },
+        {
           "slug": "cala-ratjada",
           "nombre": "Cala Ratjada",
           "total": 2,
@@ -3039,13 +3018,6 @@
           "total": 2,
           "lat": 39.544808,
           "lng": 3.336174
-        },
-        {
-          "slug": "santa-eularia-des-riu",
-          "nombre": "Santa Eulària des Riu",
-          "total": 2,
-          "lat": 38.98401,
-          "lng": 1.535001
         },
         {
           "slug": "soller",
@@ -3111,13 +3083,6 @@
           "lng": 1.287105
         },
         {
-          "slug": "santa-eulalia-del-rio",
-          "nombre": "Santa Eulalia del Río",
-          "total": 1,
-          "lat": 38.986671,
-          "lng": 1.537947
-        },
-        {
           "slug": "santanyi",
           "nombre": "Santanyí",
           "total": 1,
@@ -3125,8 +3090,8 @@
           "lng": 3.227491
         }
       ],
-      "lat": 39.470541,
-      "lng": 2.712582
+      "lat": 39.493625,
+      "lng": 2.768564
     },
     {
       "slug": "jaen",
@@ -4078,9 +4043,9 @@
         {
           "slug": "murcia",
           "nombre": "Murcia",
-          "total": 39,
-          "lat": 37.983939,
-          "lng": -1.1297
+          "total": 37,
+          "lat": 37.984096,
+          "lng": -1.131494
         },
         {
           "slug": "lorca",
@@ -4139,6 +4104,13 @@
           "lng": -1.215579
         },
         {
+          "slug": "beniajan",
+          "nombre": "Beniaján",
+          "total": 3,
+          "lat": 37.975817,
+          "lng": -1.07256
+        },
+        {
           "slug": "beniel",
           "nombre": "Beniel",
           "total": 3,
@@ -4174,6 +4146,13 @@
           "lng": -1.313475
         },
         {
+          "slug": "puente-tocinos",
+          "nombre": "Puente Tocinos",
+          "total": 3,
+          "lat": 37.992114,
+          "lng": -1.107021
+        },
+        {
           "slug": "puerto-de-mazarron",
           "nombre": "Puerto de Mazarrón",
           "total": 3,
@@ -4188,25 +4167,11 @@
           "lng": -1.421101
         },
         {
-          "slug": "beniajan",
-          "nombre": "Beniaján",
-          "total": 2,
-          "lat": 37.97621,
-          "lng": -1.07199
-        },
-        {
           "slug": "las-torres-de-cotillas",
           "nombre": "Las Torres de Cotillas",
           "total": 2,
           "lat": 38.030624,
           "lng": -1.243939
-        },
-        {
-          "slug": "puente-tocinos",
-          "nombre": "Puente Tocinos",
-          "total": 2,
-          "lat": 37.994652,
-          "lng": -1.100865
         },
         {
           "slug": "puerto-lumbreras",
@@ -4335,8 +4300,8 @@
           "lng": -1.114456
         }
       ],
-      "lat": 37.927846,
-      "lng": -1.246129
+      "lat": 37.927771,
+      "lng": -1.24636
     },
     {
       "slug": "navarra",
@@ -5441,9 +5406,9 @@
         {
           "slug": "valencia",
           "nombre": "Valencia",
-          "total": 98,
-          "lat": 39.471729,
-          "lng": -0.374511
+          "total": 96,
+          "lat": 39.47168,
+          "lng": -0.373684
         },
         {
           "slug": "gandia",
@@ -5453,18 +5418,18 @@
           "lng": -0.18408
         },
         {
+          "slug": "mislata",
+          "nombre": "Mislata",
+          "total": 6,
+          "lat": 39.473517,
+          "lng": -0.415616
+        },
+        {
           "slug": "alzira",
           "nombre": "Alzira",
           "total": 5,
           "lat": 39.151527,
           "lng": -0.431774
-        },
-        {
-          "slug": "mislata",
-          "nombre": "Mislata",
-          "total": 4,
-          "lat": 39.473235,
-          "lng": -0.416316
         },
         {
           "slug": "torrent",
@@ -5810,8 +5775,8 @@
           "lng": -0.428769
         }
       ],
-      "lat": 39.338191,
-      "lng": -0.449207
+      "lat": 39.338195,
+      "lng": -0.449179
     },
     {
       "slug": "valladolid",

@@ -1,0 +1,26 @@
+{
+  "fichas_totales": 3050,
+  "fichas_modificadas_en_esta_pasada": 817,
+  "acusaciones_problematicas_restantes": 0,
+  "criticas_operativas_conservadas": 2332,
+  "errores_gramaticales_restantes": 0,
+  "texto_mutilado_restante": 0,
+  "nombres_de_reviews_restantes": 0,
+  "headings_problematicos_restantes": 0,
+  "metas_problematicas_restantes": 0,
+  "urls_duplicadas": 0,
+  "atributos_duplicados": 0,
+  "encabezados_vacios": 0,
+  "unknown_indexable": false,
+  "unknown_en_sitemap": false,
+  "revision_manual": [
+    {
+      "caso": "26 discrepancias geográficas de pasadas anteriores (data/informe-geografia.json)",
+      "motivo": "Localidades como Casetas (barrio de Zaragoza) o Beniaján (pedanía de Murcia) están lejos del centroide de su ciudad por ser barrios/pedanías reales, no errores. No se tocan sin verificación manual caso a caso."
+    },
+    {
+      "caso": "413 fichas por debajo de 500 palabras",
+      "motivo": "Categoría genérica, sin atributos ni web. Ampliar exigiría inventar información no confirmada; se dejan cortas por instrucción expresa de no forzar longitud."
+    }
+  ]
+}

@@ -70,8 +70,8 @@ export default function Portada() {
       <section className="mx-auto max-w-5xl px-4 py-14">
         <h2 className="mb-1.5 text-2xl">Las localidades con más establecimientos</h2>
         <p className="mb-6 text-humo">
-          Donde hay más comunidad migrante hay más locutorios. Estas son las localidades
-          con mayor concentración del país.
+          Estas son algunas de las localidades con más establecimientos registrados
+          en el directorio.
         </p>
 
         <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">

@@ -419,6 +419,113 @@ python3 pipeline/agregar_ciudades.py ./data
 python3 pipeline/escribir_textos_ciudad.py ./data
 ```
 
+## Pasada final de control (verificación contra disco, no contra informes)
+
+Esta pasada partió de una regla estricta: verificar el contenido *final* en
+disco, no confiar en los recuentos de informes anteriores. Encontró y corrigió
+problemas reales que las pasadas previas habían dejado sin resolver:
+
+- **8 acusaciones graves adicionales** no cubiertas antes: "gesto machista" y
+  "destratada" en Akash (una anécdota completa que había pasado inadvertida),
+  "trato machista" en Locutorio Oliva, "sensación/sentimiento/intento de
+  engaño" en tres fichas más, y un párrafo huérfano en Locutorio DG donde la
+  respuesta del propietario a una crítica ya eliminada había quedado sin
+  sentido.
+- **129 casos de concordancia rota** (`información divididas`, `información
+  encontradas`, `la información son mixtas`) — un fallo sistémico del dataset
+  original, no introducido por ninguna pasada de este proyecto. Se resolvió
+  sustituyendo "información" por "opiniones", que además de corregir la
+  concordancia es la expresión idiomática natural para lo que la frase
+  pretendía decir.
+- **56 + 43 fragmentos de texto realmente mutilado**, causados por un fallo en
+  mi propia función `limpiar_meta` de una pasada anterior: una expresión
+  regular sin límite de palabra que convertía "20 años **de** experiencia" en
+  "20 años **d.**", y una segunda variante que dejaba "Conoce su oferta**.de**
+  quienes lo han utilizado." Reparado con precisión matemática: solo se toca
+  un campo cuando el texto actual coincide *exactamente* con lo que el fallo
+  habría producido sobre el original, nunca por sustitución a ciegas.
+- **13 encabezados y 4 metas** con "advertencias/carencias/contradicciones",
+  que el filtro de la pasada anterior no cubría (solo buscaba
+  "controversia/sospecha/punto débil").
+
+### Verificación programática final (tras el build, releída de disco)
+
+```json
+{
+  "acusaciones_problematicas_restantes": 0,
+  "criticas_operativas_conservadas": 2332,
+  "errores_gramaticales_restantes": 0,
+  "texto_mutilado_restante": 0,
+  "nombres_de_reviews_restantes": 0,
+  "headings_problematicos_restantes": 0,
+  "metas_problematicas_restantes": 0,
+  "urls_duplicadas": 0,
+  "atributos_duplicados": 0,
+  "encabezados_vacios": 0,
+  "unknown_indexable": false,
+  "unknown_en_sitemap": false
+}
+```
+
+El fichero completo, con las 817 fichas modificadas y los dos casos que
+quedan para revisión manual (26 discrepancias geográficas que podrían ser
+barrios/pedanías legítimos, y las 413 fichas cortas por falta de datos), está
+en `data/CONTROL-FINAL.json`.
+
+## Revisión final: geografía, redirects y sitemap
+
+Pasada quirúrgica sobre el estado actual (no una reescritura). Verificó cada
+caso contra los propios datos antes de mover nada, distinguiendo error real
+de falso positivo por proximidad de centroide.
+
+**15 fichas movidas**, cada una con justificación verificable: 9 por código
+postal que no coincidía con la localidad asignada (confirmados dos con fuente
+externa: CP 17190 = Salt, CP 12006 = Castellón de la Plana), y 6 por
+normalización de denominación (Lejona/Leioa, Santa Eulalia del Río/Santa
+Eulària des Riu, dos duplicados de "Castellón" y "Alcossebre").
+
+**10 casos quedaron explícitamente sin tocar** por ser falsos positivos del
+detector de proximidad — incluido uno nuevo encontrado en esta pasada:
+"Locutorio Internacional Barajas" seguía en Madrid pese a que el detector
+proponía Paracuellos de Jarama por cercanía de centroide; el propio nombre
+comercial confirma que el distrito de Barajas es Madrid capital.
+
+**24 casos van a revisión manual**, sin cambios: 2 canarios (Click
+World/ELEWUACUBA, donde Maspalomas/Vecindario dependen del nivel
+administrativo usado) y 22 discrepancias nuevas detectadas al regenerar el
+informe geográfico desde cero, la mayoría distritos del área metropolitana de
+Barcelona cuya posición cae cerca de un municipio vecino sin que eso implique
+error — exactamente el patrón de falso positivo que advertía el encargo.
+
+### Redirects
+
+`next.config.mjs` incorpora 21 redirects permanentes (308), verificados sin
+cadenas (A→B→C siempre resuelve en un salto) y contrastados contra
+`.next/routes-manifest.json` tras el build. Cubren tanto las fichas movidas
+como las 6 páginas de ciudad que se quedaron sin fichas.
+
+### Sitemap
+
+`sitemap.ts` ya no usa `new Date()` como `lastModified`: el dataset no tiene
+fecha real de modificación por ficha, así que el campo se omite en vez de
+inventarse. Generar el sitio no significa que las 3.050 fichas hayan
+cambiado ese día.
+
+### Metadatos duplicados
+
+7 pares de `metaTitulo` idénticos y 1 par de `metaDescripcion` idéntica,
+diferenciados por calle o número sin inventar servicios. Verificado en 0
+tras el build.
+
+### Datos derivados
+
+`geo.json`, `agregados-ciudad.json` y los dos textos editoriales que citaban
+cifras ahora desactualizadas (Murcia: 39→37 establecimientos; Valencia:
+99→96) se regeneraron para reflejar la geografía movida. El resto de las
+localidades quedó intacto.
+
+**Informe completo**: `data/INFORME-REVISION-GEO-SEO.json`.
+
 ## Pendiente
 
 - **Aviso legal y privacidad.** Los textos están redactados pero tienen campos

@@ -1,0 +1,107 @@
+[
+  {
+    "source": "/barcelona/santa-coloma-de-gramenet/badalinks",
+    "destination": "/barcelona/badalona/badalinks",
+    "permanent": true
+  },
+  {
+    "source": "/bizkaia/elexalde/locutorio-bar-caferteria",
+    "destination": "/bizkaia/basauri/locutorio-bar-caferteria",
+    "permanent": true
+  },
+  {
+    "source": "/bizkaia/elexalde/besmi-allah",
+    "destination": "/bizkaia/leioa/besmi-allah",
+    "permanent": true
+  },
+  {
+    "source": "/bizkaia/lejona/noshi-locutorio",
+    "destination": "/bizkaia/leioa/noshi-locutorio",
+    "permanent": true
+  },
+  {
+    "source": "/cadiz/el/ciber-locutorio-el-puerto",
+    "destination": "/cadiz/el-puerto-de-sta-maria/ciber-locutorio-el-puerto",
+    "permanent": true
+  },
+  {
+    "source": "/castellon/alcossebre-castellon/prensa-locutorio-paris-tombuctu",
+    "destination": "/castellon/alcossebre/prensa-locutorio-paris-tombuctu",
+    "permanent": true
+  },
+  {
+    "source": "/girona/girona/locutorio-euroenvia",
+    "destination": "/girona/salt/locutorio-euroenvia",
+    "permanent": true
+  },
+  {
+    "source": "/girona/girona/moneygram",
+    "destination": "/girona/salt/moneygram",
+    "permanent": true
+  },
+  {
+    "source": "/illes-balears/santa-eulalia-del-rio/locutorio-kafoul",
+    "destination": "/illes-balears/santa-eularia-des-riu/locutorio-kafoul",
+    "permanent": true
+  },
+  {
+    "source": "/murcia/murcia/locutorio-mundo",
+    "destination": "/murcia/puente-tocinos/locutorio-mundo",
+    "permanent": true
+  },
+  {
+    "source": "/murcia/murcia/locutorio-essallam",
+    "destination": "/murcia/beniajan/locutorio-essallam",
+    "permanent": true
+  },
+  {
+    "source": "/valencia/valencia/locutorio-danish",
+    "destination": "/valencia/mislata/locutorio-danish",
+    "permanent": true
+  },
+  {
+    "source": "/valencia/valencia/international-locutorio-sanfer",
+    "destination": "/valencia/mislata/international-locutorio-sanfer",
+    "permanent": true
+  },
+  {
+    "source": "/bizkaia/arizgoiti/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+    "destination": "/bizkaia/basauri/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+    "permanent": true
+  },
+  {
+    "source": "/castellon/castellon/pak-movil-store-reparacion-moviles-envios-dinero",
+    "destination": "/castellon/castellon-de-la-plana/pak-movil-store-reparacion-moviles-envios-dinero",
+    "permanent": true
+  },
+  {
+    "source": "/bizkaia/lejona",
+    "destination": "/bizkaia/leioa",
+    "permanent": true
+  },
+  {
+    "source": "/cadiz/el",
+    "destination": "/cadiz/el-puerto-de-sta-maria",
+    "permanent": true
+  },
+  {
+    "source": "/castellon/alcossebre-castellon",
+    "destination": "/castellon/alcossebre",
+    "permanent": true
+  },
+  {
+    "source": "/illes-balears/santa-eulalia-del-rio",
+    "destination": "/illes-balears/santa-eularia-des-riu",
+    "permanent": true
+  },
+  {
+    "source": "/bizkaia/arizgoiti",
+    "destination": "/bizkaia/basauri",
+    "permanent": true
+  },
+  {
+    "source": "/castellon/castellon",
+    "destination": "/castellon/castellon-de-la-plana",
+    "permanent": true
+  }
+]

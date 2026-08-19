@@ -48,27 +48,31 @@ estos negocios cambian con frecuencia y no siempre se reflejan en internet.
 """
 
 TEXTOS["valencia/valencia"] = """\
-Los 99 establecimientos registrados en Valencia se reparten por 20 códigos \
+Los 96 establecimientos registrados en Valencia se reparten por 18 códigos \
 postales, con una concentración clara en los barrios del oeste y del sur del \
 centro histórico. Hay un dato que distingue a la ciudad del resto de capitales \
-grandes: 63 de esos 99 locales declaran acceso para sillas de ruedas, una \
+grandes: 63 de esos 96 locales declaran acceso para sillas de ruedas, una \
 proporción notablemente más alta que la media del directorio.
 
 ## Cuándo conviene acercarse
 
 La franja de mayor movimiento va de 18:00 a 21:00, y la más despejada de 9:00 a \
-11:00. De los 46 locales con datos de afluencia, 41 registran actividad en \
-domingo y 17 muestran el corte de mediodía propio de la jornada partida, así que \
+11:00. De los 44 locales con datos de afluencia, 39 registran actividad en \
+domingo y 16 muestran el corte de mediodía propio de la jornada partida, así que \
 la hora de la comida es el momento con más riesgo de encontrar cerrado.
 
-El reparto por tipo está bastante equilibrado: 48 locutorios, 28 puntos \
+El reparto por tipo está bastante equilibrado: 46 locutorios, 27 puntos \
 centrados en el envío de dinero y 23 comercios que ofrecen servicios \
 relacionados sin ser su actividad principal. En la práctica, muchos de los \
 primeros tramitan también remesas, además de recargas de móvil, tarjetas SIM e \
 impresión.
 
-Con 73 teléfonos publicados sobre 99 fichas, en la mayoría de casos puedes \
+Con 71 teléfonos publicados sobre 96 fichas, en la mayoría de casos puedes \
 confirmar por adelantado si tienen el servicio concreto que buscas.
+
+# NOTA: cifras actualizadas tras mover Locutorio Danish e International
+# Locutorio - Sanfer (-> Mislata) fuera de València capital. Ver
+# data/informe-migracion-geografica.json.
 """
 
 TEXTOS["zaragoza/zaragoza"] = """\
@@ -229,19 +233,23 @@ La hora con menos movimiento es la de 9:00 a 11:00.
 
 ## Servicios y reparto
 
-Son 39 establecimientos en 12 códigos postales, con un reparto muy equilibrado: \
-15 locutorios, 13 puntos de envío de dinero y 11 comercios con servicios \
+Son 37 establecimientos en 10 códigos postales, con un reparto muy equilibrado: \
+14 locutorios, 13 puntos de envío de dinero y 10 comercios con servicios \
 relacionados. Ese equilibrio indica una demanda de remesas consolidada, con \
 locales dedicados en exclusiva a ello.
 
 De los 11 locales con datos de afluencia, 10 registran actividad en domingo y 6 \
-cierran al mediodía. Diecinueve de los 39 declaran acceso para sillas de ruedas.
+cierran al mediodía. Diecinueve de los 37 declaran acceso para sillas de ruedas.
 
 Fuera de la capital, la comarca ofrece bastante más: Molina de Segura suma 8 \
 establecimientos a 10,5 km y Archena otros 6 a unos 21 km.
 
 El servicio habitual combina envío de dinero, recargas de móvil, tarjetas SIM, \
-fotocopias y papelería. Hay teléfono publicado en 28 de las 39 fichas.
+fotocopias y papelería. Hay teléfono publicado en 28 de las 37 fichas.
+
+# NOTA: cifras actualizadas tras mover Locutorio mundo (-> Puente Tocinos) y
+# Locutorio Essallam (-> Beniaján) fuera de Murcia capital. Ver
+# data/informe-migracion-geografica.json.
 """
 
 TEXTOS["alicante/alicante"] = """\

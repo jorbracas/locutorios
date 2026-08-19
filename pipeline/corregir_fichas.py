@@ -389,8 +389,15 @@ def limpiar_meta(texto: str) -> tuple[str, int]:
     original = texto
 
     # "Conoce sus servicios y experiencias." -> "Conoce sus servicios."
+    #
+    # CORREGIDO: la version original de esta regex no exigia limite de
+    # palabra antes de (y|e), asi que "e" podia coincidir con la ultima letra
+    # de CUALQUIER palabra que terminase en "e" (de, aunque, sobre...) seguida
+    # de "experiencia". Eso convertia "20 anos de experiencia" en "20 anos d."
+    # Detectado y reparado en pipeline/reparar_texto_mutilado.py sobre 56
+    # fichas ya publicadas; \b aqui evita que vuelva a pasar.
     texto = re.sub(
-        r"\s*(y|e)\s+(las\s+)?(experiencias?|opiniones|valoraciones|rese[ñn]as)"
+        r"\s*\b(y|e)\b\s+(las\s+)?(experiencias?|opiniones|valoraciones|rese[ñn]as)"
         r"( de (los\s+)?(clientes|usuarios))?\s*\.?",
         ".", texto, flags=re.IGNORECASE)
 

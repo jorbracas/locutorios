@@ -1,0 +1,298 @@
+{
+  "fichas_movidas": [
+    {
+      "nombre": "Badalinks",
+      "url_anterior": "/barcelona/santa-coloma-de-gramenet/badalinks",
+      "url_final": "/barcelona/badalona/badalinks",
+      "direccion": "Av. d'Alfons XIII, 551, 08918 Badalona, Barcelona",
+      "accion": "movida",
+      "motivo": "El CP 08918 corresponde a Badalona, no a Santa Coloma de Gramenet."
+    },
+    {
+      "nombre": "LOCUTORIO BAR CAFERTERIA",
+      "url_anterior": "/bizkaia/elexalde/locutorio-bar-caferteria",
+      "url_final": "/bizkaia/basauri/locutorio-bar-caferteria",
+      "direccion": "Butroe Ibaia Kalea, 48970 Basauri, Bizkaia, España",
+      "accion": "movida",
+      "motivo": "Butroe Ibaia Kalea, CP 48970, corresponde a Basauri."
+    },
+    {
+      "nombre": "Besmi Allah",
+      "url_anterior": "/bizkaia/elexalde/besmi-allah",
+      "url_final": "/bizkaia/leioa/besmi-allah",
+      "direccion": "Sabino Arana, 82, 48940 Leioa, Bizkaia, España",
+      "accion": "movida",
+      "motivo": "Sabino Arana 82, CP 48940, corresponde a Leioa, no a Elexalde."
+    },
+    {
+      "nombre": "Noshi Locutorio",
+      "url_anterior": "/bizkaia/lejona/noshi-locutorio",
+      "url_final": "/bizkaia/leioa/noshi-locutorio",
+      "direccion": "48940 Leioa, Bizkaia, España",
+      "accion": "movida",
+      "motivo": "Normalización de denominación: Lejona y Leioa son el mismo municipio."
+    },
+    {
+      "nombre": "CIBER LOCUTORIO EL PUERTO",
+      "url_anterior": "/cadiz/el/ciber-locutorio-el-puerto",
+      "url_final": "/cadiz/el-puerto-de-sta-maria/ciber-locutorio-el-puerto",
+      "direccion": "C. Villa de Rota, 13, 11500 El Puerto de Santa María, Cádiz",
+      "accion": "movida",
+      "motivo": "'El' no es una localidad válida; era un truncamiento de El Puerto de Santa María."
+    },
+    {
+      "nombre": "Prensa - Locutorio Paris-Tombuctú",
+      "url_anterior": "/castellon/alcossebre-castellon/prensa-locutorio-paris-tombuctu",
+      "url_final": "/castellon/alcossebre/prensa-locutorio-paris-tombuctu",
+      "direccion": "C/ Alcalá de Xivert, 5 Local C, 12579 Alcossebre, Castellón, España",
+      "accion": "movida",
+      "motivo": "'alcossebre-castellon' duplicaba la localidad; se normaliza a 'alcossebre'."
+    },
+    {
+      "nombre": "Locutorio Euroenvia",
+      "url_anterior": "/girona/girona/locutorio-euroenvia",
+      "url_final": "/girona/salt/locutorio-euroenvia",
+      "direccion": "Travessera de Sta. Eugènia, 40, bajo 5, 17190 Salt, España",
+      "accion": "movida",
+      "motivo": "El CP 17190 (Travessera de Sta. Eugènia) corresponde a Salt, no a Girona capital."
+    },
+    {
+      "nombre": "MoneyGram",
+      "url_anterior": "/girona/girona/moneygram",
+      "url_final": "/girona/salt/moneygram",
+      "direccion": "Travessera de Sta. Eugènia, 40, 17190 Salt, España",
+      "accion": "movida",
+      "motivo": "Mismo punto (Travessera de Sta. Eugènia 40) que Locutorio Euroenvia: Salt."
+    },
+    {
+      "nombre": "Locutorio Kafoul",
+      "url_anterior": "/illes-balears/santa-eulalia-del-rio/locutorio-kafoul",
+      "url_final": "/illes-balears/santa-eularia-des-riu/locutorio-kafoul",
+      "direccion": "Carrer de Cèsar Puget Riquer, 2, 07840 Santa Eulària des Riu, Illes Balears, España",
+      "accion": "movida",
+      "motivo": "Normalización de denominación: mismo municipio en dos grafías."
+    },
+    {
+      "nombre": "Locutorio mundo",
+      "url_anterior": "/murcia/murcia/locutorio-mundo",
+      "url_final": "/murcia/puente-tocinos/locutorio-mundo",
+      "direccion": "Bloque E-1, 30006 Puente Tocinos, España",
+      "accion": "movida",
+      "motivo": "El CP 30006 corresponde a Puente Tocinos (pedanía de Murcia)."
+    },
+    {
+      "nombre": "Locutorio Essallam",
+      "url_anterior": "/murcia/murcia/locutorio-essallam",
+      "url_final": "/murcia/beniajan/locutorio-essallam",
+      "direccion": "C. San Antonio, 18, 30570 Beniaján, España",
+      "accion": "movida",
+      "motivo": "El CP 30570 corresponde a Beniaján (pedanía de Murcia)."
+    },
+    {
+      "nombre": "Locutorio Danish",
+      "url_anterior": "/valencia/valencia/locutorio-danish",
+      "url_final": "/valencia/mislata/locutorio-danish",
+      "direccion": "C/ del Pare Llansol, 3B, 46920 Mislata, Valencia",
+      "accion": "movida",
+      "motivo": "El CP 46920 corresponde a Mislata, no a València capital."
+    },
+    {
+      "nombre": "International Locutorio - Sanfer",
+      "url_anterior": "/valencia/valencia/international-locutorio-sanfer",
+      "url_final": "/valencia/mislata/international-locutorio-sanfer",
+      "direccion": "Avinguda Blasco Ibáñez, 6, 46920 Mislata, Valencia",
+      "accion": "movida",
+      "motivo": "El CP 46920 corresponde a Mislata, no a València capital."
+    },
+    {
+      "nombre": "MOON MART LOCUTORIO BASAURI (Productos Latinos, Locutorio,Servicio de paqueteria, Accesorios y reparacion de moviles)",
+      "url_anterior": "/bizkaia/arizgoiti/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+      "url_final": "/bizkaia/basauri/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+      "direccion": "Agirre Lehendakaria Kalea, 1, 48970 Basauri, Bizkaia, España",
+      "accion": "movida",
+      "motivo": "Única ficha de 'arizgoiti'; su propio nombre comercial dice 'BASAURI'."
+    },
+    {
+      "nombre": "Pak Movil Store - Reparación Móviles , Envíos Dinero",
+      "url_anterior": "/castellon/castellon/pak-movil-store-reparacion-moviles-envios-dinero",
+      "url_final": "/castellon/castellon-de-la-plana/pak-movil-store-reparacion-moviles-envios-dinero",
+      "direccion": "Carrer d'Onda, 22, bajo, 12006 Castellón de la Plana, Castellón, España",
+      "accion": "movida",
+      "motivo": "Única ficha de 'castellon' (CP 12006, Castellón de la Plana); localidad redundante."
+    }
+  ],
+  "falsos_positivos_geograficos": [
+    {
+      "nombre": "ABDEL Market",
+      "url_actual": "/almeria/el-parador-de-las-hortichuelas",
+      "motivo": "El detector proponía Aguadulce por proximidad; se mantiene la localidad actual."
+    },
+    {
+      "nombre": "LOCUTORIO LA SALUT 114A",
+      "url_actual": "/barcelona/santa-coloma-de-gramenet",
+      "motivo": "El detector proponía Badalona por proximidad; se mantiene Santa Coloma de Gramenet."
+    },
+    {
+      "nombre": "Ria Money Transfer Agent & Payout",
+      "url_actual": "/castellon/castellon-de-la-plana",
+      "motivo": "Dirección Av. de l'Alcora 138: permanece en Castellón de la Plana, no se mueve a 'castellon'."
+    },
+    {
+      "nombre": "Locutorio Universal Internet Recarga de Móviles",
+      "url_actual": "/malaga/fuengirola",
+      "motivo": "El detector proponía Las Lagunas de Mijas por proximidad; se mantiene Fuengirola."
+    },
+    {
+      "nombre": "LOCUTORIO FERRARA",
+      "url_actual": "/malaga/torrox-costa",
+      "motivo": "Torrox Costa es localidad válida y más precisa que Torrox para esta dirección."
+    },
+    {
+      "nombre": "Locutorio Alfafar",
+      "url_actual": "/valencia/alfafar",
+      "motivo": "El detector proponía Benetússer por proximidad; se mantiene Alfafar."
+    },
+    {
+      "nombre": "Ria Money Transfer",
+      "url_actual": "/valencia/massanassa",
+      "motivo": "El detector proponía Catarroja por proximidad; se mantiene Massanassa."
+    },
+    {
+      "nombre": "LOCUTORIO QUART",
+      "url_actual": "/valencia/quart-de-poblet",
+      "motivo": "El detector proponía Manises por proximidad; se mantiene Quart de Poblet."
+    },
+    {
+      "nombre": "Locutorio Albufera",
+      "url_actual": "/valencia/sedavi",
+      "motivo": "El detector proponía Benetússer por proximidad; se mantiene Sedaví."
+    }
+  ],
+  "revision_manual_sin_cambio": [
+    {
+      "nombre": "Click World",
+      "url_actual": "/las-palmas/san-bartolome-de-tirajana",
+      "motivo": "La dirección está dentro del municipio de San Bartolomé de Tirajana; Maspalomas/San Fernando de Maspalomas depende del nivel administrativo usado y no hay evidencia concluyente para cambiar solo por proximidad."
+    },
+    {
+      "nombre": "LOCUTORIO ELEWUACUBA",
+      "url_actual": "/las-palmas/santa-lucia-de-tirajana",
+      "motivo": "Mismo problema de municipio/localidad que Click World; se mantiene sin cambio."
+    }
+  ],
+  "localidades_vaciadas": [
+    "/bizkaia/arizgoiti",
+    "/bizkaia/lejona",
+    "/cadiz/el",
+    "/castellon/alcossebre-castellon",
+    "/castellon/castellon",
+    "/illes-balears/santa-eulalia-del-rio"
+  ],
+  "redirects_creados": [
+    {
+      "source": "/barcelona/santa-coloma-de-gramenet/badalinks",
+      "destination": "/barcelona/badalona/badalinks",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/elexalde/locutorio-bar-caferteria",
+      "destination": "/bizkaia/basauri/locutorio-bar-caferteria",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/elexalde/besmi-allah",
+      "destination": "/bizkaia/leioa/besmi-allah",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/lejona/noshi-locutorio",
+      "destination": "/bizkaia/leioa/noshi-locutorio",
+      "permanent": true
+    },
+    {
+      "source": "/cadiz/el/ciber-locutorio-el-puerto",
+      "destination": "/cadiz/el-puerto-de-sta-maria/ciber-locutorio-el-puerto",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/alcossebre-castellon/prensa-locutorio-paris-tombuctu",
+      "destination": "/castellon/alcossebre/prensa-locutorio-paris-tombuctu",
+      "permanent": true
+    },
+    {
+      "source": "/girona/girona/locutorio-euroenvia",
+      "destination": "/girona/salt/locutorio-euroenvia",
+      "permanent": true
+    },
+    {
+      "source": "/girona/girona/moneygram",
+      "destination": "/girona/salt/moneygram",
+      "permanent": true
+    },
+    {
+      "source": "/illes-balears/santa-eulalia-del-rio/locutorio-kafoul",
+      "destination": "/illes-balears/santa-eularia-des-riu/locutorio-kafoul",
+      "permanent": true
+    },
+    {
+      "source": "/murcia/murcia/locutorio-mundo",
+      "destination": "/murcia/puente-tocinos/locutorio-mundo",
+      "permanent": true
+    },
+    {
+      "source": "/murcia/murcia/locutorio-essallam",
+      "destination": "/murcia/beniajan/locutorio-essallam",
+      "permanent": true
+    },
+    {
+      "source": "/valencia/valencia/locutorio-danish",
+      "destination": "/valencia/mislata/locutorio-danish",
+      "permanent": true
+    },
+    {
+      "source": "/valencia/valencia/international-locutorio-sanfer",
+      "destination": "/valencia/mislata/international-locutorio-sanfer",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/arizgoiti/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+      "destination": "/bizkaia/basauri/moon-mart-locutorio-basauri-productos-latinos-locutorio-servicio-de-paqueteria-accesorios-y-reparacion-de-moviles",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/castellon/pak-movil-store-reparacion-moviles-envios-dinero",
+      "destination": "/castellon/castellon-de-la-plana/pak-movil-store-reparacion-moviles-envios-dinero",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/lejona",
+      "destination": "/bizkaia/leioa",
+      "permanent": true
+    },
+    {
+      "source": "/cadiz/el",
+      "destination": "/cadiz/el-puerto-de-sta-maria",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/alcossebre-castellon",
+      "destination": "/castellon/alcossebre",
+      "permanent": true
+    },
+    {
+      "source": "/illes-balears/santa-eulalia-del-rio",
+      "destination": "/illes-balears/santa-eularia-des-riu",
+      "permanent": true
+    },
+    {
+      "source": "/bizkaia/arizgoiti",
+      "destination": "/bizkaia/basauri",
+      "permanent": true
+    },
+    {
+      "source": "/castellon/castellon",
+      "destination": "/castellon/castellon-de-la-plana",
+      "permanent": true
+    }
+  ]
+}
