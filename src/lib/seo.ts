@@ -3,15 +3,17 @@ import type { Ficha } from './data';
 export const SITIO = {
   nombre: 'Locutorios cerca de mí',
   /*
-    Dominio de producción con `www`. Vercel tiene configurado el apex
-    (locutorioscercademi.com) con un redirect 308 permanente hacia esta
-    versión con www, así que todo canonical/sitemap/JSON-LD/robots.txt debe
-    apuntar aquí directamente. Si el canonical señalara al apex, cada URL
-    del sitemap obligaría a un salto de redirección extra al rastrear, y
-    generaría una inconsistencia entre "URL declarada como canónica" y "URL
-    que realmente sirve el contenido sin redirigir".
+    Dominio SIN www, deliberadamente.
+
+    Hubo un intento anterior de "corregir" esto a www en otro proyecto
+    (bazareschinos.com) razonando que era solo una consistencia de
+    metadatos. Causó un desplome del 93% en impresiones y una desindexación
+    progresiva que no se revirtió sola. No se toca este valor sin que el
+    propietario del sitio lo pida explícitamente, con el sitio ya
+    consolidado en Search Console, y sabiendo que puede haber una ventana de
+    varias semanas de pérdida de tráfico durante la consolidación.
   */
-  dominio: 'https://www.locutorioscercademi.com',
+  dominio: 'https://locutorioscercademi.com',
   descripcion:
     'Directorio de locutorios y puntos de envío de dinero en España. Dirección, teléfono y cómo llegar, provincia a provincia.',
   idioma: 'es-ES',

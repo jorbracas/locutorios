@@ -1,0 +1,14 @@
+{
+  "fichas_objetivo": 8,
+  "fichas_aplicadas_correctamente": 8,
+  "ids_no_encontrados": [],
+  "ids_duplicados": [],
+  "campos_que_no_coinciden_con_el_json": [],
+  "otras_fichas_modificadas": 0,
+  "urls_modificadas": 0,
+  "geografia_modificada": 0,
+  "ratings_reviews_modificados": 0,
+  "typecheck": "PASS",
+  "build": "PASS",
+  "problemas_restantes": []
+}
