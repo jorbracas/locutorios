@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import Ilustracion from '@/components/Ilustracion';
-import Mapa from '@/components/Mapa';
+import MapaMultiple, { type PuntoMapa } from '@/components/MapaMultiple';
 import PreguntasCiudad, { construirPreguntas } from '@/components/PreguntasCiudad';
 import ResumenCiudad from '@/components/ResumenCiudad';
 import { Distintivo, JsonLd, Migas, TarjetaFicha } from '@/components/Ui';
@@ -15,6 +15,7 @@ import {
   obtenerProvincias,
   obtenerTextoCiudad,
   rutaCiudad,
+  rutaFicha,
   rutaProvincia,
 } from '@/lib/data';
 import { renderizarEditorial } from '@/lib/markdown';
@@ -139,7 +140,19 @@ export default async function PaginaCiudad({ params }: Props) {
       )}
 
       <div className="mb-10">
-        <Mapa lat={ciudad.lat} lng={ciudad.lng} nombre={ciudad.nombre} margen={0.03} />
+        <MapaMultiple
+          puntos={fichas.map(
+            (ficha): PuntoMapa => ({
+              lat: ficha.lat,
+              lng: ficha.lng,
+              nombre: ficha.nombre,
+              href: rutaFicha(ficha),
+              tipo: ficha.tipo,
+            }),
+          )}
+          nombreZona={ciudad.nombre}
+          centro={{ lat: ciudad.lat, lng: ciudad.lng }}
+        />
       </div>
 
       <div className="space-y-10">

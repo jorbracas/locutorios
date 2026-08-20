@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-import Mapa from '@/components/Mapa';
+import MapaMultiple, { type PuntoMapa } from '@/components/MapaMultiple';
 import { Migas } from '@/components/Ui';
 import { obtenerProvincia, obtenerProvincias, rutaCiudad } from '@/lib/data';
 import { urlAbsoluta } from '@/lib/seo';
@@ -68,11 +68,17 @@ export default async function PaginaProvincia({ params }: Props) {
       </p>
 
       <div className="mb-10">
-        <Mapa
-          lat={provincia.lat}
-          lng={provincia.lng}
-          nombre={provincia.nombre}
-          margen={0.5}
+        <MapaMultiple
+          puntos={provincia.ciudades.map(
+            (ciudad): PuntoMapa => ({
+              lat: ciudad.lat,
+              lng: ciudad.lng,
+              nombre: `${ciudad.nombre} (${ciudad.total})`,
+              href: rutaCiudad(provincia.slug, ciudad.slug),
+            }),
+          )}
+          nombreZona={provincia.nombre}
+          centro={{ lat: provincia.lat, lng: provincia.lng }}
         />
       </div>
 
