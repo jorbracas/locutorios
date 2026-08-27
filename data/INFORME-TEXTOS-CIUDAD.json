@@ -1,0 +1,16 @@
+{
+  "estado": "PASS",
+  "localidadesEsperadas": 123,
+  "localidadesValidadas": 123,
+  "fichasCubiertas": 2011,
+  "fichasTotales": 3050,
+  "palabrasMinimo": 180,
+  "palabrasMaximo": 222,
+  "palabrasMedia": 202.9,
+  "duplicadosExactos": [],
+  "estructurasExactasRepetidas": [],
+  "erroresGlobales": [],
+  "totalErrores": 0,
+  "totalAvisos": 0,
+  "resultadosConProblemas": []
+}

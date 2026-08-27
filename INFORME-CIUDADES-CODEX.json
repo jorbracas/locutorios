@@ -1,0 +1,41 @@
+{
+  "estado": "PASS",
+  "entrada": {
+    "localidadesPrevistas": 123,
+    "textosRecibidos": 30,
+    "textosQueFaltaban": 93,
+    "notasInternasFiltradasDetectadas": 2,
+    "jsonRecibidoIntegrableSinCorrecciones": false
+  },
+  "salida": {
+    "textosGenerados": 123,
+    "fichasCubiertas": 2011,
+    "fichasTotales": 3050,
+    "palabrasMinimo": 180,
+    "palabrasMaximo": 222,
+    "palabrasMedia": 202.9,
+    "duplicadosExactos": 0,
+    "estructurasCompletasIdenticas": 0,
+    "cifrasNoAutorizadas": 0,
+    "residuosInternos": 0
+  },
+  "correcciones": [
+    "Generador reproducible para las 123 localidades",
+    "Validador independiente de cifras, cobertura y formato",
+    "Prompts sin ejemplo contaminante ni inferencias de horarios",
+    "Actividad en domingo separada de apertura dominical",
+    "Caida de afluencia separada de cierre al mediodia",
+    "Preguntas de pago y accesibilidad sin interpretar ausencias como negativas",
+    "package-lock.json sincronizado con package.json"
+  ],
+  "verificaciones": {
+    "validadorCiudades": "PASS",
+    "pythonCompile": "PASS",
+    "typecheck": "PASS",
+    "buildProduccion": "PASS",
+    "paginasEstaticas": 3897,
+    "pruebaHTTPMadrid": "PASS",
+    "npmAuditVulnerabilidades": 0
+  },
+  "limitacion": "Los textos son redaccion controlada basada en agregados, no investigacion editorial independiente. No garantizan indexacion ni rankings."
+}

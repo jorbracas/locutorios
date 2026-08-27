@@ -48,16 +48,29 @@ DATOS REALES DE {nombre_mayus} (no uses ningún otro):
 REQUISITOS
 - Español de España, tono informativo y sobrio. Nada de marketing.
 - Empieza por lo que le sirve a alguien que busca "locutorios en {nombre}".
-- Usa al menos tres de los datos de arriba de forma natural, integrados en la
-  frase, no como una lista.
+- Integra el total, el reparto por tipo y el teléfono publicado.
+- Si hay datos de afluencia, dedica el segundo párrafo a la muestra, la franja
+  punta, la tranquila, el domingo y la posible pausa de mediodía. Di
+  expresamente que son observaciones de afluencia, no horarios oficiales.
 - Un encabezado "## " a mitad del texto, con un título específico de {nombre}.
-- Menciona que los locutorios hoy funcionan sobre todo como puntos de envío de
-  dinero, recargas de móvil y papelería, no como cabinas de llamadas.
+- Explica que el término locutorio ya no se limita a cabinas de llamadas, pero
+  no atribuyas recargas de móvil, papelería ni ningún servicio a todos los
+  establecimientos: deben confirmarse uno a uno.
 
 PROHIBIDO
-- Inventar horarios, comisiones, precios o nombres de operadores de remesas.
+- Inventar horarios, comisiones, precios, servicios u operadores de remesas.
 - Nombrar establecimientos concretos.
 - Afirmar nada sobre la calidad del trato o del servicio.
+- Convertir actividad en domingo en "abre los domingos", o una caída al
+  mediodía en "cierra": la afluencia no demuestra apertura ni cierre.
+- Añadir barrios, zonas, medios de transporte, perfiles de clientela o causas
+  que no estén entre los datos suministrados.
+- Comparar con otras ciudades o con una media no incluida en el bloque.
+- Redondear cifras o distancias.
+- Usar las palabras reseñas, opiniones, comentarios, ficha, scraping o Google,
+  ni explicar el origen interno de los datos.
+- Añadir notas, rutas de archivos, comentarios editoriales o texto fuera del
+  artículo.
 - Frases de relleno tipo "en el corazón de la ciudad" o "una amplia variedad de
   servicios para satisfacer todas tus necesidades".
 - Empezar con "Si estás buscando" o "En {nombre} encontrarás".
@@ -67,7 +80,7 @@ Devuelve solo el texto en markdown, sin comentarios ni comillas.
 """
 
 
-def describir(clave: str, agregado: dict, nombre: str) -> str:
+def describir(clave: str, agregado: dict, nombre: str, medias: dict) -> str:
     lineas = []
     tipos = agregado["tipos"]
     lineas.append(f"- Total de establecimientos: {agregado['total']}")
@@ -78,9 +91,7 @@ def describir(clave: str, agregado: dict, nombre: str) -> str:
     )
 
     if agregado["codigosPostales"]:
-        lineas.append(
-            f"- Códigos postales cubiertos: {', '.join(agregado['codigosPostales'])}"
-        )
+        lineas.append(f"- Códigos postales: {len(agregado['codigosPostales'])}")
 
     lineas.append(f"- Con teléfono publicado: {agregado['conTelefono']}")
 
@@ -98,17 +109,29 @@ def describir(clave: str, agregado: dict, nombre: str) -> str:
             )
         if actividad["cierreMediodia"]:
             lineas.append(
-                f"- Con jornada partida (cierre al mediodía): "
+                f"- Con caída de actividad al mediodía, sin afirmar cierre: "
                 f"{actividad['cierreMediodia']} de {actividad['muestra']}"
             )
 
-    for atributo in agregado["atributos"][:5]:
+    candidatos = []
+    for atributo in agregado["atributos"]:
+        media_global = medias.get(atributo["valor"])
+        if media_global is None or atributo["total"] < 5:
+            continue
+        proporcion = atributo["cantidad"] / atributo["total"]
+        candidatos.append((abs(proporcion - media_global), atributo))
+    if candidatos:
+        candidatos.sort(key=lambda par: -par[0])
+        atributo = candidatos[0][1]
         cobertura = (
             f"los {atributo['total']}"
             if atributo["todos"]
             else f"{atributo['cantidad']} de {atributo['total']}"
         )
-        lineas.append(f"- {atributo['valor']}: {cobertura}")
+        lineas.append(
+            f"- Atributo publicable sin compararlo con una media: "
+            f"{atributo['valor']} — {cobertura}"
+        )
 
     if agregado["vecinas"]:
         vecinas = ", ".join(
@@ -131,6 +154,17 @@ def main() -> None:
         (args.datos / "agregados-ciudad.json").read_text(encoding="utf-8")
     )
     geo = json.loads((args.datos / "geo.json").read_text(encoding="utf-8"))
+
+    sumas: dict[str, float] = {}
+    pesos: dict[str, float] = {}
+    for dato in agregados.values():
+        for atributo in dato.get("atributos", []):
+            if atributo["total"] < 5:
+                continue
+            valor = atributo["valor"]
+            sumas[valor] = sumas.get(valor, 0.0) + atributo["cantidad"]
+            pesos[valor] = pesos.get(valor, 0.0) + atributo["total"]
+    medias = {valor: sumas[valor] / pesos[valor] for valor in sumas if pesos[valor] >= 30}
 
     nombres = {}
     for provincia in geo["provincias"]:
@@ -165,7 +199,7 @@ def main() -> None:
                 nombre_mayus=nombre.upper(),
                 provincia=provincia,
                 clave=clave,
-                datos=describir(clave, dato, nombre),
+                datos=describir(clave, dato, nombre, medias),
             )
         )
 

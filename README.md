@@ -4,7 +4,7 @@ Directorio de locutorios y puntos de envío de dinero en España. Next.js 15 (Ap
 Router), TypeScript, Tailwind v4. Todo el sitio se genera en compilación: no hay
 base de datos ni llamadas en tiempo de ejecución.
 
-**3.050 fichas · 803 localidades · 52 provincias · 3.915 páginas estáticas.**
+**3.050 fichas · 782 localidades · 52 provincias · 3.897 páginas estáticas.**
 
 ---
 
@@ -13,7 +13,7 @@ base de datos ni llamadas en tiempo de ejecución.
 ```bash
 npm install
 npm run dev          # http://localhost:3000
-npm run build        # genera las 3.915 páginas
+npm run build        # genera las 3.897 páginas
 npm run typecheck
 ```
 
@@ -80,7 +80,7 @@ Lo que hace el pipeline, además de convertir el formato:
 `vercel.json` fija `"framework": "nextjs"` a propósito, y no conviene quitarlo.
 
 Si el proyecto de Vercel queda con el preset en «Other», ocurre algo que despista
-mucho: el build **termina correctamente**, genera las 3.915 páginas y el log no
+mucho: el build **termina correctamente**, genera las 3.897 páginas y el log no
 muestra ni un error, pero después Vercel sirve solo la carpeta `public/` e ignora
 la salida de `next build`. El resultado es que las imágenes de
 `/ilustraciones/` responden 200 mientras que la portada, las fichas y hasta
@@ -102,7 +102,7 @@ niveles son necesarios para que las rutas sean únicas.
 **Provincias en `noindex, follow`.** Son nodos de navegación: su contenido es una
 lista de enlaces que competiría con las páginas de localidad, que sí responden a
 una intención de búsqueda real. El `follow` es imprescindible; sin él se cortaría
-el rastreo hacia las 803 localidades y las 3.050 fichas.
+el rastreo hacia las 782 localidades y las 3.050 fichas.
 
 **`/provincias` sí se indexa.** Con las provincias en `noindex`, este índice es el
 camino corto entre la portada y el resto del sitio. Sin él, el rastreo dependería
@@ -256,46 +256,56 @@ coincidencia. Conviene mantenerla si se amplían los patrones.
 
 ## Páginas de localidad
 
-Las 803 páginas de localidad son el punto débil estructural del directorio: un
+Las 782 páginas de localidad son el punto débil estructural del directorio: un
 párrafo de plantilla con el nombre intercambiado es el patrón que mejor detectan
 los sistemas de contenido útil de Google. Aquí no hay reseñas de las que sacar
 variación natural, como sí ocurre en las fichas.
 
 La distribución obliga a segmentar: **el 55 % de las localidades tiene un único
-establecimiento** y solo el 4 % tiene 15 o más. Un mismo tratamiento para las 803
+establecimiento** y solo el 4 % tiene 15 o más. Un mismo tratamiento para las 782
 no funciona.
 
 ### Qué diferencia cada página
 
 `pipeline/agregar_ciudades.py` calcula, por localidad, datos que ninguna otra
 reproduce igual: reparto por tipo, franja de mayor y menor afluencia, cuántos
-abren domingo, cuántos tienen jornada partida, atributos de pago y accesibilidad
-por encima del 25 % de cobertura, códigos postales y localidades vecinas con más
-oferta en 35 km.
+tienen actividad observada en domingo, cuántos muestran una caída de actividad
+al mediodía, atributos publicados, códigos postales y localidades vecinas con
+más oferta en 35 km. La afluencia nunca se presenta como horario.
 
 De ahí salen tres bloques, todos con datos reales y ninguno redactado:
 
 - **Ficha resumen** (`ResumenCiudad.tsx`): las cifras de cabecera.
 - **Preguntas frecuentes** (`PreguntasCiudad.tsx`): hasta 8 preguntas construidas
-  desde los recuentos, con marcado `FAQPage`. Es lo que ataca el long-tail donde
-  el pack de Maps no compite: «locutorio abierto domingo en X», «que acepte
-  tarjeta en X», «a qué hora hay menos cola».
+  desde los recuentos, con marcado `FAQPage`. Las respuestas distinguen entre
+  atributos publicados, actividad observada y datos confirmados por el local.
 - **Enlazado a localidades vecinas**: reparte autoridad en horizontal, sin pasar
   por la provincia, que va con `noindex`.
 
-### Texto redactado, solo donde compensa
+### Texto reproducible, solo donde hay datos suficientes
 
 ```bash
 python3 pipeline/agregar_ciudades.py ./data
-python3 pipeline/generar_prompts_ciudad.py ./data --minimo 5
+python3 pipeline/escribir_textos_ciudad.py ./data --minimo 5
+python3 pipeline/validar_textos_ciudad.py ./data
 ```
 
-Genera un prompt por localidad con **5 o más establecimientos**: 121 localidades
-que cubren el 65 % de las fichas del directorio. Cada prompt lleva incrustados los
-datos reales de esa localidad y prohíbe explícitamente inventar horarios,
-comisiones u operadores.
+El primer script genera texto para las **123 localidades con 5 o más
+establecimientos**, que cubren 2.011 de las 3.050 fichas (66 %). La salida es
+determinista: si los datos no cambian, el texto tampoco. No llama a una API ni
+añade barrios, causas, horarios, servicios o comparaciones externas.
 
-Las respuestas se guardan en `data/textos-ciudad.json`:
+Cada texto tiene entre 180 y 240 palabras, un único H2 y combina total, reparto,
+teléfono, actividad —cuando existe muestra—, un atributo publicado y alternativas
+cercanas. La cautela sobre `popular_times` forma parte del contenido: una caída
+de afluencia no demuestra cierre y la actividad en domingo no confirma apertura.
+
+El validador vuelve a leer los agregados de forma independiente y falla si falta
+una localidad, aparece una cifra no autorizada, se filtra una nota interna, se
+usa terminología del origen de datos o se sale del rango de longitud. El informe
+de la versión entregada está en `data/INFORME-TEXTOS-CIUDAD.json`.
+
+La salida se guarda en `data/textos-ciudad.json`:
 
 ```json
 { "madrid/getafe": "El texto devuelto en markdown…" }
@@ -304,29 +314,17 @@ Las respuestas se guardan en `data/textos-ciudad.json`:
 El fichero es opcional y la página funciona sin él. Las localidades sin texto se
 sostienen con los datos agregados y las preguntas, que ya las diferencian.
 
-**Ya hay 20 textos escritos**, los de las localidades más grandes, que cubren
-1.116 de las 3.050 fichas (37 % del directorio). Están en
-`pipeline/escribir_textos_ciudad.py` y se vuelcan con:
+Si se prefiere una reescritura editorial con modelo, se pueden regenerar los 123
+prompts estrictos:
 
 ```bash
-python3 pipeline/escribir_textos_ciudad.py ./data
+python3 pipeline/generar_prompts_ciudad.py ./data --minimo 5 --salida prompts-ciudades.md
 ```
 
-El script conserva lo que ya hubiera en `textos-ciudad.json`, así que se puede
-ejecutar tantas veces como haga falta sin perder textos añadidos a mano.
-
-Cada uno parte del rasgo que distingue a esa localidad en los datos, y por eso
-no se parecen entre sí: Granada es la única capital cuyo hueco de actividad cae
-de 15:00 a 17:00 y no por la mañana; Murcia tiene el pico más tardío del país
-(19:00 a 22:00); Torrevieja es la única con punta de mañana; en Cartagena los
-puntos de envío triplican a los locutorios, al revés que en el resto; en Lorca
-los 14 establecimientos con datos abren en domingo, sin excepción; y Gijón tiene
-la jornada partida casi generalizada, 8 de 9.
-
-Todas las cifras citadas en los textos se han contrastado una a una contra
-`agregados-ciudad.json`. Si regeneras los datos y cambian los recuentos, hay que
-revisarlos: un texto que contradiga a la tabla que tiene al lado hace más daño
-que no tener texto.
+Estos prompts ya no incluyen un ejemplo contaminante. Prohíben deducir barrios,
+perfiles de clientela, transporte, apertura, cierre o servicios no suministrados.
+Una respuesta manual o de API no debe sustituir el JSON hasta superar el mismo
+validador.
 
 ### Sobre las keywords
 
@@ -373,8 +371,8 @@ en otra, la suelta casi siempre está mal.
 Corrigió un error de provincia (un MoneyGram de Vitoria-Gasteiz catalogado en
 Bizkaia, siendo Álava) y fusionó 17 localidades fantasma. Entre ellas, un
 `madrid/fuengirola` creado por una ficha con CP 28018 y dirección en Puente de
-Vallecas: la dirección que venía de Google ya estaba corrupta. El total pasa de
-803 localidades a 787.
+Vallecas: la dirección que venía de Google ya estaba corrupta. Esa pasada redujo
+el total de 803 localidades a 787; las correcciones posteriores lo dejan en 782.
 
 No fusiona a ciegas: `lejona` y `leioa` son la misma localidad en castellano y
 euskera, Puente Tocinos es una pedanía de Murcia y Vecindario pertenece a Santa

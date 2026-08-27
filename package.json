@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "data": "python3 pipeline/build_data.py ../locutorios.csv ./data"
+    "data": "python3 pipeline/build_data.py ../locutorios.csv ./data",
+    "cities": "python3 pipeline/escribir_textos_ciudad.py ./data",
+    "validate:cities": "python3 pipeline/validar_textos_ciudad.py ./data --informe ./data/INFORME-TEXTOS-CIUDAD.json"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

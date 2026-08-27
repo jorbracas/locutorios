@@ -5,12 +5,12 @@ import type { AgregadoCiudad } from '@/lib/data';
 
   Este bloque es lo que diferencia una pagina de localidad de las otras 802.
   No lo hace con redaccion, sino con hechos calculados sobre los propios
-  establecimientos: cuantos aceptan tarjeta, cuantos abren domingo, en que
-  franja hay mas cola, que codigos postales cubre.
+  establecimientos: cuantos tienen publicado un atributo de pago, en cuantos
+  se observa actividad dominical, en que franja hay mas movimiento y que
+  codigos postales cubre.
 
-  Ademas de diferenciar, responde directamente al long-tail por el que se puede
-  competir de verdad: "locutorio abierto domingo en X", "locutorio que acepte
-  tarjeta en X". Ninguna de esas consultas la resuelve el pack de Maps.
+  La afluencia no se presenta como horario: actividad observada no demuestra
+  que el establecimiento estuviera abierto o cerrado durante toda la franja.
 */
 
 type Props = {
@@ -60,17 +60,16 @@ export default function ResumenCiudad({ ciudad, datos }: Props) {
 
         {tipos.envio > 0 && (
           <Dato
-            valor={String(tipos.envio + tipos.locutorio)}
-            etiqueta="con envío de dinero"
-            detalle={tipos.envio > 0 ? `${tipos.envio} especializados` : undefined}
+            valor={String(tipos.envio)}
+            etiqueta="especializados en envío de dinero"
           />
         )}
 
         {actividad && actividad.abrenDomingo > 0 && (
           <Dato
             valor={String(actividad.abrenDomingo)}
-            etiqueta="abren en domingo"
-            detalle={`de ${actividad.muestra} con datos`}
+            etiqueta="con actividad observada en domingo"
+            detalle={`muestra de ${actividad.muestra}`}
           />
         )}
 
@@ -97,9 +96,9 @@ export default function ResumenCiudad({ ciudad, datos }: Props) {
               </div>
               {actividad.cierreMediodia > 0 && (
                 <div className="flex flex-col gap-0.5 sm:flex-row sm:gap-4">
-                  <dt className="shrink-0 text-humo sm:w-44">Cierran al mediodía</dt>
+                  <dt className="shrink-0 text-humo sm:w-44">Caída de actividad al mediodía</dt>
                   <dd>
-                    {actividad.cierreMediodia} de {actividad.muestra} con datos de actividad
+                    {actividad.cierreMediodia} de {actividad.muestra} en la muestra
                   </dd>
                 </div>
               )}

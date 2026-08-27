@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   /*
     La descripcion se compone con datos reales de la localidad, no con una
     plantilla fija. Dos localidades del mismo tamano dan descripciones
-    distintas porque cambian los servicios y los horarios.
+    distintas porque cambian el recuento y la disponibilidad de contacto.
   */
   const piezas: string[] = [];
   if (agregado) {
@@ -53,8 +53,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? 'Un establecimiento'
         : `${agregado.total} locutorios y puntos de envío de dinero`,
     );
-    if (agregado.actividad && agregado.actividad.abrenDomingo > 0) {
-      piezas.push(`${agregado.actividad.abrenDomingo} abren domingo`);
+    if (agregado.conTelefono > 0) {
+      piezas.push(`${agregado.conTelefono} con teléfono publicado`);
     }
   }
   piezas.push('dirección, teléfono y cómo llegar');

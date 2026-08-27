@@ -8,10 +8,8 @@ import type { AgregadoCiudad } from '@/lib/data';
   localidad. Por eso el texto cambia de una ciudad a otra sin ser una plantilla
   con el nombre intercambiado.
 
-  Es tambien la pieza que ataca el long-tail donde el pack de Maps no compite:
-  "locutorio abierto domingo en X", "locutorio que acepte tarjeta en X",
-  "a que hora hay menos cola en el locutorio". Esas consultas se resuelven con
-  texto, no con un mapa.
+  La actividad observada se mantiene separada de los horarios oficiales. Una
+  curva de afluencia permite comparar tramos, pero no confirmar apertura.
 */
 
 export type Pregunta = { pregunta: string; respuesta: string };
@@ -47,21 +45,22 @@ export function construirPreguntas(
   });
 
   // 2. Envio de dinero: la intencion comercial real del sector.
-  const conEnvio = tipos.envio + tipos.locutorio;
-  if (conEnvio > 0) {
+  if (tipos.envio > 0) {
     preguntas.push({
       pregunta: `¿Dónde puedo enviar dinero al extranjero desde ${ciudad}?`,
-      respuesta: `En ${ciudad} hay ${conEnvio} ${
-        conEnvio === 1 ? 'establecimiento' : 'establecimientos'
-      } donde se tramitan envíos de dinero, entre locutorios y oficinas especializadas. Las comisiones varían según el operador y el país de destino, así que conviene preguntar el importe final antes de cerrar la operación.`,
+      respuesta: `En ${ciudad} hay ${tipos.envio} ${
+        tipos.envio === 1
+          ? 'establecimiento clasificado como punto especializado en envío de dinero'
+          : 'establecimientos clasificados como puntos especializados en envío de dinero'
+      }. El servicio y sus condiciones deben confirmarse directamente con cada local.`,
     });
   }
 
-  // 3. Domingo: consulta muy repetida y que el pack no responde bien.
+  // 3. Domingo: se responde con afluencia, sin convertirla en apertura.
   if (actividad && actividad.abrenDomingo > 0) {
     preguntas.push({
-      pregunta: `¿Hay algún locutorio abierto los domingos en ${ciudad}?`,
-      respuesta: `Se ha registrado actividad en domingo en ${actividad.abrenDomingo} de los ${actividad.muestra} establecimientos de ${ciudad} de los que tenemos datos de afluencia. No es un horario oficial, así que conviene llamar antes de desplazarse.`,
+      pregunta: `¿Se registra actividad en domingo en los locutorios de ${ciudad}?`,
+      respuesta: `Se observa actividad en domingo en ${actividad.abrenDomingo} de los ${actividad.muestra} establecimientos de la muestra de ${ciudad}. Este dato de afluencia no confirma el horario ni que un local concreto esté abierto.`,
     });
   }
 
@@ -79,8 +78,8 @@ export function construirPreguntas(
     preguntas.push({
       pregunta: `¿Se puede pagar con tarjeta en los locutorios de ${ciudad}?`,
       respuesta: tarjeta.todos
-        ? `Los ${tarjeta.total} establecimientos de ${ciudad} de los que tenemos información admiten pago con ${tarjeta.valor.toLowerCase()}. Aun así, para importes pequeños algunos locales prefieren efectivo.`
-        : `${tarjeta.cantidad} de los ${tarjeta.total} establecimientos de ${ciudad} admiten pago con ${tarjeta.valor.toLowerCase()}. En el resto conviene llevar efectivo.`,
+        ? `Los ${tarjeta.total} establecimientos de ${ciudad} tienen publicado el atributo «${tarjeta.valor.toLowerCase()}». La forma de pago debe confirmarse antes de acudir.`
+        : `${tarjeta.cantidad} de los ${tarjeta.total} establecimientos de ${ciudad} tienen publicado el atributo «${tarjeta.valor.toLowerCase()}». Que no aparezca en los demás no permite concluir que no acepten tarjeta.`,
     });
   }
 
@@ -89,7 +88,7 @@ export function construirPreguntas(
   if (accesible) {
     preguntas.push({
       pregunta: `¿Hay locutorios accesibles en ${ciudad}?`,
-      respuesta: `${accesible.cantidad} de los ${accesible.total} establecimientos registrados en ${ciudad} indican disponer de ${accesible.valor.toLowerCase()}. Cada ficha detalla las características concretas del local.`,
+      respuesta: `${accesible.cantidad} de los ${accesible.total} establecimientos registrados en ${ciudad} tienen publicado «${accesible.valor.toLowerCase()}». En los demás casos conviene confirmar la accesibilidad directamente.`,
     });
   }
 
@@ -97,7 +96,7 @@ export function construirPreguntas(
   if (conTelefono > 0 && conTelefono < total) {
     preguntas.push({
       pregunta: `¿Puedo llamar antes de ir?`,
-      respuesta: `${conTelefono} de los ${total} establecimientos de ${ciudad} tienen teléfono publicado. Como los horarios de estos negocios cambian con frecuencia y no siempre están actualizados, llamar antes es la forma más fiable de no hacer el viaje en balde.`,
+      respuesta: `${conTelefono} de los ${total} establecimientos de ${ciudad} tienen teléfono publicado. Llamar permite confirmar el horario y el servicio concreto antes de desplazarse.`,
     });
   }
 
@@ -106,7 +105,7 @@ export function construirPreguntas(
     const mejor = vecinas[0];
     preguntas.push({
       pregunta: `¿Y si no encuentro lo que busco en ${ciudad}?`,
-      respuesta: `La localidad más cercana con más oferta es ${mejor.nombre}, a unos ${mejor.distancia} km, donde hay ${mejor.total} establecimientos registrados. Es la alternativa más práctica si necesitas un servicio concreto que aquí no se ofrece.`,
+      respuesta: `La referencia cercana con más oferta es ${mejor.nombre}, a ${mejor.distancia} km, con ${mejor.total} establecimientos registrados. Puede ampliar las opciones, pero el servicio concreto debe comprobarse antes de ir.`,
     });
   }
 
