@@ -34,6 +34,32 @@ const redirects = [
   { source: '/castellon/castellon', destination: '/castellon/castellon-de-la-plana', permanent: true },
 ];
 
+/*
+  Redirect de dominio, forzado desde la propia aplicacion.
+
+  Motivo: el canonical de este sitio (SITIO.dominio en src/lib/seo.ts) ha
+  cambiado varias veces entre 'con www' y 'sin www' en pocos dias, por obra de
+  distintas herramientas trabajando sobre el mismo repositorio sin
+  coordinarse. El resultado medido en Search Console: al 4 de septiembre de
+  2026, cerca del 10% de las URLs con impresiones seguian apareciendo bajo la
+  forma sin www, señal de que Google tiene el mismo contenido indexado bajo
+  dos dominios distintos.
+
+  Hasta ahora el redirect apex -> www solo existia a nivel de plataforma
+  (configuracion de dominios en Vercel). Esta entrada lo fuerza tambien desde
+  el codigo, para que el comportamiento no dependa de un ajuste externo que
+  cualquier herramienta podria tocar sin saber por que esta ahi. Si esto
+  vuelve a necesitar cambiarse, que sea una decision explicita, documentada
+  aqui, no un efecto secundario de otra tarea.
+*/
+const redirectDominioWWW = {
+  source: '/:path*',
+  has: [{ type: 'host', value: 'locutorioscercademi.com' }],
+  destination: 'https://www.locutorioscercademi.com/:path*',
+  permanent: true,
+};
+
+
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
@@ -41,7 +67,10 @@ const nextConfig = {
   trailingSlash: false,
   eslint: { ignoreDuringBuilds: true },
   async redirects() {
-    return redirects;
+    // El de dominio va primero: si alguien llega por el apex sin www, debe
+    // saltar directo a la version con www antes de evaluar cualquier otra
+    // regla, para que nunca haya un A -> B -> C.
+    return [redirectDominioWWW, ...redirects];
   },
   async headers() {
     return [

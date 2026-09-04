@@ -539,6 +539,41 @@ a un salto de redirección extra en cada URL del sitemap al rastrear, y
 generado una inconsistencia entre la URL declarada canónica y la que
 realmente sirve el contenido sin redirigir.
 
+## Redirect de dominio forzado desde el código (4 sept 2026)
+
+El canonical del sitio (`SITIO.dominio`) cambió varias veces entre `con www`
+y `sin www` en pocos días, por distintas herramientas trabajando sobre el
+mismo repositorio sin coordinarse entre sí. El efecto medido en Search
+Console al 4 de septiembre: ~10% de las URLs con impresiones seguían
+apareciendo bajo la forma sin `www`, y 937 páginas marcadas como "con
+redirección" en el informe de Cobertura — señal de que Google tenía el mismo
+contenido indexado bajo dos dominios distintos.
+
+El redirect apex→www solo existía a nivel de plataforma (configuración de
+dominios en Vercel). Se ha añadido también en `next.config.mjs`, para que el
+comportamiento no dependa de un ajuste externo que cualquier herramienta
+podría tocar sin saber por qué está ahí:
+
+```js
+const redirectDominioWWW = {
+  source: '/:path*',
+  has: [{ type: 'host', value: 'locutorioscercademi.com' }],
+  destination: 'https://www.locutorioscercademi.com/:path*',
+  permanent: true,
+};
+```
+
+Se eligió `www` como forma definitiva porque ya es donde vivía el ~90% de lo
+que Google tenía indexado en ese momento, y coincide con la configuración de
+Vercel (apex 308 → www, www como Production). Volver a cambiarlo a sin `www`
+habría sido la quinta vuelta de tuerca sobre lo mismo.
+
+**Si esto necesita volver a tocarse en el futuro, que sea una decisión
+explícita y documentada aquí — no un efecto secundario de otra tarea.**
+
+Verificado en el manifiesto real del build (`statusCode: 308`, va primero en
+el array de redirects, sin cadenas).
+
 ## Pendiente
 
 - **Aviso legal y privacidad.** Los textos están redactados pero tienen campos
